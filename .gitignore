@@ -1,3 +1,8 @@
+# Generated Site Files
+
+_site/
+.sass-cache/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
