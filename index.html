@@ -7,10 +7,18 @@ layout: default
   <h1 class="page-heading">Latest Reviews</h1>
 
   <div id="home-slider" class="owl-carousel">
-   
-    <div class="item"><img src="/img/carousel/fullimage1.jpg" alt="The Last of us"></div>
-    <div class="item"><img src="/img/carousel/fullimage2.jpg" alt="GTA V"></div>
-    <div class="item"><img src="/img/carousel/fullimage3.jpg" alt="Mirror Edge"></div>
+
+    {% for post in site.posts reversed limit:5 %}
+    <div class="item">
+      <a href="{{ post.url }}">
+        <div class="slide-text">
+          <h2>{{ post.title }}</h2>
+          <span>{{ post.blurb }}</span>
+        </div>
+        <img src="{{ post.carousel }}" alt="{{ post.title }}">
+      </a>
+    </div>
+    {% endfor %}
    
   </div>
 

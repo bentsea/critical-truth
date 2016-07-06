@@ -19,3 +19,6 @@ encoding: utf-8
 paginate: 9
 paginate_path: "/reviews/page:num/"
 categories: [reviews, editorials, movies, books, games]
+
+sass:
+  style: compressed
