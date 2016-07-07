@@ -1,0 +1,5 @@
+# Always use www in the domain
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^([a-z.]+)?critical-truth\.com$ [NC]
+RewriteCond %{HTTP_HOST} !^www\. [NC]
+RewriteRule .? http://www.%1critical-truth.com%{REQUEST_URI} [R=301,L]

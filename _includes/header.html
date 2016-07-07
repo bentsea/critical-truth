@@ -1,7 +1,7 @@
       <!-- Navbar
   ================================================== -->
 
-<div class="navbar navbar-inverse navbar-fixed-top">
+<div class="navbar navbar-default navbar-fixed-top">
   <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
@@ -15,9 +15,16 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav">
+            {% assign i = 0 %}
             {% for node in site.pages %}
               {% if node.title %}
-              <li{% if page.url == node.url %} class="active"{% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}{% if page.url == node.url %}<span class="sr-only">(current)</span>{% endif %}</a></li>
+                {% if node.title != "Reviews" %}
+                <li{% if page.url == node.url %} class="active"{% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}{% if page.url == node.url %}<span class="sr-only">(current)</span>{% endif %}</a></li>
+                {% elsif node.title == "Reviews" and i == 0 %}
+                {% assign i = 1 %}
+                <li{% if page.title == node.title %} class="active"{% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}{% if page.url == node.url %}<span class="sr-only">(current)</span>{% endif %}</a></li>
+                {% else %}
+                {% endif %}
               {% endif %}
             {% endfor %}
           </ul>
