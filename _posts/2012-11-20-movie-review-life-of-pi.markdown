@@ -3,7 +3,7 @@ layout: post
 title:  "Life of Pi"
 blurb: "A tense ride through an incredible visual experience!"
 date:   2012-11-20 16:59:15
-categories: reviews, movies
+categories: [reviews, movies]
 carousel: /img/articles/life-of-pi-poster.jpg
 author: "David Scott"
 ---

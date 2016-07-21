@@ -10,7 +10,7 @@ title: Reviews
     <!-- BEGIN BLOG -->
     <div class="row">
         {% for post in paginator.posts %}
-        <article class="col-md-4 col-sm-6">
+        <article class="col-md-4 col-sm-6 post-thumb">
             <a href="{{ post.url }}">
                 <figure class="blog-thumb">
                 <img src="{% if post.carousel %}{{ post.carousel }}{% else %}/img/carousel/fullimage1.jpg{% endif %}" alt="{{ post.description }}" {% if post.description %}title="{{ post.description }}"{% endif %}>
@@ -20,9 +20,9 @@ title: Reviews
                 <a href="{{ post.url }}">
                     <h4>{{ post.title }}</h4>
                 </a>
-                <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <p class="post-content">{{post.content|strip_html|truncate:185}} </p>
-                <p><a class="btn btn-primary btn-xs" href="{{ post.url }}">Read More</a></p>
+                <p class="post-content">{{ post.date | date: "%b %-d, %Y" }}<br />
+                {{post.content|strip_html|truncate:110}} </p>
+                <p><a class="btn btn-primary btn-xs bottom-right" href="{{ post.url }}">Read More</a></p>
             </div>
         </article>
         {% endfor %}

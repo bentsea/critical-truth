@@ -3,7 +3,7 @@ layout: post
 title:  "Spectre"
 blurb: "A middling bond movie that poorly resolves questions no one asked."
 date:   2015-11-06 16:59:15
-categories: reviews, movies
+categories: [reviews, movies]
 carousel: /img/articles/spectre-poster.jpg
 author: "David Scott"
 ---

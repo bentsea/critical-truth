@@ -102,6 +102,11 @@ body {
     line-height: 69px;
     letter-spacing: 2px
 }
+@media(min-width:60em) {
+    .home .slide-text h2 {
+        font-size: 90%;
+    }
+}
 
 .item .slide-text span {
     font-size: 25px;
@@ -128,6 +133,12 @@ body {
     object-fit:cover;
 }
 
+.bottom-right {
+    position: absolute;
+    bottom: 40px;
+    right: 25px;
+}
+
 /* centered columns styles */
 .row-centered {
     text-align:center;
@@ -146,7 +157,13 @@ body {
     margin-left:auto;
     margin-right:auto;
 }
-
+.post-content {
+    position: absolute;
+    top:215px;
+}
+.post-thumb {
+    min-height:400px;
+}
 .slide-image {
     height: 50vh;
     min-height: 200px;

@@ -3,7 +3,7 @@ layout: post
 title:  "The Big Short"
 blurb: "A must watch that triggers every emotion!"
 date:   2015-12-19 16:59:15
-categories: reviews, movies
+categories: [reviews, movies]
 carousel: /img/articles/The-Big-Short-2015-banner.jpg
 author: "David Scott"
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "Gone Girl: The Movie"
 blurb: "A chilling thriller loaded with surprises!"
 date:   2014-10-09 16:59:15
-categories: reviews, movies
+categories: [reviews, movies]
 carousel: /img/articles/gone-girl-poster.jpg
 author: "David Scott"
 ---
