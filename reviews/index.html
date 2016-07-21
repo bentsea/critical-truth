@@ -3,7 +3,7 @@ layout: default
 title: Reviews
 ---
 
-<div class="home blog">
+<div class="home">
 
   <h1 class="page-heading">Reviews</h1>
 
@@ -21,8 +21,8 @@ title: Reviews
                     <h4>{{ post.title }}</h4>
                 </a>
                 <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-                <p class="post-content">{{post.content|strip_html|truncate:165}} </p>
-                <p><a class="btn btn-primary btn-xs bottomright" href="{{ post.url }}">Read More</a></p>
+                <p class="post-content">{{post.content|strip_html|truncate:185}} </p>
+                <p><a class="btn btn-primary btn-xs" href="{{ post.url }}">Read More</a></p>
             </div>
         </article>
         {% endfor %}
