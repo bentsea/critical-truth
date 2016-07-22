@@ -102,9 +102,28 @@ body {
     line-height: 69px;
     letter-spacing: 2px
 }
-@media(min-width:60em) {
+@media(max-width:800px) {
     .home .slide-text h2 {
-        font-size: 90%;
+        font-size: 30px;
+    }
+    .home .slide-text {
+        font-size: 1em;
+    }
+    .slide-blurb {
+        display:none;
+    }
+}
+@media(max-width:1280px) {
+    .home .slide-text h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .home .slide-text {
+        font-size: 1em;
+    }
+    .home .slide-text .slide-blurb {
+        line-height: 15px;
+        font-size: 15px;
     }
 }
 
