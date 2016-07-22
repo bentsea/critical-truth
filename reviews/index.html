@@ -20,7 +20,7 @@ title: Reviews
                 <a href="{{ post.url }}">
                     <h4>{{ post.title }}</h4>
                 </a>
-                <p class="post-content">{{ post.date | date: "%b %-d, %Y" }}<br />
+                <p class="post-info">{{ post.date | date: "%b %-d, %Y" }}<br />
                 {{post.content|strip_html|truncate:110}} </p>
                 <p><a class="btn btn-primary btn-xs bottom-right" href="{{ post.url }}">Read More</a></p>
             </div>
