@@ -12,7 +12,7 @@ author: "David Scott"
 
 Before I go any further, I'm going to say it: Star Trek: Beyond is a fantastic film and you should see it. Justin Lin has delivered the best this franchise has seen in decades.
 
-J.J. Abrams all but resurected Star Trek with his reboot of the franchise. You can criticize his use of lens flare as much as you want, but that is the absolute truth. We probably just wouldn't have Star Trek if he hadn't delivered a pair of fun action adventures that have entertained millions. 
+J.J. Abrams all but resurrected Star Trek with his reboot of the franchise. You can criticize his use of lens flare as much as you want, but that is the absolute truth. We probably just wouldn't have Star Trek if he hadn't delivered a pair of fun action adventures that have entertained millions. 
 
 <img class="img-responsive" width="20%" style="float:right;margin:10px;" src="/img/articles/star-trek-beyond-poster.jpg">
 
@@ -34,4 +34,4 @@ I know I'm gushing about the story. It's really hard not to, but some things hav
 
 A really special nod goes to Anton Yelchin, who finally had a chance to really put some personality into Chekov. He really brought something excellent to the current crew, who all have as entertaining of a chemistry as the original crew. His outstanding performance is just another highlight around the incredible potential that has been lost too soon.
 
-It is worth repeating: Star Trek: Beyond is an exceptional film that is easy to recommend to absolutely every type of viewer. One of the best movies of the year, and every single minute of it is worth your time.
+It is worth repeating: Star Trek: Beyond is an exceptional film that is easy to recommend to absolutely every type of viewer. A fan would be perfectly justified to consider this one of the best Star Trek movies of all time, one of the best movies of the year, and every single minute of it is worth your time.
