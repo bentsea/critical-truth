@@ -5,7 +5,7 @@ title: Reviews
 
 <div class="home">
 
-  <h1 class="page-heading">Reviews</h1>
+  <h1 class="page-heading">Reviews{% if paginator %} - Page {{ paginator.page }} of {{ paginator.total_pages }}{% endif %}</h1>
 
     <!-- BEGIN BLOG -->
     <div class="row">
