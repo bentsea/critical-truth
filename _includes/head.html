@@ -3,7 +3,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="alternate" href="https://www.critical-truth.com" hreflang="en-us" />
+  <link rel="alternate" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" hreflang="en-us" />
 
   <title>{% if page.title %}{{ site.title }} - {{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.url == '/' %}{{ site.description }}{% elsif page.blurb %}{{ page.blurb }}{% elsif paginator %}Archive of reviews for Critical-Truth, page {{ paginator.page }} of {{ paginator.total_pages }}.{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="{{ "/css/owl.transitions.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/owl.theme.css" | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <!-- AMP Code -->
+  <script async src="https://cdn.ampproject.org/v0.js"></script>
 </head>
