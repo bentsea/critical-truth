@@ -3,7 +3,7 @@
 _site/
 public_html/
 
-.sass-cache/
+.sass-cache
 
 # Windows image file caches
 Thumbs.db
