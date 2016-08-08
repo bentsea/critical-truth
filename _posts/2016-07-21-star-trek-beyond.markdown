@@ -8,13 +8,13 @@ carousel: /img/articles/star-trek-beyond-poster.jpg
 author: "David Scott"
 ---
 
-<img class="img-responsive centered" width="100%" src="/img/articles/star-trek-beyond-banner.jpg" title="Star Trek Beyond Promo Image">
+<img class="img-responsive centered" width="100%" src="https://img.critical-truth.com/articles/star-trek-beyond-banner.jpg" title="Star Trek Beyond Promo Image">
 
 Before I go any further, I'm going to say it: Star Trek: Beyond is a fantastic film and you should see it. Justin Lin has delivered the best this franchise has seen in decades.
 
 J.J. Abrams all but resurrected Star Trek with his reboot of the franchise. You can criticize his use of lens flare as much as you want, but that is the absolute truth. We probably just wouldn't have Star Trek if he hadn't delivered a pair of fun action adventures that have entertained millions.
 
-<img class="img-responsive" width="20%" style="float:right;margin:10px;" src="/img/articles/star-trek-beyond-poster.jpg">
+<img class="img-responsive" width="20%" style="float:right;margin:10px;" src="https://img.critical-truth.com/articles/star-trek-beyond-poster.jpg">
 
 That said, though, the Abrams' films diverge heavily from the meat of the source material. Objectively, this series is comprised of action movies that felt like Star Trek.
 
@@ -26,7 +26,9 @@ There are a lot of great aspects of this film, but where it shines is the layere
 
 Lin treats us to the most complex exploration of these characters that we may have ever seen by pairing them off early and letting each group of characters play off each other with excellent effect. I do mean it when I say he treats us. The movie never feels like it stops for this, even when it gives the viewer time to absorb what is happening. And on top of this, it gives the audience time to think about what they have seen before it clarifies and resolves its narrative.
 
-<img class="img-responsive" width="20%" style="float:left;margin:10px;" src="/img/articles/anton-yelchin-chekov-poster.jpg">This effect of using exposition by distantly separating it from the events that provoke it is profound. It keeps the movie transparent while at the same time not punishing viewers for paying close attention early on.
+<img class="img-responsive" width="20%" style="float:left;margin:10px;" src="https://img.critical-truth.com/articles/anton-yelchin-chekov-poster.jpg">
+
+This effect of using exposition by distantly separating it from the events that provoke it is profound. It keeps the movie transparent while at the same time not punishing viewers for paying close attention early on.
 
 We get to see all of this compounded as Lin heavily weaves metaphor into every aspect of the adventure as well. It is really refreshing to watch a well paced action adventure movie that doesn't fall apart from all sides as soon as you leave the theater and reflect on what you've watched.
 
