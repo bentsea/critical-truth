@@ -8,21 +8,21 @@ carousel: /img/articles/star-trek-beyond-poster.jpg
 author: "David Scott"
 ---
 
-<img class="img-responsive centered" width="100%" src="/img/articles/star-trek-beyond-banner.jpg" title="The Big Short Promo Image">
+<img class="img-responsive centered" width="100%" src="/img/articles/star-trek-beyond-banner.jpg" title="Star Trek Beyond Promo Image">
 
 Before I go any further, I'm going to say it: Star Trek: Beyond is a fantastic film and you should see it. Justin Lin has delivered the best this franchise has seen in decades.
 
-J.J. Abrams all but resurrected Star Trek with his reboot of the franchise. You can criticize his use of lens flare as much as you want, but that is the absolute truth. We probably just wouldn't have Star Trek if he hadn't delivered a pair of fun action adventures that have entertained millions. 
+J.J. Abrams all but resurrected Star Trek with his reboot of the franchise. You can criticize his use of lens flare as much as you want, but that is the absolute truth. We probably just wouldn't have Star Trek if he hadn't delivered a pair of fun action adventures that have entertained millions.
 
 <img class="img-responsive" width="20%" style="float:right;margin:10px;" src="/img/articles/star-trek-beyond-poster.jpg">
 
-That said, though, the Abrams' films diverge heavily from the meat of the source material. Objectively, this series is comprised of action movies that felt like Star Trek. 
+That said, though, the Abrams' films diverge heavily from the meat of the source material. Objectively, this series is comprised of action movies that felt like Star Trek.
 
 Given Justin Lin's filmography, it would be fair to expect more of the same, and I don't think many people would have complained at that. These have been good so far, so why change the formula? That is not what we got, though. What Lin delivered is so much better.
 
-Justin Lin has given us a Star Trek film that feels like an action film. A lot of people wont even notice the difference. If you're the type of viewer that keeps thinking about what you've seen after you walk out of the theater, though, you will notice the difference. 
+Justin Lin has given us a Star Trek film that feels like an action film. A lot of people wont even notice the difference. If you're the type of viewer that keeps thinking about what you've seen after you walk out of the theater, though, you will notice the difference.
 
-There are a lot of great aspects of this film, but where it shines is the layered story telling. The themes of identity that draw on the original crew, thoughtfully approach the affects of a changing world, and push the emotional conflicts of the movie all build upon each other. 
+There are a lot of great aspects of this film, but where it shines is the layered story telling. The themes of identity that draw on the original crew, thoughtfully approach the affects of a changing world, and push the emotional conflicts of the movie all build upon each other.
 
 Lin treats us to the most complex exploration of these characters that we may have ever seen by pairing them off early and letting each group of characters play off each other with excellent effect. I do mean it when I say he treats us. The movie never feels like it stops for this, even when it gives the viewer time to absorb what is happening. And on top of this, it gives the audience time to think about what they have seen before it clarifies and resolves its narrative.
 
