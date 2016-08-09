@@ -4,15 +4,15 @@ title:  "Review: Suicide Squad"
 blurb: "A sometimes fun, but otherwise forgetable action flick with more flaws than virtues."
 date:   2016-08-06 16:59:15
 categories: [reviews, movies]
-carousel: /img/articles/suicide-squad-poster.jpg
+carousel: https://img.critical-truth.com/img/articles/suicide-squad-poster.jpg
 author: "David Scott"
 ---
 
-<img class="img-responsive centered" width="100%" src="/img/articles/suicide-squad-banner.jpg" title="Suicide Squad Promo Image">
+<img class="img-responsive centered" width="100%" src="https://img.critical-truth.com/img/articles/suicide-squad-banner.jpg" title="Suicide Squad Promo Image">
 
 I want to start off by saying that the movie was pretty enjoyable while watching it, and I didn't regret my time in the theater. The action is fairly well paced as it flows from scene to scene. While there are a lot of plot holes in the internal logic and even in the time tables of the story, there's an emotional logic to it that will prevent it from bothering most people until they stop and think about it.
 
-<img class="img-responsive" width="30%" style="float:right;margin-left:10px;" src="/img/articles/suicide-squad-poster.jpg">
+<img class="img-responsive" width="30%" style="float:right;margin-left:10px;" src="https://img.critical-truth.com/img/articles/suicide-squad-poster.jpg">
 
 If you can turn off your brain and enjoy a dumb movie for two hours before tearing it apart, go watch it before you read anything else about it. It will do that for you. Ultimately there is more bad than good here, though, and you'll either forget this movie pretty fast or remember it more for what it does wrong than right.
 
@@ -28,7 +28,7 @@ When you try to move into the climax of your movie by literally having a charact
 
 The movie wants us to feel like things have changed, but have all the characters stay the same, sitcom style.
 
-<img class="img-responsive" width="33%" style="float:left;margin-right:10px;" src="/img/articles/suicide-squad-all-you-get.jpg">
+<img class="img-responsive" width="33%" style="float:left;margin-right:10px;" src="https://img.critical-truth.com/img/articles/suicide-squad-all-you-get.jpg">
 
 A lot of people spent a whole lot of time worrying about how Jared Leto would be as the Joker and we just don't really know because he's barely in the movie and the parts he is in don't matter. Maybe he's fine, we don't know. We never get a sense of him at all. I'd definitely say that there's not enough here to see any flaws in his performance, and it was one of the few things I left the theater wanting more of. I want more of this Joker, I want to see what he can do, because it looks like it can be good.
 

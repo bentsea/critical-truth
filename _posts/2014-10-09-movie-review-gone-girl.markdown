@@ -4,11 +4,11 @@ title:  "Gone Girl: The Movie"
 blurb: "A chilling thriller loaded with surprises!"
 date:   2014-10-09 16:59:15
 categories: [reviews, movies]
-carousel: /img/articles/gone-girl-poster.jpg
+carousel: https://img.critical-truth.com/img/articles/gone-girl-poster.jpg
 author: "David Scott"
 ---
 
-<img class="img-responsive" width="20%" style="float:left;margin:10px;" src="https://img.critical-truth.com/articles/gone-girl-poster.jpg">
+<img class="img-responsive" width="20%" style="float:left;margin:10px;" src="https://img.critical-truth.com/img/articles/gone-girl-poster.jpg">
 This movie snuck up on me out of no where. I feel like I should have known about it, though, given how many people I know who have since confessed to having read the novel. I fully intend to give Gone Girl a read after this fantastic film adaptation. There are a few things that may keep a viewer from enjoying this movie, however, which I don't feel are flaws with the film. Overall, though, I highly recommend viewing it before reading anything else about it as a lot of what makes this movie as good as it is though is the way it carefully manages the revelation of plot twists and important information throughout the run time. This makes a really good discussion of the quality of the film dependent upon information that would constitute significant spoilers. So, you'll have to trust me, and then read the rest of this later.
 
 The first part of the movie drags and feels predictable, reaching a point where a thoughtful viewer may safely conclude that either everything is as it seems and the movie will be straight forward and mediocre, or a bad twist is in store that will tank the movie for the sake of being surprising, or that there is a really well developed twist coming. This part of the movie is the most difficult to watch. It's well filmed and acted, and the music is well done, but it feels very straightforward and uninteresting. We've seen this movie before, where we slowly see that the supposed victim appear to be the criminal.

@@ -4,13 +4,13 @@ title:  "The Big Short"
 blurb: "A must watch that triggers every emotion!"
 date:   2015-12-19 16:59:15
 categories: [reviews, movies]
-carousel: /img/articles/The-Big-Short-2015-banner.jpg
+carousel: https://img.critical-truth.com/img/articles/The-Big-Short-2015-banner.jpg
 author: "David Scott"
 ---
 
 If all you want to know is whether or not a movie is worth watching, here it is: The Big Short is an astounding example of everything done right as all of the writing, dialog, acting, music, and directing fall together pefectly. It all results in a well paced film that will bring out every emotion in your body and leave you tired and worn out, and you must watch this film.
 
-<img class="img-responsive centered" width="80%" src="https://img.critical-truth.com/articles/The-Big-Short-2015-banner.jpg" title="The Big Short Promo Image">
+<img class="img-responsive centered" width="80%" src="https://img.critical-truth.com/img/articles/The-Big-Short-2015-banner.jpg" title="The Big Short Promo Image">
 
 For readers who want more, I can tell you that this is probably one of the best performances seen from Christian Bale, who actually became another character for me and not just another version of what we've seen in every other movie he's been in. Steve Carell's character probably doesn't fall that far from what we've seen from him before, but is emotionally captivating none the less. You get everything you expect from Ryan Gosling, a solid performance that doesn't knock it out of the park but definitely adds more to the film than many other actors would in that role.
 
@@ -22,7 +22,7 @@ This goes beyond good quips and great sound-bytes and emotional dialog, too. The
 
 And absolutely all of this is pulled together just right by the directing. Adam McKay delivers a thoughtful piece that is well paces, placing your eyes and ears where they need to be to see and here want you need. He blends a tremendous cast from the top billed actors to literally everyone who spends a moment on screen to breathe life into every single concept, regardless of how challenging the ideas are.
 
-All of the pieces of this film come together to elicit powerful emotions, pushing the viewer through fear, terror, joy, trepidation, sadness and ultimately one of the emotions that I have never truly felt from a film before: Rage. This movie should make you angry. It should inspire you to ask what the hell happened and why wasn't anyone held responsible for the events portrayed? 
+All of the pieces of this film come together to elicit powerful emotions, pushing the viewer through fear, terror, joy, trepidation, sadness and ultimately one of the emotions that I have never truly felt from a film before: Rage. This movie should make you angry. It should inspire you to ask what the hell happened and why wasn't anyone held responsible for the events portrayed?
 
 This was less than a decade ago and there's evidence that it's all happening all over again, and no one is talking about it anymore as people are victimized from the bottom up and completely betrayed by every single system that should exist for the express purpose of serving our interest, from the evaluation of securities, the oversight of legal investments, and the outrageous conflicts of interest and finally ending on a government that did *nothing* but pay our money to protect the very people responsible for *all of it*.
 
