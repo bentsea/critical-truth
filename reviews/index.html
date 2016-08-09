@@ -20,7 +20,7 @@ title: Reviews
                 <a href="{{ post.url }}">
                     <h4>{{ post.title }}</h4>
                 </a>
-                <p class="post-info">{{ post.date | date: "%b %-d, %Y" }}<br />
+                <p class="post-info"><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Comments</a><br />
                 {{post.content|strip_html|truncate:110}} </p>
                 <p><a class="btn btn-primary btn-xs bottom-right" href="{{ post.url }}">Read More</a></p>
             </div>
