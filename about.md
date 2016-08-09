@@ -4,8 +4,6 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+The Critical Truth is a collaborative project of reviews started and run by Will Holt and David Scott. Fans of all forms of culture, this website was built as a means of opening up a discussion and providing a platform for exploring truth in art. It is our firm belief that art does not happen in a vacuum and that you cannot make something without saying something.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+By talking about this, we hope to find more meaning in the media we consume, because we believe it is important to think about what you take in and put back out. To contact us, request a review of a movie, show, book, or game, please email us at [fearsometruth@gmail.com](mailto:fearsometruth@gmail.com) and you will be randomly responded to by either David or Will. 
