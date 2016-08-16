@@ -1,0 +1,26 @@
+---
+layout: default
+title: Search Results
+---
+
+
+
+<div class="home">
+  <div>
+    <script>
+      (function() {
+        var cx = '012786251990353476482:umabi0aurfm';
+        var gcse = document.createElement('script');
+        gcse.type = 'text/javascript';
+        gcse.async = true;
+        gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(gcse, s);
+      })();
+    </script>
+    <gcse:searchresults-only></gcse:searchresults-only>
+  </div>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
