@@ -12,8 +12,8 @@ layout: default
     <div class="item">
       <a href="{{ post.url }}">
         <div class="slide-text">
-          <h2>{{ post.title }}</h2>
-          <span class="slide-blurb">{{ post.blurb }}</span>
+          <h2><span>{{ post.title }}</span></h2>
+          <span class="slide-blurb"><span>{{ post.blurb }}</span></span>
         </div>
         <div class="slide-image">
           <img src="{{ post.carousel }}" alt="{{ post.title }}">
@@ -21,7 +21,7 @@ layout: default
       </a>
     </div>
     {% endfor %}
-   
+
   </div>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
