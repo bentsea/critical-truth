@@ -3,12 +3,11 @@ title: Critical Truth
 email: fearsometruth@gmail.com
 description: >
   A home for critical and honest reviews that strive for a
-  thoughtful exploration of all forms of art and expression.
-  Check here regularly for discussions and critiques of movies,
+  thoughtful exploration of all forms of art and expression, especially reviews of movies,
   music, TV, and games!
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://www.critical-truth.com" # the base hostname & protocol for your site
-twitter_username: 
+twitter_username:
 github_username:  bentsea
 
 # Build settings
