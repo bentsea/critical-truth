@@ -23,7 +23,7 @@ layout: default
 
       var disqus_config = function () {
           this.page.url = "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}";  // Replace PAGE_URL with your page's canonical URL variable
-          this.page.identifier = "{{ page.id }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+          this.page.identifier = "{{ page.slug }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
       };
 
       (function() { // DON'T EDIT BELOW THIS LINE
@@ -52,7 +52,7 @@ layout: default
         <a href="{{ post.url }}">
             <h4>{{ post.title }}</h4>
         </a>
-        <span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.id }}">Comments</a><br><br>
+        <span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ post.url }}#disqus_thread"><span class="disqus-comment-count" data-disqus-identifier="{{ post.slug }}">Comments</span></a><br><br>
     </article>
     {% endif %}
     {% endfor %}
