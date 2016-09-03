@@ -52,7 +52,7 @@ layout: default
         <a href="{{ post.url }}">
             <h4>{{ post.title }}</h4>
         </a>
-        <span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ post.url }}#disqus_thread"><span class="disqus-comment-count" data-disqus-identifier="{{ post.slug }}">Comments</span></a><br><br>
+        <span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.slug }}"><span class="disqus-comment-count" data-disqus-identifier="{{ post.slug }}">Comments</span></a><br><br>
     </article>
     {% endif %}
     {% endfor %}
