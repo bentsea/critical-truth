@@ -30,4 +30,5 @@ ExpiresDefault "access plus 2 days"
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
 RewriteCond %{HTTP_HOST} !img.critical-truth.com
+RewriteCond %{HTTP_HOST} !dev.critical-truth.com
 RewriteRule ^(.*)$ https://www.critical-truth.com/$1 [R,L]

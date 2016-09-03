@@ -1,15 +1,16 @@
 ---
 layout: default
 title: Reviews
+order: 1
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Reviews{% if paginator %} - Page {{ paginator.page }} of {{ paginator.total_pages }}{% endif %}</h1>
+  <h1 class="page-heading">Reviews</h1>
 
     <!-- BEGIN BLOG -->
     <div class="row">
-        {% for post in paginator.posts %}
+        {% for post in site.categories.reviews limit:9 %}
         <article class="col-md-4 col-sm-6 post-thumb">
             <a href="{{ post.url }}">
                 <figure class="blog-thumb">
@@ -32,9 +33,8 @@ title: Reviews
     <div class="row row-centered">
         <div class="col-md-4 col-sm-6 col-centered">
             <div class="btn-group btn-group-justified">
-                {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path }}" class="btn btn-primary">< Newer Posts</a>{% endif %}
-                <a href="/" class="btn btn-primary">Home</a>
-                {% if paginator.next_page %}<a href="{{ paginator.next_page_path }}" class="btn btn-primary">Older Posts ></a>{% endif %}
+                <a href="/" class="btn btn-primary">&larr; Home</a>
+                <a href="/archive" class="btn btn-primary">Archived Posts &rarr;</a>
             </div>
         </div>
     </div>

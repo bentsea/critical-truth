@@ -16,12 +16,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav">
             {% assign i = 0 %}
-            {% for node in site.pages %}
+            {% assign sorted_pages = site.pages | sort:"order" %}
+            {% for node in sorted_pages %}
               {% if node.title %}
                 {% if node.title == "Search Results" %}
-                {% elsif node.title != "Reviews" %}
+                {% elsif node.title != "Archive" %}
                 <li{% if page.url == node.url %} class="active"{% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}{% if page.url == node.url %}<span class="sr-only">(current)</span>{% endif %}</a></li>
-                {% elsif node.title == "Reviews" and i == 0 %}
+                {% elsif node.title == "Archive" and i == 0 %}
                 {% assign i = 1 %}
                 <li{% if page.title == node.title %} class="active"{% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}{% if page.url == node.url %}<span class="sr-only">(current)</span>{% endif %}</a></li>
                 {% else %}
