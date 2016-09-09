@@ -4,7 +4,7 @@ title:  "Editorial: Superman Movies"
 blurb: "Why there has been never really been a good Superman movie, and wont ever be."
 date:   2016-09-02 16:59:15
 categories: [editorials, movies, comics]
-carousel: /img/articles/superman-movies/nikolas.jpeg
+carousel: https://img.critical-truth.com/img/articles/superman-movies/nikolas.jpeg
 author: "David Scott"
 ---
 
