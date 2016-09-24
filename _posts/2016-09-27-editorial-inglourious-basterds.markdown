@@ -6,18 +6,17 @@ date:   2016-09-27 16:59:15
 categories: [editorials, movies]
 carousel: https://img.critical-truth.com/img/articles/inglourious-basterds/inglourious-basterds-cover.jpg
 author: "David Scott"
-published: true
 ---
 
 <img class="img-responsive centered" width="100%" src="https://img.critical-truth.com/img/articles/inglourious-basterds/banner.jpg" title="Will the real Superman please stand up?">
 
 >Spoiler Warning: This editorial discusses the themes and plot points of The Inglourious Basterds, and if you haven't seen it, and want to do so without spoilers, you will need to watch it before reading this piece.
 
-Quentin Tarantino has always been a pioneering and provocative director, and with his last three films, The Hateful Eight, Django Unchained, and Inglourious Basterds. Each of these has evolved his skill at directing and screenwriting, while tackling uncomfortable and sensitive subject matter. While both Hateful Eight and Django Unchained have been excellent, and all three are probably the best films that Tarantino has made, Inglourious Basterds made me think.
+Quentin Tarantino has always been a pioneering and provocative director. With his last three films, The Hateful Eight, Django Unchained, and Inglourious Basterds he has evolved his skill at directing and screenwriting while tackling uncomfortable subject matter. While both Hateful Eight and Django Unchained have been excellent, Inglourious Basterds made me think.
 
 <img class="img-responsive" width="45%" style="float:right;margin-left:10px;" src="https://img.critical-truth.com/img/articles/inglourious-basterds/the-bear.jpg">
 
-The best thing any movie can do for me is make me think. Quentin Tarantino failed to pull this off for me prior to Inglourious Basterds. Sure, he’s fun and his movies are thrilling. But thoughtful? Not so much. They are pretty straightforward, thematically, and his characters, when rounded, still generally aren't complicated. His action is geared toward amperage rather than narrative importance. Tarantino is an energetic director who communicates as much or more information and emotion than the dialog itself through what he captures with the camera and how he uses space and pacing.
+The best thing any movie can do for me is make me think. Quentin Tarantino never did this for me prior to Inglourious Basterds. Sure, he’s fun and his movies are thrilling. But thoughtful? Not so much. His films, prior to Basterds, are pretty straightforward and his characters generally haven't been complicated. His action is geared toward amperage rather than narrative importance. Tarantino is an energetic director who communicates as much or more information and emotion than the dialog itself through what he captures with the camera and how he uses space and pacing.
 
 But have his stories been thoughtful? It depends on who you ask, but I'd argue that even if he has, it hasn't shone as much as it does in Inglorious Basterds.
 
