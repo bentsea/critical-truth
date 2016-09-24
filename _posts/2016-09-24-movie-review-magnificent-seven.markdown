@@ -16,4 +16,4 @@ There was no love lost for the movie Magnificent Seven. To punt a pun: it was ma
 
 	Each character represented an untold story that only hints were provided for, leaving much to be desired in terms of understanding the starring septet. While this gives an air of mysterious equality amongst the men, it also begs the question of how well utilized the two hours and thirty minutes could be considered when no history is evident beyond a subtle mention here or offhand reference there.
 
-	Although there were some minor defects that could be expected from any film, it goes to show that ìperfectî is not far from ìmagnificentî, and I would even say it twice to describe the Magnificent Seven.
+	Although there were some minor defects that could be expected from any film, it goes to show that ‚Äúperfect‚Äù is not far from ‚Äúmagnificent‚Äù, and I would even say it twice to describe the Magnificent Seven.
