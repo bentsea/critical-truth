@@ -28,7 +28,7 @@ And I wanted that. Everything inside of me wanted deeply for these wonderful cha
 
 The film goes off the rails right at the climax. Shifting from the sense that all will fail imminently to extreme success. Trapping a theater full of unarmed people in an auditorium with two of the basterds firing mercilessly into the unarmed crowd, laughing maniacally with no regard for their own lives as they die in a suicide bombing. It isn't a short scene either, indulging deeply in the carnage, and the violence.
 
-All at once I’m seeing terrorists here, violent “freedom fighters” blowing themselves up on buses, and instead of characters from World War 2 craving violent revenge, which immediately makes me feel that I’m only watching a movie, divorcing me from the moment. What I'm seeing isn’t just the craving of the characters. I feel like I’m seeing the active present day hatred of the Nazis.  This is present and this is intense conviction. this film is modern revenge on people who have been dead for years already, their crimes upward 70 years in the past.
+All at once I’m seeing terrorists here, violent “freedom fighters” blowing themselves up on buses, and instead of characters from World War 2 craving violent revenge, which immediately makes me feel that I’m only watching a movie, divorcing me from the moment. What I'm seeing isn’t just the craving of the characters. I feel like I’m seeing the active present day hatred of the Nazis.  This is present and this is intense conviction. This film is modern revenge on people who have been dead for years already, their crimes upward 70 years in the past.
 
 <img class="img-responsive" width="40%" style="float:left;margin-right:10px;" src="https://img.critical-truth.com/img/articles/inglourious-basterds/healing.jpg">
 
