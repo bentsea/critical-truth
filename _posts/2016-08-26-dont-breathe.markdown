@@ -3,7 +3,7 @@ layout: post
 title:  "Review: Don't Breathe"
 blurb: "A modern horror classic that will be remembered for decades far more for what it does right than where it stumbles."
 date:   2016-08-26 16:59:15
-categories: [reviews, movies]
+categories: [reviews, movies, horror]
 carousel: https://img.critical-truth.com/img/articles/dont-breathe/dont-breathe-meta.jpg
 author: "David Scott"
 ---

@@ -3,7 +3,7 @@ layout: post
 title:  "Review: Blair Witch (2016)"
 blurb: "A serviceable horror movie that improves on the original but does not progress the genre."
 date:   2016-09-16 16:59:15
-categories: [reviews, movies]
+categories: [reviews, movies, horror]
 carousel: https://img.critical-truth.com/img/articles/blair-witch/blair-witch-banner.jpg
 author: "David Scott"
 ---

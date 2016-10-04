@@ -24,7 +24,7 @@ gems: [jekyll-paginate]
 
 paginate: 9
 paginate_path: "/archive/page:num/"
-categories: [reviews, editorials, movies, books, games, comics]
+categories: [reviews, editorials, movies, books, games, comics, horror]
 
 sass:
   style: compressed
