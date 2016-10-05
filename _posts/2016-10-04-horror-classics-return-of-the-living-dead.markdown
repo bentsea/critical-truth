@@ -1,41 +1,36 @@
 ---
 layout: post
-title:  "Review: Masterminds (2016)"
-blurb: "An odd, often funny film, typical of the work of Galifianakis."
-date:   2016-09-29 19:30:00
-categories: [reviews, movies]
-carousel: /img/articles/masterminds-2016/masterminds-cover.jpg
+title:  "Horror Classics: The Return of the Living Dead"
+blurb: "A chilling exploration of the societal fears of an era, and maybe the most thoughtful zombie movie ever made!"
+date:   2016-10-04 16:00:00
+categories: [editorials, movies, horror]
+carousel: https://img.critical-truth.com/img/articles/return-of-the-living-dead/return-of-the-living-dead-cover.jpg
 author: "David Scott"
 ---
 
 
-Before saying anything else about the film, it is important to impart that there are two parts in this film that involve nauseating imagery that may be upsetting to watch. If that's a deal breaker, you may want to avoid this film regardless of its other merits. That said, Masterminds is a light hearted film that is emblematic of the humor of Zach Galifianakis, defined by awkward characters in uncomfortable moments of mundanity found even in the most extreme of situations. 
+> **Spoiler Warning**: This is an in depth exploration of the themes and ideas of the 1985 classic "The Return of the Living Dead." Specific events and their significance will be discussed in detail. It is recommended that you watch it before reading.
 
-<img class="img-responsive" width="43%" style="float:right;margin-left:10px;" src="/img/articles/masterminds-2016/masterminds-best-part.jpg">
+One of the most over used monsters in horror today is the zombie. In the past decade or more there is unlikely to be a single year where zombies have failed to loom tall on the silver screen, though rarely are we served a thoughtful work that uses them as a tool to explore our fears and anxieties. Ironically, though, zombies are likely only as popular as they are *because* of how well they have been used in the past to better understand and reflect on so many different ideas.
 
-Humor can be pretty subjective, and this is very likely to be a hit or miss film for a lot of people. If you're not already familiar with the work of Zach Galifianakis, there's a fair sample on YouTube, and you should definitely check out <a href="https://www.youtube.com/results?search_query=between+two+ferns">Between Two Ferns</a>. It can be reasonably assumed, though, that if an uncomfortable looking bearded man in a long blond wig with cat eyes doesn't entertain you, this movie may not be for you. While not for everyone, many will find a rich well of humor here.
+Because of what they are, ourselves, contorted and without reason, zombies are an effective tool for looking deeper into the ways in which we fail each other and the bonds of trust that hold our societies together. Zombies have been used metaphorically to embody consumers and communists, act as a catalyst to highlight the worst of humanity in crisis situations, and embody a literally contagion. Themeatically, the zombie may be the most versatile and flexible of all movie monsters.
 
-The right audience can and will be rewarded with exactly what you would expect from the hairy weird guy in The Hangover getting an entire movie. Those fans will take away from Masterminds a piece that lands somewhere between a fun end of summer comedy and a comedy classic. For me, the standout performance was from Kate McKinnon, who delivered a deadpan performance that had me laughing just about every single time she was on the screen. The movie could have used a lot more of her character, as I looked forward to every time she might be on screen.
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/return-of-the-living-dead/the-victims-of-folley.jpg">
 
-While Kate McKinnon stood out from the crowd, that was a reasonably high bar, as just about everyone worked well together. While Galifianakis is the defining character of the piece, the full cast works to deliver something that feels true to the comic stylings of the lead.
+The Return of the Living Dead uses an entire array of the most prevalent terrors of living in 1985 America, such as nuclear proliferation, unrestrained and misunderstood science, and a rampant and unchecked military all to serve as an underline for the ultimate terror of the film: incompetence on every level of society to a degree that must ultimately collapse. It is the common theme in each and every failing as the film escalates from a single contained zombie to catastrophic uncontainable catastrophy.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="/img/articles/masterminds-2016/masterminds-banner.jpg">
+Almost clinical in its methodology, the introduction sets the tone by opening with a new employee getting a tour of a medical warehouse briefly interrupted with establishing shots for the characters whose stories will be told in parallel. Slightly goofy, but tinged in darkness as the warehouse workers joke about the cadavers they work with. During this tour the origin of the zombie is explained in clear detail, and the audience is shown their first horror locked away in a barrel, the remnant of a long ago contained nightmare.
 
+What is so brilliant about this opening is that it ensures that the zombies themselves are the least horrifying part of the movie. They are clearly explained immediately as a product of science and subsequently placed on display for us. Even as the chemical menace escapes into the air, one of the first real horrors of the film is released through the mishandling of the barrel in which the creature resides, the credits begin to roll and the audience is given a clear extended shot of the face of what is contained within. This is because this isn't the horror of this movie, it's already explained, and it's placed on display here as misdirection.
 
-As mentioned above, the movie really failed for me when it dipped its toe in the shock genre once or twice with images I could honestly live without having in my head. I'm always disappointed when a movie that I otherwise really enjoy is undermined by elements that are not at all essential to the plot and detract a great deal from my enjoyment. While other viewers may differ from me on this, I generally do not enjoy attempts to gross me out.
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/return-of-the-living-dead/Return_Of_The_Living_Dead_French_sex_and_death.jpg">
 
-The pacing is even and restrained on the whole, though the movie drags a little bit in the middle when the jokes feel a little repetitive when we’re waiting for the climax. When we approach the close of the film, Masterminds rushes into the ending without completely resolving the need to be there. 
+As a subversion of our expectations this works perfectly, fans of Night of the Living Dead are here for more zombies, they expect them to be the core of the film, and The Return of the Living Dead doesn't disappoint, even while it builds all of its horror in the negative space surrounding them. The gas is terrifying because we can't understand it or see it, and we don't know what it's doing to the people it's touched. The society is a nightmare, as everyone with any responsibility for containing this hazard, a danger that was well contained and should never have been more than ghastly display, fails completely in their responsibility. In these successive failings we see the real killer of the film: institutional incompetence.
 
-On the whole, Masterminds is exactly what it wants to be, which is an average comedy that will hit hardest for those who enjoy a very particular kind of awkward humor. Check out Between Two Ferns, and if you find yourself giggling, then Masterminds is probably a must see for you.
+This theme is easy to miss, given how well and how sincerely the movie proceeds to hit on its sub themes: having this lab created chemical spread. culminating in the military decision to use atomic weapons to stop it, and ultimately resulting in the indestructible gas merely being evaporated and spread even further via the rain because of their use.
 
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/return-of-the-living-dead/The-Return-Of-The-Living-Dead_nuclear_bomb.jpg">
 
-<table class="table">
-<tbody>
-<tr>
-<td><b>Final Verdict</b>:</td><td>Fans of Galifianakis will find a lot to love, others will likely be bored and a little grossed out.</td>
-</tr>
-<tr>
-<td><b>Rating</b>:</td><td>6.5/10</td>
-</tr>
-</tbody>
-</table>
+The zombie, though? It is innert in the first moment we see it,  and it is frail. Slow, and filled with constant pain from its unnatural existence, these abominations are more to be pittied than feared. They're the core of the film, and even as the audience is revolted by them, there is a frailty that cuts deep. Time and again, what makes the horde is not the individual corruption of mortality, but the failure on every level to contain something so sickly and decayed.
+
+Perhaps no other zombie movie has so effectively used this classic staple of horror in cinema. Followed by multiple sequels, none managed to so sincerely or truly insightfully make use of the themes and ideas they were composed of. The Return of the Living Dead stands alone as one of the best made films of its kind, a defining example of the genre, that both eclipses the original zombie films and even continues to persevere as a film that is worth watching even today.

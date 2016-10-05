@@ -1,36 +1,37 @@
 ---
 layout: post
-title:  "Horror Classics: The Return of the Living Dead"
-blurb: "A chilling exploration of the societal fears of an era, and maybe the most thoughtful zombie movie ever made!"
-date:   2016-10-04 16:00:00
-categories: [editorials, movies, horror]
-carousel: /img/articles/return-of-the-living-dead/return-of-the-living-dead-cover.jpg
+title:  "Review: The Birth of a Nation (2016)"
+blurb: "A brutal, heartbreaking, and uncompromising depiction of man's inhumanity to man."
+final-verdict: "A challenging watch that will leave you so emotionally drained that you may miss its flaws."
+rating: "9.0"
+date:   2016-10-06 16:00:00
+categories: [reviews, movies]
+carousel: https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/birth-of-a-nation-cover.jpg
 author: "David Scott"
 ---
 
+> **Note**: *The Birth of a Nation* contains depictions of graphic violence, brutality, and casual torture that are deeply affecting and profoundly upsetting. Sensitive viewers should use caution when viewing.
 
-> **Spoiler Warning**: This is an in depth exploration of the themes and ideas of the 1985 classic "The Return of the Living Dead." Specific events and their significance will be discussed in detail. It is recommended that you watch it before reading.
+Sometimes the movies that are the hardest to watch are the ones that are most important. *The Birth of a Nation* takes a hard look at one of the great shames of humanity as a whole during a time when it was an American institution, and uses it as a lens to show how the systematic oppression of a people destroys the souls of both the oppressed and the oppressors. The uncomfortable impact of the character arcs and the emotional toll taken by violence and the environment are so overt that most viewers will overlook the few flaws.
 
-One of the most over used monsters in horror today is the zombie. In the past decade or more there is unlikely to be a single year where zombies have failed to loom tall on the silver screen, though rarely are we served a thoughtful work that uses them as a tool to explore our fears and anxieties. Ironically, though, zombies are likely only as popular as they are *because* of how well they have been used in the past to better understand and reflect on so many different ideas.
+Written, produced, and directed by Nate Parker, *The Birth of a Nation* is a dramatized biography of Nat Turner and Nat Turner's Rebellion (also known as the Southampton Insurrection). Nate Parker further stretches himself by taking the lead role, Nat Turner. Nate manages to deliver an inspired performance despite the challenges of so much responsibility.
 
-Because of what they are, ourselves, contorted and without reason, zombies are an effective tool for looking deeper into the ways in which we fail each other and the bonds of trust that hold our societies together. Zombies have been used metaphorically to embody consumers and communists, act as a catalyst to highlight the worst of humanity in crisis situations, and embody a literally contagion. Themeatically, the zombie may be the most versatile and flexible of all movie monsters.
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/birth-nation-dreams.jpg">
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="/img/articles/return-of-the-living-dead/the-victims-of-folley.jpg">
+Opposite Nate Parker, Armie Hammer as Samuel Turner successfully captures the slow erosion of the human soul as we are given a long view of his life from childhood to maturity and the damage of slave ownership and slave culture on his disposition and temperament. Even as the audience is taken on a guided tour of grotesque abuse, we are shown Samuel Turner slowly become all of the things that initially tear him apart.
 
-The Return of the Living Dead uses an entire array of the most prevalent terrors of living in 1985 America, such as nuclear proliferation, unrestrained and misunderstood science, and a rampant and unchecked military all to serve as an underline for the ultimate terror of the film: incompetence on every level of society to a degree that must ultimately collapse. It is the common theme in each and every failing as the film escalates from a single contained zombie to catastrophic uncontainable catastrophy.
+Over the top violence and gore are not uncommon in modern cinema, though it would be fair to say that only a small few films really use it appropriately. When well executed, the horror of the real and the embrace of the degradation of humanity in conjunction with the destruction of the body leave the viewer vulnerable. *The Birth of a Nation* uses that vulnerability to prepare us to accept the destruction of every character touched by it as inevitable. Unlike its contemporaries, here this uncompromising insight into the worst isn't the point, but rather to prepare the audience for the emotional pain that surrounds it and to heighten our awareness.
 
-Almost clinical in its methodology, the introduction sets the tone by opening with a new employee getting a tour of a medical warehouse briefly interrupted with establishing shots for the characters whose stories will be told in parallel. Slightly goofy, but tinged in darkness as the warehouse workers joke about the cadavers they work with. During this tour the origin of the zombie is explained in clear detail, and the audience is shown their first horror locked away in a barrel, the remnant of a long ago contained nightmare.
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/birth-of-a-nation-wedding.jpg">
 
-What is so brilliant about this opening is that it ensures that the zombies themselves are the least horrifying part of the movie. They are clearly explained immediately as a product of science and subsequently placed on display for us. Even as the chemical menace escapes into the air, one of the first real horrors of the film is released through the mishandling of the barrel in which the creature resides, the credits begin to roll and the audience is given a clear extended shot of the face of what is contained within. This is because this isn't the horror of this movie, it's already explained, and it's placed on display here as misdirection.
+Finally, the environment drives all of the themes of the movie home. The religious fervor, the woods, the fields, and the barns all paired with the music and the people to capture a place in time. Tinged with the mingling of Christianity with the ceremonies and mysticism of the African culture. Nate Parker uses color sparsely, mingling the real world and dreams by muting their tones, except for when he uses red. It's visually striking and it stands out and grabs your attention and heightens your awareness.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="/img/articles/return-of-the-living-dead/Return_Of_The_Living_Dead_French_sex_and_death.jpg">
+All of these aspects, the characters, the pain, and the world building, come together to put the audience through a grueling experience that will leave most drained and spent by the climax. It's such an intense ride that few will notice the flaws that mar the overall work.
 
-As a subversion of our expectations this works perfectly, fans of Night of the Living Dead are here for more zombies, they expect them to be the core of the film, and The Return of the Living Dead doesn't disappoint, even while it builds all of its horror in the negative space surrounding them. The gas is terrifying because we can't understand it or see it, and we don't know what it's doing to the people it's touched. The society is a nightmare, as everyone with any responsibility for containing this hazard, a danger that was well contained and should never have been more than ghastly display, fails completely in their responsibility. In these successive failings we see the real killer of the film: institutional incompetence.
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/pain-and-tragedy-birth-of-a-nation.jpg">
 
-This theme is easy to miss, given how well and how sincerely the movie proceeds to hit on its sub themes: having this lab created chemical spread. culminating in the military decision to use atomic weapons to stop it, and ultimately resulting in the indestructible gas merely being evaporated and spread even further via the rain because of their use.
+None of the issues here are systemic, most of them a failing of a single moment here or a moment there. A character having an unexplained shift in behavior to propel the plot one way, then another when it is convenient. A few lines of dialog are heavy handed observations on the parallels with current events. Well delivered, but still clumsily written, they land with stilted weight and are felt but don't entirely take hold like they should given the severity of their subject matter.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="/img/articles/return-of-the-living-dead/The-Return-Of-The-Living-Dead_nuclear_bomb.jpg">
+These can't be blamed on laziness or a lack of unity of vision. At worst it feels like they're used to say something that needed to be said, but couldn't be don't quite well enough with the material, or as little escapes from places where the story moves into a corner where the characters are unable to move forward with the existing setup. They're small, and ultimately forgettable in the face of what is otherwise a masterpiece.
 
-The zombie, though? It is innert in the first moment we see it,  and it is frail. Slow, and filled with constant pain from its unnatural existence, these abominations are more to be pittied than feared. They're the core of the film, and even as the audience is revolted by them, there is a frailty that cuts deep. Time and again, what makes the horde is not the individual corruption of mortality, but the failure on every level to contain something so sickly and decayed.
-
-Perhaps no other zombie movie has so effectively used this classic staple of horror in cinema. Followed by multiple sequels, none managed to so sincerely or truly insightfully make use of the themes and ideas they were composed of. The Return of the Living Dead stands alone as one of the best made films of its kind, a defining example of the genre, that both eclipses the original zombie films and even continues to persevere as a film that is worth watching even today.
+*The Birth of a Nation* is a modern classic that will be remembered for generations to come as an uncompromising exploration of the failure of violent rebellion to oppose systemic cultural oppression and abuse. If you are able to withstand the painful nature of such a violent rebellion and the culture that created an environment that made it all but unavoidable, and graphic depictions of soul crushing violence, then this is an important film to watch. These are feelings that should be experienced and remembered. It hurts, but it's a healing hurt.
