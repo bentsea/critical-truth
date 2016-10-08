@@ -4,7 +4,7 @@ title:  "Review: The Birth of a Nation (2016)"
 blurb: "A brutal, heartbreaking, and uncompromising depiction of man's inhumanity to man."
 final-verdict: "A challenging watch that will leave you so emotionally drained that you may miss its flaws."
 rating: "9.0"
-date:   2016-10-06 16:00:00
+date:   2016-10-06 00:00:00
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/birth-of-a-nation-cover.jpg
 author: "David Scott"

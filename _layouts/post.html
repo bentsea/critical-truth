@@ -8,8 +8,18 @@ layout: default
       <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
         <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        <div class="social">
+        	<span class="google">
+        		<g:plusone size="medium"></g:plusone>
+        	</span>
+        	<span class="Facebook">
+        		<div class="fb-like" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+        	</span>
+          <span class="twitter">
+            <a class="twitter-share-button"  href="https://twitter.com/intent/tweet">Tweet</a>
+          </span>
+        </div>
       </header>
-
       <article class="post-content">
         {{ content }}
         {% if page.rating %}
@@ -19,23 +29,23 @@ layout: default
                 <td><b>Final Verdict</b>:</td><td>{{ page.final-verdict }}</td>
               </tr>
               <tr>
-                <td><b>Rating</b>:</td><td>{{ page.rating }}/10</td>
+                <td><b>Rating</b>:</td><td>{{ page.rating }} / 10</td>
               </tr>
             </tbody>
           </table>
         {% endif %}
       </article>
-      <div class="ssk-group ssk-count">
+      <div class="ssk-group ssk-count ssk-lg">
           <a href="" class="ssk ssk-facebook"></a>
           <a href="" class="ssk ssk-twitter"></a>
           <a href="" class="ssk ssk-google-plus"></a>
           <a href="" class="ssk ssk-pinterest"></a>
-          <a href="" class="ssk ssk-linkedin"></a>
       </div>
       <br>
       <hr class="clear">
       <h2>Comments</h2>
-      <div id="disqus_thread"></div>
+      <div class="fb-comments" data-width="100%"></div>
+      <!--<div id="disqus_thread"></div>-->
       <script>
       /**
        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.

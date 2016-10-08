@@ -2,6 +2,8 @@
 layout: post
 title:  "Review: Suicide Squad"
 blurb: "A sometimes fun, but otherwise forgetable action flick with more flaws than virtues."
+final-verdict: "Better than Batman v Superman, but still boring and soul-less trash that you should avoid."
+rating: "4.0"
 date:   2016-08-06 16:59:15
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/suicide-squad-poster.jpg

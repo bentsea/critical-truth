@@ -2,6 +2,8 @@
 layout: post
 title:  "The Big Short"
 blurb: "A must watch that triggers every emotion!"
+final-verdict: "Gripping and horrifying all at once, and an absolute must watch."
+rating: "9.0"
 date:   2015-12-19 16:59:15
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/The-Big-Short-2015-banner.jpg

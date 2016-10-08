@@ -2,6 +2,8 @@
 layout: post
 title:  "Star Trek: Beyond"
 blurb: "Justin Lin delivers the best of the new movies!"
+final-verdict: "The best of the rebooted franchise, and a must watch for all sci-fi fans that satisfies in a way the series has been lacking."
+rating: "8.0"
 date:   2016-07-21 16:59:15
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/star-trek-beyond-poster.jpg

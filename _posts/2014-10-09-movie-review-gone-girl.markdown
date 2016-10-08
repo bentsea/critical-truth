@@ -2,6 +2,8 @@
 layout: post
 title:  "Gone Girl: The Movie"
 blurb: "A chilling thriller loaded with surprises!"
+final-verdict: "An incredibly intense thriller, and an absolute must see."
+rating: "8.0"
 date:   2014-10-09 16:59:15
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/gone-girl-poster.jpg

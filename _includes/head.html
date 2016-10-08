@@ -27,6 +27,7 @@
 
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:image" content="{% if page.carousel %}{{ page.carousel }}{% else %}https://img.critical-truth.com/img/carousel/fullimage1.jpg{% endif %}">
+  <meta property="og:description" content="{% if page.url == '/' %}{{ site.description }}{% elsif page.blurb %}{{ page.blurb }}{% elsif paginator %}Archive of reviews for Critical-Truth, page {{ paginator.page }} of {{ paginator.total_pages }}.{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}" />
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
