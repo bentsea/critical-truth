@@ -43,9 +43,9 @@ layout: default
       </div>
       <br>
       <hr class="clear">
-      <h2>Comments</h2>
-      <div class="fb-comments" data-width="100%"></div>
-      <!--<div id="disqus_thread"></div>-->
+      <h2 id="comments">Comments</h2>
+      <div class="fb-comments" data-href="{{ site.url }}{{ post.url }}" data-width="100%"></div>
+      <!--<div id="disqus_thread"></div>
       <script>
       /**
        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
@@ -62,8 +62,8 @@ layout: default
           s.setAttribute('data-timestamp', +new Date());
           (d.head || d.body).appendChild(s);
       })();
-      </script>
-      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </script>-->
+      <noscript>Please enable JavaScript to view the comments powered by Facebook.</noscript>
 
     </div>
   </div>
@@ -82,7 +82,7 @@ layout: default
         <a href="{{ post.url }}">
             <h4>{{ post.title }}</h4>
         </a>
-        <span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ post.url }}#disqus_thread" data-disqus-identifier="{{ post.slug }}"><span class="disqus-comment-count" data-disqus-identifier="{{ post.slug }}">Comments</span></a><br><br>
+        <span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ site.url }}{{ post.url }}#comments">Comments <span class="badge"><fb:comments-count href="{{ site.url }}{{ post.url }}"></fb:comments-count></span></a><br><br>
     </article>
     {% endif %}
     {% endfor %}
