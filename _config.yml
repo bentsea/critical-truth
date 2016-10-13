@@ -15,7 +15,7 @@ markdown: kramdown
 permalink: pretty
 highlighter: rouge
 encoding: utf-8
-#permalink: none
+permalink: /articles/:title/
 
 
 # Includes and Excludes

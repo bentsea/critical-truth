@@ -1,3 +1,6 @@
+---
+---
+
 <ifModule mod_gzip.c>
 mod_gzip_on Yes
 mod_gzip_dechunk Yes
@@ -32,3 +35,8 @@ RewriteCond %{SERVER_PORT} 80
 RewriteCond %{HTTP_HOST} !img.critical-truth.com
 RewriteCond %{HTTP_HOST} !dev.critical-truth.com
 RewriteRule ^(.*)$ https://www.critical-truth.com/$1 [R,L]
+
+
+{% for post in site.posts %}
+RewriteRule ^/?{% for cat in post.categories %}{{ cat }}\/{% endfor %}{{ post.date | date: "%Y\/%m\/%d" }}\/{{ post.slug }}\/$ https://www.critical-truth.com/articles/{{ post.slug }}/ [R=301,L]
+{% endfor %}
