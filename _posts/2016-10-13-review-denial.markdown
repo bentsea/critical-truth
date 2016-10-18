@@ -11,13 +11,11 @@ durration: "1h 50m"
 blurb: "A compelling drama filled with charismatic acting and a surprising maturity."
 final-verdict: "Highly recommended, Denial entertains with thoughtful dialog and insightful story telling portrayed through excellent acting."
 rating: "8.1"
-date:   2016-10-16 00:00:00
+date:   2016-10-13 00:00:00
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/denial-2016/denial-cover.jpg
 author: "David Scott"
 ---
-
-{{ page.date | date: "%Y/%M/%D" }}
 
 Denial is a surprising film in that it uses the material as a vehicle to say something completely different from what you might imagine. The premise is fairly straightforward, Denial tells the story of David Irving vs Penguin Books, in which a Holocaust denier presses charges against Deborah Lipstadt for defamation of his character.
 
