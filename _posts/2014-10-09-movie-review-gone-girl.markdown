@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Gone Girl: The Movie"
-blurb: "A chilling thriller loaded with surprises!"
+blurb: "A chilling thriller loaded with surprises! A must see for suspense fans."
 final-verdict: "An incredibly intense thriller, and an absolute must see."
 rating: "8.0"
 date:   2014-10-09 16:59:15
