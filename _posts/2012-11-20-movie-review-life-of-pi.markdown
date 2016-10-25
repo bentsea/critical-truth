@@ -3,6 +3,7 @@ layout: post
 title:  "Life of Pi"
 blurb: "A tense ride through an incredible visual experience!"
 date:   2012-11-20 16:59:15
+rating: 80
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/life-of-pi-poster.jpg
 author: "David Scott"

@@ -1,7 +1,9 @@
 ---
 layout: post
-title:  "Spectre"
+title:  "Review: Spectre"
 blurb: "A middling bond movie that poorly resolves questions no one asked."
+final-verdict: "A middling bond movie that poorly resolves questions no one asked."
+rating: 65
 date:   2015-11-06 16:59:15
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/spectre-poster.jpg

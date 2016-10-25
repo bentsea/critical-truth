@@ -10,7 +10,7 @@ rating: "PG-13"
 durration: "1h 50m"
 blurb: "A compelling drama filled with charismatic acting and a surprising maturity."
 final-verdict: "Highly recommended, Denial entertains with thoughtful dialog and insightful story telling portrayed through excellent acting."
-rating: "8.1"
+rating: 81
 date:   2016-10-13 00:00:00
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/denial-2016/denial-cover.jpg

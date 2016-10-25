@@ -16,14 +16,26 @@ layout: default
           <span class="slide-blurb"><span>{{ post.blurb }}</span></span>
         </div>
         <div class="slide-image">
-          <img class="lazyOwl" data-src="{{ post.carousel }}" src="{{ post.carousel }}" alt="{{ post.title }}">
+          <img class="lazyOwl" {% unless forloop.first %}data-src="{{ post.carousel }}"{% endunless %}{% if forloop.first %}src="{{ post.carousel }}"{% endif %} alt="{{ post.title }}">
         </div>
       </a>
     </div>
     {% endfor %}
-
   </div>
 
+  <!--
+  {% assign this_years_posts = site.array %}
+  {% for post in site.categories.reviews %}
+    {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+    {% if this_year == '2016' %}
+      {% assign this_years_posts = this_years_posts | push: post %}
+    {% endif %}
+  {% endfor %}
+  {% assign sorted = this_years_posts | sort: 'rating' | reverse %}
+  {% for item in sorted limit: 10 %}
+    <p><a href="{{ item.url }}">{{ item.title }}</a></p>
+  {% endfor %}
+  -->
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>

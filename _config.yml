@@ -21,6 +21,9 @@ permalink: /articles/:title/
 # Includes and Excludes
 include: [.htaccess]
 
+#Blank array for use in site.
+array: []
+
 #Gems
 gems: [jekyll-paginate]
 

@@ -3,7 +3,7 @@ layout: post
 title:  "Review: Blair Witch (2016)"
 blurb: "A serviceable horror movie that improves on the original but does not progress the genre."
 final-verdict: "A fun popcorn flick, but the suspense is poorly paced and the end is too predictable to be worth more than one viewing."
-rating: "6.5"
+rating: 65
 date:   2016-09-16 16:59:15
 categories: [reviews, movies, horror]
 carousel: https://img.critical-truth.com/img/articles/blair-witch/blair-witch-banner.jpg

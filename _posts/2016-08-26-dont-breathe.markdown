@@ -3,7 +3,7 @@ layout: post
 title:  "Review: Don't Breathe"
 blurb: "A modern horror classic that will be remembered for decades far more for what it does right than where it stumbles."
 final-verdict: "A modern horror classic that manages to be much more than just a themed thrill ride and a must see for genre fans."
-rating: "7.9"
+rating: 79
 date:   2016-08-26 16:59:15
 categories: [reviews, movies, horror]
 carousel: https://img.critical-truth.com/img/articles/dont-breathe/dont-breathe-meta.jpg
