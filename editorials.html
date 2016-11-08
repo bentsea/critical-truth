@@ -22,7 +22,7 @@ order: 2
                     <h4>{{ post.title }}</h4>
                 </a>
                 <p class="post-info"><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ site.url }}{{ post.url }}#comments">Comments <span class="badge"><fb:comments-count href="{{ site.url }}{{ post.url }}"></fb:comments-count></span></a><br />
-                {{post.content|strip_html|truncate:110}} </p>
+                {{post.content|strip_html|truncate:110}}</p>
                 <p><a class="btn btn-primary btn-xs bottom-right" href="{{ post.url }}">Read More</a></p>
             </div>
         </article>

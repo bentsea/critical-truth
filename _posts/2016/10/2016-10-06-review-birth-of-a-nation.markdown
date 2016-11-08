@@ -5,7 +5,7 @@ blurb: "A brutal, heartbreaking, and uncompromising depiction of man's inhumanit
 final-verdict: "A challenging watch that will leave you so emotionally drained that you may miss its flaws."
 rating: 90
 date:   2016-10-06 00:00:00
-categories: [reviews, movies]
+categories: [reviews, movies, drama]
 carousel: https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/birth-of-a-nation-cover.jpg
 author: "David Scott"
 ---

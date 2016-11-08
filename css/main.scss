@@ -183,6 +183,12 @@ body {
     right: 25px;
 }
 
+.bottom-left {
+    position: absolute;
+    bottom: 25px;
+    left: 18px;
+}
+
 /* centered columns styles */
 .row-centered {
     text-align:center;
@@ -204,6 +210,7 @@ body {
 .post-info {
     position: absolute;
     top:215px;
+    margin-right:3px;
 }
 .post-thumb {
     min-height:400px;

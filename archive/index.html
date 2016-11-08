@@ -14,16 +14,19 @@ order: 10
         <article class="col-md-4 col-sm-6 post-thumb">
             <a href="{{ post.url }}">
                 <figure class="blog-thumb">
-                <img src="{% if post.carousel %}{{ post.carousel }}{% else %}/img/carousel/fullimage1.jpg{% endif %}" alt="{{ post.description }}" {% if post.description %}title="{{ post.description }}"{% endif %}>
-                </figure>
+<!--                <img src="{% if post.carousel %}{{ post.carousel }}{% else %}/img/carousel/fullimage1.jpg{% endif %}" alt="{{ post.description }}" {% if post.description %}title="{{ post.description }}"{% endif %}>
+    -->
+ <img src="{% if post.carousel %}{{ post.carousel }}{% else %}/img/carousel/fullimage1.jpg{% endif %}" alt="{% if post.final-verdict %}{{ post.final-verdict }}{% else %}{{  post.description }}{% endif %}" title="{% if post.final-verdict %}{{ post.final-verdict }}{% else %}{{ post.description }}{% endif %}">
+            </figure>
             </a>
             <div class="post-area">
                 <a href="{{ post.url }}">
                     <h4>{{ post.title }}</h4>
                 </a>
-                <p class="post-info"><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ site.url }}{{ post.url }}#comments">Comments <span class="badge"><fb:comments-count href="{{ site.url }}{{ post.url }}"></fb:comments-count></span></a><br />
-                {{post.content|strip_html|truncate:110}} </p>
-                <p><a class="btn btn-primary btn-xs bottom-right" href="{{ post.url }}">Read More</a></p>
+                <p class="post-info"></span><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ site.url }}{{ post.url }}#comments">Comments <span class="badge"><fb:comments-count href="{{ site.url }}{{ post.url }}"></fb:comments-count></span></a><!--{% if post.rating %} | <i>{{ post.rating}}/100</i>{% endif %}--><br />
+                <!--{{post.content|strip_html|truncate:110}}-->{% if post.final-verdict %}{{ post.final-verdict }}{% else %}{{post.content|strip_html|truncate:110}}{% endif %}</p>
+                
+                <div class="bottom-right"><a class="btn btn-primary btn-xs" href="{{ post.url }}">Read More</a></div>
             </div>
         </article>
         {% endfor %}

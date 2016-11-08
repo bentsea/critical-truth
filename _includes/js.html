@@ -9,28 +9,23 @@
 	//Social Share Icons Init
 	SocialShareKit.init();
 	//Owl Carousel Init
-	$(document).ready(function() {
-	 
-	  $("#home-slider").owlCarousel({
-	 
-	      navigation: true, // Show next and prev buttons
-	      autoPlay:10000,
-	      lazyLoad:true,
-	      autoplayTimeout: 5000,
-	      stopOnHover:true,
-	      items:1,
-	      loop:true
-	 
-	      // "singleItem:true" is a shortcut for:
-	      // items : 1, 
-	      // itemsDesktop : false,
-	      // itemsDesktopSmall : false,
-	      // itemsTablet: false,
-	      // itemsMobile : false
-	 
-	  });
-	 
-	});
+  $("#home-slider").owlCarousel({
+      navigation: true, // Show next and prev buttons
+      autoPlay:10000,
+      lazyLoad:true,
+      autoplayTimeout: 5000,
+      stopOnHover:true,
+      items:1,
+      loop:true
+ 
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
 
 	// Find all YouTube videos
 	var $allVideos = $("iframe[src^='//www.youtube.com']"),

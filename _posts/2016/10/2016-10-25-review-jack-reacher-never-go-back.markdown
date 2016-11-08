@@ -2,7 +2,7 @@
 layout: post
 title:  "Jack Reacher: Never Go Back (2016)"
 blurb: "Never Go Back is a great example of how a film deeply rooted in formula can be well executed and enjoyable."
-final-verdict: "Forulaic and predictable, but still a fresh and exemplary entry into the action adventure genre."
+final-verdict: "Formulaic and predictable, but still a fresh and exemplary entry into the action adventure genre."
 rating: 79
 date:   2016-10-25 00:00:00
 categories: [reviews, movies, action, adventure, crime]
