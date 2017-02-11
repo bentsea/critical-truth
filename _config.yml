@@ -19,7 +19,8 @@ permalink: /articles/:title/
 
 
 # Includes and Excludes
-include: [.htaccess]
+include: [.htaccess,_pages]
+exclude: [ps.sh,getInfo.sh]
 
 #Blank array for use in site.
 array: []

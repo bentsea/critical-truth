@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /
 ---
 
 <div class="home">
@@ -7,16 +8,15 @@ layout: default
   <h1 class="page-heading">Latest Reviews</h1>
 
   <div id="home-slider" class="owl-carousel">
-
     {% for post in site.posts limit:10 %}
-    <div class="item">
+    <div class="item" {% if forloop.first %}style="display:block; background: url('{{ post.carousel }}');"{% endif %}>
       <a href="{{ post.url }}">
         <div class="slide-text">
           <h2><span>{{ post.title }}</span></h2>
           <span class="slide-blurb"><span>{{ post.blurb }}</span></span>
         </div>
         <div class="slide-image">
-          <img class="lazyOwl" {% unless forloop.first %}data-src="{{ post.carousel }}"{% endunless %}{% if forloop.first %}src="{{ post.carousel }}"{% endif %} alt="{{ post.title }}">
+          <img {% unless forloop.first %}class="lazyOwl" data-src="{{ post.carousel }}"{% endunless %}{% if forloop.first %}src="{{ post.carousel }}"{% endif %} alt="{{ post.title }}">
         </div>
       </a>
     </div>

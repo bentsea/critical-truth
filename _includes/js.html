@@ -3,6 +3,7 @@
 <script type="text/javascript" src="https://img.critical-truth.com/js/social-share-kit.js"></script>
 <script src="{{ "https://img.critical-truth.com/js/jquery-1.9.1.min.js" | prepend: site.baseurl }}"></script>
 <script src="{{ "https://img.critical-truth.com/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>
+<!-- Owl Carousel Script -->
 <script src="{{ "https://img.critical-truth.com/js/owl.carousel.min.js" | prepend: site.baseurl }}"></script>
 
 <script>
@@ -11,12 +12,13 @@
 	//Owl Carousel Init
   $("#home-slider").owlCarousel({
       navigation: true, // Show next and prev buttons
-      autoPlay:10000,
+      autoPlay:5000,
       lazyLoad:true,
       autoplayTimeout: 5000,
       stopOnHover:true,
       items:1,
-      loop:true
+      loop:true,
+      singleItem:true
  
       // "singleItem:true" is a shortcut for:
       // items : 1, 
@@ -73,8 +75,6 @@
 
 </script>
 
-<!-- Place this tag where you want the +1 button to render. -->
-<div class="g-plusone" data-size="tall" data-annotation="inline" data-width="300"></div>
 
 <!-- Place this tag after the last +1 button tag. -->
 <script type="text/javascript">

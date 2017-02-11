@@ -43,6 +43,7 @@ layout: default
           <a href="" class="ssk ssk-twitter"></a>
           <a href="" class="ssk ssk-google-plus"></a>
           <a href="" class="ssk ssk-pinterest"></a>
+          <span style="position:relative;top:20px;"><script type="text/javascript" src="//www.redditstatic.com/button/button3.js"></script></span>
       </div>
       <br>
       <hr class="clear">
@@ -72,7 +73,7 @@ layout: default
   </div>
   <div class="col-lg-4">
     <div class="sidebar-nav">
-      <!--googleoff: index-->
+      <!--googleoff: all-->
     <h3>Related Articles</h3>
     {% for post in site.related_posts limit:7 %}
     {% if post.url != page.url %}
@@ -89,7 +90,7 @@ layout: default
     </article>
     {% endif %}
     {% endfor %}
-      <!--googleon: index-->
+      <!--googleon: all-->
     </div>
   </div>
 </div>

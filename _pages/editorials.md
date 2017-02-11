@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Editorials
+permalink: /editorials/
 order: 2
 ---
 

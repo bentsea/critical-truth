@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Arrival (2016)"
-blurb: "A beautiful and compelling science fiction narrative that perfectly uses the premise as a lensS for human perspective."
+blurb: "A beautiful and compelling science fiction narrative that perfectly uses the premise as a lens for human perspective."
 final-verdict: "Arrival is beautiful, moving, and alien, transcending the sci-fi genre and a must see film."
 rating: 92
 date:   2016-11-08 00:00:00

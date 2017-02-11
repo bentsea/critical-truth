@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Reviews
+permalink: /reviews/
 order: 1
 ---
 
