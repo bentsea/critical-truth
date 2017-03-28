@@ -7,7 +7,13 @@ rating: 79
 date:   2016-10-25 00:00:00
 categories: [reviews, movies, action, adventure, crime]
 carousel: https://img.critical-truth.com/img/articles/jack-reacher-never-go-back/never-go-back-cover.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "Jack Reacher: Never Go Back"
+   sameAs: "http://www.imdb.com/title/tt3393786"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BODQ3ODQ3NDI4NV5BMl5BanBnXkFtZTgwMDY1Mzk5OTE@._V1_SX300.jpg"
+   director: "Edward Zwick"
+   dateCreated: "21 Oct 2016"
 ---
 
 Jack Reacher: Never Go Back is the second entry in the Jack Reacher franchise. It is a utilitarian action adventure that doesn't have a lot to say. It's strongest when it focuses on the interpersonal conflicts of the protagonists and it has plenty of action, despite overall having a forgettable story.

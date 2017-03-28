@@ -7,7 +7,13 @@ rating: 80
 date:   2014-10-09 16:59:15
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/gone-girl-poster.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "Gone Girl"
+   sameAs: "http://www.imdb.com/title/tt2267998"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX300.jpg"
+   director: "David Fincher"
+   dateCreated: "03 Oct 2014"
 ---
 
 <img class="img-responsive" width="20%" style="float:left;margin:10px;" src="https://img.critical-truth.com/img/articles/gone-girl-poster.jpg">

@@ -4,7 +4,7 @@ title:  "The Dilemma of Passengers (2016)"
 blurb: "Passengers deserves a lot of credit for the questions it asks, even if the answers it gives aren't satisfactory."
 categories: [editorials, movies, Adventure, Drama, Sci-Fi]
 carousel: https://img.critical-truth.com/img/2016/12/passengers/passengers-cover.jpg
-author: "David Scott"
+author: dscott
 ---
 
 Passengers is a science fiction film that is straightforward in nature. The ethical questions the characters face are more interesting than the story. The plot reveals itself in a utilitarian fashion with few characters. Its core interest is in just a small number of their decisions. 

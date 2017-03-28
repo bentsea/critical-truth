@@ -7,7 +7,13 @@ rating: 65
 date:   2016-09-16 16:59:15
 categories: [reviews, movies, horror]
 carousel: https://img.critical-truth.com/img/articles/blair-witch/blair-witch-banner.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "Blair Witch"
+   sameAs: "http://www.imdb.com/title/tt1540011"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjI0NTEyMjA3NV5BMl5BanBnXkFtZTgwODk5OTU4OTE@._V1_SX300.jpg"
+   director: "Adam Wingard"
+   dateCreated: "16 Sep 2016"
 ---
 
 

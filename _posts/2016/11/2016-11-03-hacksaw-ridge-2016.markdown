@@ -7,7 +7,13 @@ rating: 89
 date:   2016-11-03 00:00:00
 categories: [reviews, movies, biography, drama, romance]
 carousel: https://img.critical-truth.com/img/articles/hacksaw-ridge-2016/weaving-transformed.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "Hacksaw Ridge"
+   sameAs: "http://www.imdb.com/title/tt2119532"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_SX300.jpg"
+   director: "Mel Gibson"
+   dateCreated: "04 Nov 2016"
 ---
 
 *Hacksaw Ridge* is both brutal and breathtaking. Mel Gibson has captured a miracle on film with downright outstanding performances. Only a few flaws prevent this film from being the best war movie I have ever seen.

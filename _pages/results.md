@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Search Results
+robots_index: False
 permalink: /results/
 ---
 

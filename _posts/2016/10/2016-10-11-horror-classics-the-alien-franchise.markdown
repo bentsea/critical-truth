@@ -5,7 +5,7 @@ blurb: "From isolating terror in the dark of space to frantic action, this franc
 date:   2016-10-10 16:00:00
 categories: [editorials, movies, horror]
 carousel: https://img.critical-truth.com/img/articles/alien-franchise/alien-cover.jpg
-author: "David Scott"
+author: dscott
 ---
 
 

@@ -1,20 +1,19 @@
 ---
 layout: post
 title:  "Review: Denial (2016)"
-screenplay: "David Hare"
-director: "Mike Jackson"
-release: "09/30/2016 (US)"
-genre: "Biography, Drama, History"
-staring: "Rachel Weisz, Tom Wilkinson, Timothy Spall"
-rating: "PG-13"
-durration: "1h 50m"
 blurb: "A compelling drama filled with charismatic acting and a surprising maturity."
 final-verdict: "Highly recommended, Denial entertains with thoughtful dialog and insightful story telling portrayed through excellent acting."
 rating: 81
 date:   2016-10-13 00:00:00
-categories: [reviews, movies]
+categories: [reviews, movies, Biography, Drama, History]
 carousel: https://img.critical-truth.com/img/articles/denial-2016/denial-cover.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "Denial"
+   sameAs: "http://www.imdb.com/title/tt4645330"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjMzODExNDEzMl5BMl5BanBnXkFtZTgwMDg3NjIyOTE@._V1_SX300.jpg"
+   director: "Mick Jackson"
+   dateCreated: "21 Oct 2016"
 ---
 
 Denial is a surprising film in that it uses the material as a vehicle to say something completely different from what you might imagine. The premise is fairly straightforward, Denial tells the story of David Irving vs Penguin Books, in which a Holocaust denier presses charges against Deborah Lipstadt for defamation of his character.

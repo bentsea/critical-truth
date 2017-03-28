@@ -5,7 +5,7 @@ blurb: "Why there has been never really been a good Superman movie, and wont eve
 date:   2016-09-02 16:59:15
 categories: [editorials, movies, comics]
 carousel: https://img.critical-truth.com/img/articles/superman-movies/nikolas.jpeg
-author: "David Scott"
+author: dscott
 ---
 
 <img class="img-responsive centered" width="100%" src="https://img.critical-truth.com/img/articles/superman-movies/super-banner.png" title="Will the real Superman please stand up?">

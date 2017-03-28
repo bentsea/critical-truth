@@ -5,7 +5,7 @@ blurb: "Isolation, paranoia, body horror, and Kurt Russell. A a recipe for a chi
 date:   2016-10-18 00:00:00
 categories: [editorials, movies, horror]
 carousel: https://img.critical-truth.com/img/articles/the-thing-1982/the-thing-1982-cover.jpg
-author: "David Scott"
+author: dscott
 ---
 
 

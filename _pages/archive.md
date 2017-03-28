@@ -1,7 +1,12 @@
 ---
 layout: default
 title: Archive
+permalink: /archive/
 order: 10
+robots_index: False
+paginate:
+  limit: false
+  per_page: 9
 ---
 
 <div class="home">
@@ -23,7 +28,7 @@ order: 10
                 <a href="{{ post.url }}">
                     <h4>{{ post.title }}</h4>
                 </a>
-                <p class="post-info"></span><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ site.url }}{{ post.url }}#comments">Comments <span class="badge"><fb:comments-count href="{{ site.url }}{{ post.url }}"></fb:comments-count></span></a><!--{% if post.rating %} | <i>{{ post.rating}}/100</i>{% endif %}--><br />
+                <p class="post-info"><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ site.url }}{{ post.url }}#comments">Comments <span class="badge"><fb:comments-count href="{{ site.url }}{{ post.url }}"></fb:comments-count></span></a><!--{% if post.rating %} | <i>{{ post.rating}}/100</i>{% endif %}--><br />
                 <!--{{post.content|strip_html|truncate:110}}-->{% if post.final-verdict %}{{ post.final-verdict }}{% else %}{{post.content|strip_html|truncate:110}}{% endif %}</p>
                 
                 <div class="bottom-right"><a class="btn btn-primary btn-xs" href="{{ post.url }}">Read More</a></div>

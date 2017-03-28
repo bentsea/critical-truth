@@ -15,20 +15,10 @@
 
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
           <ul class="nav navbar-nav">
-            {% assign i = 0 %}
-            {% assign sorted_pages = site.pages | sort:"order" %}
-            {% for node in sorted_pages %}
-              {% if node.title %}
-                {% if node.title == "Search Results" %}
-                {% elsif node.title != "Archive" %}
-                <li{% if page.url == node.url %} class="active"{% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}{% if page.url == node.url %}<span class="sr-only">(current)</span>{% endif %}</a></li>
-                {% elsif node.title == "Archive" and i == 0 %}
-                {% assign i = 1 %}
-                <li{% if page.title == node.title %} class="active"{% endif %}><a href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}{% if page.url == node.url %}<span class="sr-only">(current)</span>{% endif %}</a></li>
-                {% else %}
-                {% endif %}
-              {% endif %}
-            {% endfor %}
+            <li{% if page.order == 1 %} class="active"{% endif %}><a href="/reviews">Reviews{% if page.order == node.order %}<span class="sr-only">(current)</span>{% endif %}</a></li>
+            <li{% if page.order == 2 %} class="active"{% endif %}><a href="/editorials">Editorials{% if page.order == node.order %}<span class="sr-only">(current)</span>{% endif %}</a></li>
+            <li{% if page.order == 3 %} class="active"{% endif %}><a href="/about">About{% if page.order == node.order %}<span class="sr-only">(current)</span>{% endif %}</a></li>
+            <li{% if page.order == 10 %} class="active"{% endif %}><a href="/archive">Archive{% if page.order == node.order %}<span class="sr-only">(current)</span>{% endif %}</a></li>
           </ul>
           <div class="w-form form-wrapper">
             <form name="cse" id="searchbox" action="/results" method="get" class="navbar-form navbar-right" role="search">

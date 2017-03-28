@@ -7,7 +7,13 @@ rating: 85
 date:   2016-07-21 16:59:15
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/star-trek-beyond-poster.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "Star Trek Beyond"
+   sameAs: "http://www.imdb.com/title/tt2660888"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BODgzN2E1YjctODg5Yi00YzYwLWJjZjAtNDg2MGE2Y2MyYjBmXkEyXkFqcGdeQXVyNjM1MTQ0NTQ@._V1_SX300.jpg"
+   director: "Justin Lin"
+   dateCreated: "22 Jul 2016"
 ---
 
 <img class="img-responsive centered" width="100%" src="https://img.critical-truth.com/img/articles/star-trek-beyond-banner.jpg" title="Star Trek Beyond Promo Image">

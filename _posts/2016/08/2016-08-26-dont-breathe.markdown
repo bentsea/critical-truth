@@ -7,7 +7,13 @@ rating: 79
 date:   2016-08-26 16:59:15
 categories: [reviews, movies, horror]
 carousel: https://img.critical-truth.com/img/articles/dont-breathe/dont-breathe-meta.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "Don't Breathe"
+   sameAs: "http://www.imdb.com/title/tt4160708"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BZGI5ZTU2M2YtZWY4MC00ZDFhLTliYTItZTk1NjdlN2NkMzg2XkEyXkFqcGdeQXVyMjY5ODI4NDk@._V1_SX300.jpg"
+   director: "Fede Alvarez"
+   dateCreated: "26 Aug 2016"
 ---
 
 <img class="img-responsive centered" width="100%" src="https://img.critical-truth.com/img/articles/dont-breathe/dont-breathe-eyes.jpg" title="Don't Breathe / Stephen Lang's Eyes">

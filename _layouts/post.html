@@ -4,40 +4,53 @@ layout: default
 <div class="row">
   <div class="col-lg-8">
     <div class="post">
-
-      <header class="post-header">
-        <h1 class="post-title">{{ page.title }}</h1>
-        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-        <div class="social">
-        	<span class="google">
-        		<g:plusone size="medium"></g:plusone>
-        	</span>
-        	<span class="Facebook">
-        		<div class="fb-like" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-        	</span>
-          <span class="twitter">
-            <a class="twitter-share-button"  href="https://twitter.com/intent/tweet">Tweet</a>
+      {% if page.reviewInfo %}<span vocab="http://schema.org/" typeof="Review">{% else %}<span vocab="http://schema.org/" typeof="Article"><meta property="mainEntityOfPage" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">{% endif %}
+        <header class="post-header">
+          {% if page.reviewInfo %}<span property="itemReviewed" typeof="Movie">{% endif %}
+            <h1 class="post-title"><span property="name"><span property="headline">{{ page.title }}</span></span></h1>
+            {% if page.reviewInfo %}<meta property="sameAs" content="{{ page.reviewInfo.sameAs }}"><meta property="image" content="{{ page.reviewInfo.image }}"><meta property="dateCreated" content="{{ page.reviewInfo.dateCreated }}"><meta property="director" content="{{ page.reviewInfo.director }}">{% endif %}
+          {% if page.reviewInfo %}</span>{% endif %}
+          <meta property="description" content="{{ page.blurb }}"><meta property="image" content="{{ page.carousel }}">
+          <span property="publisher" typeof="Organization">
+            <meta property="name" content="Critical Truth"><meta property="logo" content="https://img.critical-truth.com/img/site-resource/logo.jpg">
           </span>
-          <span class="reddit">
-            <script type="text/javascript" src="//www.redditstatic.com/button/button1.js"></script>
+          <p class="post-meta"><span property="datePublished dateModified">{{ page.date | date: "%b %-d, %Y" }}</span>{% if page.author %}{% assign author = site.data.authors[page.author] %} • Author: <span property="author" typeof="Person"><a property="sameAs" href="{{ author.web }}"><span property="name">{{ author.name }}</span></a></span>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+          <div class="social">
+          	<span class="google">
+          		<g:plusone size="medium"></g:plusone>
+          	</span>
+          	<span class="Facebook">
+          		<div class="fb-like" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+          	</span>
+            <span class="twitter">
+              <a class="twitter-share-button"  href="https://twitter.com/intent/tweet">Tweet</a>
+            </span>
+            <span class="reddit">
+              <script type="text/javascript" src="//www.redditstatic.com/button/button1.js"></script>
+            </span>
+          </div>
+        </header>
+        <article class="post-content">
+          <span property="{% if page.reviewInfo %}reviewBody{% else %}articleBody{% endif %}">
+          {{ content }}
           </span>
-        </div>
-      </header>
-      <article class="post-content">
-        {{ content }}
-        {% if page.rating %}
-          <table class="table">
-            <tbody>
-              <tr>
-                <td><b>Final Verdict</b>:</td><td>{{ page.final-verdict }}</td>
-              </tr>
-              <tr>
-                <td><b>Rating</b>:</td><td>{{ page.rating }} / 100</td>
-              </tr>
-            </tbody>
-          </table>
-        {% endif %}
-      </article>
+          {% if page.rating %}
+          <span property="reviewRating" typeof="Rating">
+            <meta property="worstRating" content="0">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <td><b>Final Verdict</b>:</td><td>{{ page.final-verdict }}</td>
+                </tr>
+                <tr>
+                  <td><b>Rating</b>:</td><td><span property="ratingValue">{{ page.rating }}</span> / <span property="bestRating">100</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </span>
+          {% endif %}
+        </article>
+      </span>
       <div class="ssk-group ssk-count ssk-lg">
           <a href="" class="ssk ssk-facebook"></a>
           <a href="" class="ssk ssk-twitter"></a>
@@ -68,12 +81,12 @@ layout: default
       })();
       </script>-->
       <noscript>Please enable JavaScript to view the comments powered by Facebook.</noscript>
-
     </div>
   </div>
   <div class="col-lg-4">
     <div class="sidebar-nav">
       <!--googleoff: all-->
+      <!--noindex-->
     <h3>Related Articles</h3>
     {% for post in site.related_posts limit:7 %}
     {% if post.url != page.url %}
@@ -90,6 +103,7 @@ layout: default
     </article>
     {% endif %}
     {% endfor %}
+      <!--/noindex-->
       <!--googleon: all-->
     </div>
   </div>

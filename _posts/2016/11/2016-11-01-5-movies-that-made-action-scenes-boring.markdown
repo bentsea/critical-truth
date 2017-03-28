@@ -5,7 +5,7 @@ blurb: "How do you make a scene that is adrenaline filled by definition a total 
 date:   2016-11-01 00:00:00
 categories: [editorials, movies]
 carousel: https://img.critical-truth.com/img/articles/directors-who-made-action-films-boring/hobbit-desolation-of-tolkien.jpg
-author: "David Scott"
+author: dscott
 ---
 
 

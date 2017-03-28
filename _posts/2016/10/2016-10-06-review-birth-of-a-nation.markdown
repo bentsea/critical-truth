@@ -7,7 +7,13 @@ rating: 90
 date:   2016-10-06 00:00:00
 categories: [reviews, movies, drama]
 carousel: https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/birth-of-a-nation-cover.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "The Birth of a Nation"
+   sameAs: "http://www.imdb.com/title/tt4196450"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5MjI3NzQxMl5BMl5BanBnXkFtZTgwMTUwNjYyOTE@._V1_SX300.jpg"
+   director: "Nate Parker"
+   dateCreated: "07 Oct 2016"
 ---
 
 > **Note**: *The Birth of a Nation* contains depictions of graphic violence, brutality, and casual torture that are deeply affecting and profoundly upsetting. Sensitive viewers should use caution when viewing.

@@ -7,8 +7,14 @@ date: 2017-02-04
 rating: 75
 categories: [reviews, movies, Action, Adventure, Sci-Fi]
 carousel: https://img.critical-truth.com/img/2017/02/rogue-one-cover.jpg
-author: "David Scott"
+author: dscott
 published: True
+reviewInfo:
+   name: "Rogue One"
+   sameAs: "http://www.imdb.com/title/tt3748528"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_SX300.jpg"
+   director: "Gareth Edwards"
+   dateCreated: "16 Dec 2016"
 ---
 
 Rogue One is a pretty interesting movie, and I want to start by saying that I liked it. The reason I feel it's really important to start with that is that it's a flawed work and it's really easy to talk about what's wrong with it. But, I want to make it very clear that I felt the good outweighed the bad and I enjoyed it *thoroughly*. The story is fun sci fi cheese that has relatively normal people reaching for something that they believe in and making sacrifices for it. To me, that makes for an engaging story despite any flaws. The music is excellent, the action is fun, and I was attached to the characters.

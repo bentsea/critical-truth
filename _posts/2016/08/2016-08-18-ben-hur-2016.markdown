@@ -7,7 +7,13 @@ rating: 50
 date:   2016-08-18 16:59:15
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/ben-hur-2016/BenHur.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "In the Name of Ben Hur"
+   sameAs: "http://www.imdb.com/title/tt5582876"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMzU3NjczNjQtYzBjMy00YTAxLTg0NzctZmVmMDY0MGE3Nzc2XkEyXkFqcGdeQXVyMjA3MjE1MzM@._V1_SX300.jpg"
+   director: "Mark Atkins"
+   dateCreated: "11 Aug 2016"
 ---
 
 <img class="img-responsive" width="25%" style="float:right;margin-left:10px;" src="https://img.critical-truth.com/img/articles/ben-hur-2016/maxresdefault.jpg">

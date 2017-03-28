@@ -5,7 +5,7 @@ blurb: "A chilling exploration of the societal fears of an era, and maybe the mo
 date:   2016-10-04 16:00:00
 categories: [editorials, movies, horror]
 carousel: https://img.critical-truth.com/img/articles/return-of-the-living-dead/return-of-the-living-dead-cover.jpg
-author: "David Scott"
+author: dscott
 ---
 
 

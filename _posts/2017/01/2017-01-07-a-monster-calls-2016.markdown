@@ -6,8 +6,13 @@ final-verdict: "A layered exploration of loss that will find an audience who wil
 rating: 90
 categories: [reviews, movies, Drama, Fantasy]
 carousel: https://img.critical-truth.com/img/2017/01/monster-calls/monster-calls-cover.jpg
-author: "David Scott"
-published: True
+author: dscott
+reviewInfo:
+   name: "A Monster Calls"
+   sameAs: "http://www.imdb.com/title/tt3416532"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1OTA5OTkyNV5BMl5BanBnXkFtZTgwODMwNDU5OTE@._V1_SX300.jpg"
+   director: "J.A. Bayona"
+   dateCreated: "06 Jan 2017"
 ---
 
 I appreciate it when a movie finds a new facet of its subject matter, giving me something extra to consider. A Monster Calls does this with subtlety. The narrative and world building are the strongest elements. I also reveled in the stylized art during the fantasy sequences. The rest of the movie is just good enough to let those breathe, though there is some room to nitpick.

@@ -5,7 +5,7 @@ blurb: "Should you be ashamed if you liked the end of Inglourious Basterds?"
 date:   2016-09-27 16:59:15
 categories: [editorials, movies]
 carousel: https://img.critical-truth.com/img/articles/inglourious-basterds/inglourious-basterds-cover.jpg
-author: "David Scott"
+author: dscott
 ---
 
 <img class="img-responsive centered" width="100%" src="https://img.critical-truth.com/img/articles/inglourious-basterds/banner.jpg" title="Will the real Superman please stand up?">

@@ -7,7 +7,13 @@ rating: 55
 date:   2016-08-11 16:59:15
 categories: [reviews, movies, comedy]
 carousel: https://img.critical-truth.com/img/articles/sausage-party/Sausage-Party-poster.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "Sausage Party"
+   sameAs: "http://www.imdb.com/title/tt1700841"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjkxOTk1MzY4MF5BMl5BanBnXkFtZTgwODQzOTU5ODE@._V1_SX300.jpg"
+   director: "Greg Tiernan, Conrad Vernon"
+   dateCreated: "12 Aug 2016"
 ---
 
 <img class="img-responsive" width="40%" style="float:right;margin-left:10px;" src="https://img.critical-truth.com/img/articles/sausage-party/sausage_party.jpg">

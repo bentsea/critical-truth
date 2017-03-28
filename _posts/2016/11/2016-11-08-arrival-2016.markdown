@@ -7,7 +7,13 @@ rating: 92
 date:   2016-11-08 00:00:00
 categories: [reviews, movies, Drama, Mystery, Sci-Fi]
 carousel: https://img.critical-truth.com/img/2016/11/arrival-2016/arrival-cover.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "Arrival"
+   sameAs: "http://www.imdb.com/title/tt2543164"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SX300.jpg"
+   director: "Denis Villeneuve"
+   dateCreated: "11 Nov 2016"
 ---
 
 There is no shortage of movies attempting to divine what our first contact will be like. Classic examples include *2001: A Space Odyssey*, *The Day the Earth Stood Still*, and *War of the Worlds*. It is something we have been imagining since we first imagined we are not alone.

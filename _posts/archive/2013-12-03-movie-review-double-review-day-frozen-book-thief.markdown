@@ -5,7 +5,7 @@ blurb: "A must see double feature!"
 date:   2013-12-01 16:59:15
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/frozen-poster.jpg
-author: "David Scott"
+author: dscott
 ---
 
 I sit here tonight, eager to play more of Dishonored GOTYE, which I just started yesterday, but reluctant to do so without taking care of some overdue responsibilities. I've seen two movies in the past weeks and I feel that you should know about both of them. You know who you are. And if I don't write these reviews tonight, already at least a day late, who knows when I will ever write them.

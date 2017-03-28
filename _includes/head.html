@@ -2,6 +2,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+  
+  {% if page.robots_index == false %}
+  <meta name="robots" content="noindex">
+  {% endif %}
+  
 
   <!-- Favicon -->
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -40,4 +45,41 @@
   
   <!-- Social Sharing Icons -->
   <link rel="stylesheet" href="/css/social-share-kit.css" type="text/css">
+  
+  
+  {% if page.reviewInfo %}
+  {% assign author = site.data.authors[page.author] %}
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org/",
+      "@type": "Review",
+      "datePublished" : "{{ page.date }}",
+      "description" : "{{ page.blurb }}",
+      "itemReviewed": {
+        "@type": "Movie",
+        "name": "{{ page.reviewInfo.name }}",
+        "image": "{{ page.reviewInfo.image }}",
+        "sameAs": "{{ page.reviewInfo.sameAs }}",
+        "director":"{{ page.reviewInfo.director }}",
+        "dateCreated":"{{ page.reviewInfo.dateCreated }}"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "{{ author.name }}",
+        "sameAs":"{{ author.web }}"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "{{ page.rating }}",
+        "worstRating":"0",
+        "bestRating": "100"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "Critical Truth"
+      }
+    }
+  </script>
+  {% endif %}
 </head>

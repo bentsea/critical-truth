@@ -7,7 +7,13 @@ rating: 60
 date:   2016-10-27 00:00:00
 categories: [reviews, movies, drama]
 carousel: https://img.critical-truth.com/img/articles/american-pastoral/american-pastoral-cover.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "American Pastoral"
+   sameAs: "http://www.imdb.com/title/tt0376479"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjMyMDc3MzUxNl5BMl5BanBnXkFtZTgwOTQ0NjIzMDI@._V1_SX300.jpg"
+   director: "Ewan McGregor"
+   dateCreated: "21 Oct 2016"
 ---
 
 

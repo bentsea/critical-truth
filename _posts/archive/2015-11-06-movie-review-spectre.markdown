@@ -7,7 +7,13 @@ rating: 65
 date:   2015-11-06 16:59:15
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/spectre-poster.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "Spectre"
+   sameAs: "http://www.imdb.com/title/tt2379713"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM2Nzg4MzkwOF5BMl5BanBnXkFtZTgwNzA0OTE3NjE@._V1_SX300.jpg"
+   director: "Sam Mendes"
+   dateCreated: "06 Nov 2015"
 ---
 
 <img class="img-responsive" width="20%" style="float:left;margin:10px;" src="https://img.critical-truth.com/img/articles/spectre-poster.jpg">

@@ -17,19 +17,32 @@ highlighter: rouge
 encoding: utf-8
 permalink: /articles/:title/
 
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+      robots_index: True
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      robots_index: True
+      layout: post
+
+
 
 # Includes and Excludes
 include: [.htaccess,_pages]
-exclude: [ps.sh,getInfo.sh]
+exclude: [ps.sh,getInfo.sh,new_post.py]
 
 #Blank array for use in site.
 array: []
 
 #Gems
-gems: [jekyll-paginate]
+gems: [octopress-paginate]
 
-paginate: 9
-paginate_path: "/archive/page:num/"
+
 categories: [reviews, editorials, movies, books, games, comics, horror, comedy, drama]
 
 sass:

@@ -5,7 +5,7 @@ blurb: "The film that defined the modern zombie, and set the tone for a generati
 date:   2016-10-25 16:00:00
 categories: [editorials, movies, horror]
 carousel: https://img.critical-truth.com/img/articles/night-of-the-living-dead-1968/romeros-dead-girl.jpg
-author: "David Scott"
+author: dscott
 ---
 
 Though subdued when compared to later works of grotesque indulgence, the original Night of the Living Dead is tense and unrelenting. The key to savoring it is in buying into a rural mindset and suspending your disbelief in the situation. By limiting its scope and location, director George Romero manages to pull this off and create a lasting work that may still haunt viewers today.

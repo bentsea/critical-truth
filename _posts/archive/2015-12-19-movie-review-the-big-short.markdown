@@ -7,7 +7,13 @@ rating: 90
 date:   2015-12-19 16:59:15
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/The-Big-Short-2015-banner.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "The Big Short"
+   sameAs: "http://www.imdb.com/title/tt1596363"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BNDc4MThhN2EtZjMzNC00ZDJmLThiZTgtNThlY2UxZWMzNjdkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
+   director: "Adam McKay"
+   dateCreated: "23 Dec 2015"
 ---
 
 If all you want to know is whether or not a movie is worth watching, here it is: The Big Short is an astounding example of everything done right as all of the writing, dialog, acting, music, and directing fall together pefectly. It all results in a well paced film that will bring out every emotion in your body and leave you tired and worn out, and you must watch this film.

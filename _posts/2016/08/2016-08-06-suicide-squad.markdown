@@ -7,7 +7,13 @@ rating: 40
 date:   2016-08-06 16:59:15
 categories: [reviews, movies]
 carousel: https://img.critical-truth.com/img/articles/suicide-squad-poster.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "Suicide Squad"
+   sameAs: "http://www.imdb.com/title/tt1386697"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM1OTMxNzUyM15BMl5BanBnXkFtZTgwNjYzMTIzOTE@._V1_SX300.jpg"
+   director: "David Ayer"
+   dateCreated: "05 Aug 2016"
 ---
 
 <img class="img-responsive centered" width="100%" src="https://img.critical-truth.com/img/articles/suicide-squad-banner.jpg" title="Suicide Squad Promo Image">

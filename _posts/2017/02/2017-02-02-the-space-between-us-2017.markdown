@@ -7,7 +7,13 @@ rating: 50
 date: 2017-02-02
 categories: [reviews, movies, Adventure, Drama, Romance]
 carousel: https://img.critical-truth.com/img/2016/11/the-space-between-us-2016/space-between-us-cover.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "The Space Between Us"
+   sameAs: "http://www.imdb.com/title/tt3922818"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BNjYzODU1OTkwN15BMl5BanBnXkFtZTgwMDA3MTMwMDI@._V1_SX300.jpg"
+   director: "Peter Chelsom"
+   dateCreated: "03 Feb 2017"
 ---
 
 

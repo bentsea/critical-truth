@@ -7,7 +7,13 @@ rating: 60
 date:   2016-09-29 19:30:00
 categories: [reviews, movies, comedy]
 carousel: https://img.critical-truth.com/img/articles/masterminds-2016/masterminds-cover.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "Masterminds"
+   sameAs: "http://www.imdb.com/title/tt2461150"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzMTY5Mzg1Ml5BMl5BanBnXkFtZTgwNTUzODUwNjE@._V1_SX300.jpg"
+   director: "Jared Hess"
+   dateCreated: "30 Sep 2016"
 ---
 
 

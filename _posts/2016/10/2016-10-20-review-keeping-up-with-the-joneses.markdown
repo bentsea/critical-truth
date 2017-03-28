@@ -7,7 +7,13 @@ rating: 75
 date:   2016-10-20 00:00:00
 categories: [reviews, movies, comedy]
 carousel: https://img.critical-truth.com/img/articles/keeping-up-with-the-joneses-2016/joneses-cover.jpg
-author: "David Scott"
+author: dscott
+reviewInfo:
+   name: "Keeping Up with the Joneses"
+   sameAs: "http://www.imdb.com/title/tt2387499"
+   image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM0MjE4OTA2MF5BMl5BanBnXkFtZTgwMDMyNTMwMTI@._V1_SX300.jpg"
+   director: "Greg Mottola"
+   dateCreated: "21 Oct 2016"
 ---
 
 <img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/keeping-up-with-the-joneses-2016/joneses-banner.jpg">
