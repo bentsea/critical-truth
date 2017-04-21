@@ -40,7 +40,7 @@ exclude: [ps.sh,getInfo.sh,new_post.py]
 array: []
 
 #Gems
-gems: [octopress-paginate]
+#gems: [octopress-paginate]
 
 
 categories: [reviews, editorials, movies, books, games, comics, horror, comedy, drama]

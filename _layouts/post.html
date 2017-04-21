@@ -15,6 +15,9 @@ layout: default
             <meta property="name" content="Critical Truth"><meta property="logo" content="https://img.critical-truth.com/img/site-resource/logo.jpg">
           </span>
           <p class="post-meta"><span property="datePublished dateModified">{{ page.date | date: "%b %-d, %Y" }}</span>{% if page.author %}{% assign author = site.data.authors[page.author] %} • Author: <span property="author" typeof="Person"><a property="sameAs" href="{{ author.web }}"><span property="name">{{ author.name }}</span></a></span>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+          {% capture post_year %}{{ page.date | date: "%Y" }}{% endcapture %}{% assign post_year = post_year | plus:0 %}
+          {% if post_year > 2016 %}<img class="img-responsive webfeedsFeaturedVisual " width="100%" style="margin: 0 10px 10px 0px;" src="{{ page.carousel }}">{% endif %}
+          
           <div class="social">
           	<span class="google">
           		<g:plusone size="medium"></g:plusone>
@@ -32,7 +35,7 @@ layout: default
         </header>
         <article class="post-content">
           <span property="{% if page.reviewInfo %}reviewBody{% else %}articleBody{% endif %}">
-          {{ content }}
+            {{ content }}
           </span>
           {% if page.rating %}
           <span property="reviewRating" typeof="Rating">
