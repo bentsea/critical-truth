@@ -52,6 +52,17 @@ $on-desktop:       1024px;
         "syntax-highlighting"
 ;
 
+// Define imported font face
+
+@font-face {
+    font-family: 'chunkfiveroman';
+    src: url('/fonts/chunkfive-webfont.woff2') format('woff2'),
+         url('/fonts/chunkfive-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body {
 	padding-top: 70px;
 }
@@ -207,6 +218,13 @@ body {
     margin-left:auto;
     margin-right:auto;
 }
+
+
+.navbar-brand {
+    font-family: 'chunkfiveroman';
+    font-size: 40px;
+}
+
 .post-info {
     position: absolute;
     top:215px;

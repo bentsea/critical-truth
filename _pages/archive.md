@@ -2,7 +2,7 @@
 layout: default
 title: Archive
 permalink: /archive/
-order: 10
+order: 3
 robots_index: False
 paginate:
   limit: false
