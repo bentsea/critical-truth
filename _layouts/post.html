@@ -17,20 +17,7 @@ layout: default
           <p class="post-meta"><span property="datePublished dateModified">{{ page.date | date: "%b %-d, %Y" }}</span>{% if page.author %}{% assign author = site.data.authors[page.author] %} • Author: <span property="author" typeof="Person"><a property="sameAs" href="{{ author.web }}"><span property="name">{{ author.name }}</span></a></span>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
           {% capture post_year %}{{ page.date | date: "%Y" }}{% endcapture %}{% assign post_year = post_year | plus:0 %}{% if post_year > 2016 %}<img class="img-responsive webfeedsFeaturedVisual " width="100%" style="margin: 0 10px 10px 0px;" src="{{ page.carousel }}">{% endif %}
           
-          <div class="social">
-          	<span class="google">
-          		<g:plusone size="medium"></g:plusone>
-          	</span>
-          	<span class="Facebook">
-          		<div class="fb-like" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-          	</span>
-            <span class="twitter">
-              <a class="twitter-share-button"  href="https://twitter.com/intent/tweet">Tweet</a>
-            </span>
-            <span class="reddit">
-              <script type="text/javascript" src="//www.redditstatic.com/button/button1.js"></script>
-            </span>
-          </div>
+          {% include social-media.html %}
         </header>
         <article class="post-content">
           <span property="{% if page.reviewInfo %}reviewBody{% else %}articleBody{% endif %}">
@@ -51,62 +38,59 @@ layout: default
             </table>
           </span>
           {% endif %}
+          {% include ads.html %}
         </article>
       </span>
-      <div class="ssk-group ssk-count ssk-lg">
-          <a href="" class="ssk ssk-facebook"></a>
-          <a href="" class="ssk ssk-twitter"></a>
-          <a href="" class="ssk ssk-google-plus"></a>
-          <a href="" class="ssk ssk-pinterest"></a>
-          <span style="position:relative;top:20px;"><script type="text/javascript" src="//www.redditstatic.com/button/button3.js"></script></span>
-      </div>
+      {% include social-media.html %}
       <br>
       <hr class="clear">
       <h2 id="comments">Comments</h2>
       <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%"></div>
-      <!--<div id="disqus_thread"></div>
-      <script>
-      /**
-       *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-       *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables */
-
-      var disqus_config = function () {
-          this.page.url = "{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}";  // Replace PAGE_URL with your page's canonical URL variable
-          this.page.identifier = "{{ page.slug }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-      };
-
-      (function() { // DON'T EDIT BELOW THIS LINE
-          var d = document, s = d.createElement('script');
-          s.src = '//critical-truth.disqus.com/embed.js';
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-      })();
-      </script>-->
       <noscript>Please enable JavaScript to view the comments powered by Facebook.</noscript>
     </div>
   </div>
   <div class="col-lg-4">
     <div class="sidebar-nav">
+      <h3>Sponsors</h3>
+      {% include ads.html %}
       <!--googleoff: all-->
       <!--noindex-->
-    <h3>Related Articles</h3>
-    {% for post in site.related_posts limit:7 %}
-    {% if post.url != page.url %}
-    <article class="col-lg-12">
-        <a href="{{ post.url }}">
-            <figure class="blog-thumb">
-            <img src="{% if post.carousel %}{{ post.carousel }}{% else %}/img/carousel/fullimage1.jpg{% endif %}" alt="{{ post.description }}" {% if post.description %}title="{{ post.description }}"{% endif %}>
-            </figure>
-        </a>
-        <a href="{{ post.url }}">
-            <h4>{{ post.title }}</h4>
-        </a>
-        <span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ site.url }}{{ post.url }}#comments">Comments <span class="badge"><fb:comments-count href="{{ site.url }}{{ post.url }}"></fb:comments-count></span></a><br><br>
-    </article>
-    {% endif %}
-    {% endfor %}
-      <!--/noindex-->
-      <!--googleon: all-->
+      <h3>Related Articles</h3>
+      {% assign maxRelated = 6 %}
+      {% assign minCommonTags =  3 %}
+      {% assign recentPosts = site.posts | where_exp:"item","item.url != page.url" %}
+      
+      {% for post in recentPosts %}
+      
+          {% assign sameTagCount = 0 %}
+          {% assign commonTags = '' %}
+      
+          {% for category in post.categories %}
+            {% if page.categories contains category %}
+              {% assign sameTagCount = sameTagCount | plus: 1 %}
+              {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
+              {% assign commonTags = commonTags | append: tagmarkup %}
+            {% endif %}
+          {% endfor %}
+      
+          {% if sameTagCount >= minCommonTags %}
+            {% include related-post.html post=post %}
+            {% assign recentPosts = recentPosts | where_exp: "item","item != post" %}
+            {% assign maxRelated = maxRelated | minus: 1 %}
+            {% if maxRelated == 0 %}
+              {% break %}
+            {% endif %}
+          {% endif %}
+        {% endfor %}
+        {% assign maxRelated = maxRelated | plus: 1 %}
+        {% for post in recentPosts limit:maxRelated %}
+          {% include related-post.html post=post %}
+        {% endfor %}
+        <!--/noindex-->
+        <!--googleon: all-->
     </div>
   </div>
 </div>
+
+
+

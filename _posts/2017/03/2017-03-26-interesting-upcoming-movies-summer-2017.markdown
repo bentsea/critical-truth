@@ -1,7 +1,7 @@
 ---
 title: "Interesting Upcoming Movies Summer 2017"
 blurb: "Movies We're Still Excited for in 2017"
-categories: [editorials]
+categories: [editorials,trailers,previews]
 carousel: https://img.critical-truth.com/img/2017/03/upcoming-2017-cover.jpg
 author: dscott
 ---

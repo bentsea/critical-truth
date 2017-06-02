@@ -17,18 +17,20 @@
           <ul class="nav navbar-nav">
             <li{% if page.order == 1 %} class="active"{% endif %}><a href="/reviews">Reviews{% if page.order == node.order %}<span class="sr-only">(current)</span>{% endif %}</a></li>
             <li{% if page.order == 2 %} class="active"{% endif %}><a href="/editorials">Editorials{% if page.order == node.order %}<span class="sr-only">(current)</span>{% endif %}</a></li>
-            <li{% if page.order == 3 %} class="active"{% endif %}><a href="/about">About{% if page.order == node.order %}<span class="sr-only">(current)</span>{% endif %}</a></li>
-            <li{% if page.order == 10 %} class="active"{% endif %}><a href="/archive">Archive{% if page.order == node.order %}<span class="sr-only">(current)</span>{% endif %}</a></li>
+            <li{% if page.order == 3 %} class="active"{% endif %}><a href="/archive">Archive{% if page.order == node.order %}<span class="sr-only">(current)</span>{% endif %}</a></li>
+            <li{% if page.order == 10 %} class="active"{% endif %}><a href="/about">About{% if page.order == node.order %}<span class="sr-only">(current)</span>{% endif %}</a></li>
           </ul>
-          <div class="w-form form-wrapper">
-            <form name="cse" id="searchbox" action="/results" method="get" class="navbar-form navbar-right" role="search">
-              <input type="hidden" name="cx" value="012786251990353476482:umabi0aurfm " /><!-- Replace YOUR_CSEID with your CSE ID (!) -->
-              <input type="hidden" name="ie" value="utf-8" />
-              <input type="hidden" name="hl" value="en" />
-              <div class="form-group">
-                <input type="text" name="q" class="form-control" placeholder="Search">
+          <div class="w-form form-wrapper hidden-sm">
+            <form name="cse" action="/results" id="cse-search-box" class="navbar-form navbar-right" role="search">
+              <div>
+                <input type="hidden" name="cx" value="partner-pub-8475356019399300:2319328558" />
+                <input type="hidden" name="cof" value="FORID:10" />
+                <input type="hidden" name="ie" value="UTF-8" />
+                <div class="form-group">
+                  <input type="text" name="q" class="form-control" placeholder="Search">
+                </div>
+                <input class="btn btn-default" type="submit" name="sa" value="Search" />
               </div>
-              <button class="btn btn-default" value="Go" type="submit" name="sa" />Submit</button>
             </form>
           </div>
           <script>

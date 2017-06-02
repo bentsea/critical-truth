@@ -42,6 +42,22 @@ $on-desktop:       1024px;
     }
 }
 
+@media screen and (max-width: $on-palm) {
+    .navbar-brand {
+        font-family: 'chunkfiveroman';
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: $on-palm) {
+    .navbar-brand {
+        font-family: 'chunkfiveroman';
+        font-size: 40px;
+    }
+}
+
+
+
+
 
 
 
@@ -56,8 +72,8 @@ $on-desktop:       1024px;
 
 @font-face {
     font-family: 'chunkfiveroman';
-    src: url('/fonts/chunkfive-webfont.woff2') format('woff2'),
-         url('/fonts/chunkfive-webfont.woff') format('woff');
+    src: url('https://img.critical-truth.com/fonts/chunkfive-webfont.woff2') format('woff2'),
+         url('https://img.critical-truth.com/fonts/chunkfive-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -217,12 +233,6 @@ body {
     display:block;
     margin-left:auto;
     margin-right:auto;
-}
-
-
-.navbar-brand {
-    font-family: 'chunkfiveroman';
-    font-size: 40px;
 }
 
 .post-info {

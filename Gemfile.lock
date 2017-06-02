@@ -23,6 +23,7 @@ GEM
       sass (~> 3.4)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
+    json (2.1.0)
     kramdown (1.13.2)
     liquid (3.0.6)
     listen (3.0.8)
@@ -43,7 +44,7 @@ GEM
       ffi (>= 0.5.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
-    sass (3.4.23)
+    sass (3.4.24)
 
 PLATFORMS
   ruby
@@ -51,12 +52,13 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.4.3)
   jekyll-feed (~> 0.6)
+  json
   minima (~> 2.0)
   octopress-paginate
   tzinfo-data
 
 RUBY VERSION
-   ruby 2.1.2p95
+   ruby 2.0.0p648
 
 BUNDLED WITH
-   1.14.6
+   1.15.0

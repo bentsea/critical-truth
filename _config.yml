@@ -6,9 +6,13 @@ description: >
   thoughtful exploration of all forms of art and expression, especially reviews of movies,
   music, TV, and games!
 baseurl: "" # the subpath of your site, e.g. /blog/
+cdnurl: "https://img.critical-truth.com"
 url: "https://www.critical-truth.com" # the base hostname & protocol for your site
 twitter_username:
 github_username:  bentsea
+
+#App Properties
+fbappid: 969503389844347
 
 # Build settings
 markdown: kramdown
@@ -30,11 +34,13 @@ defaults:
       robots_index: True
       layout: post
 
+related:
+  max_count: 7
 
 
 # Includes and Excludes
 include: [.htaccess,_pages]
-exclude: [ps.sh,getInfo.sh,new_post.py]
+exclude: [ps.sh,getInfo.sh,new_post.py,Gemfile,Gemfile.lock]
 
 #Blank array for use in site.
 array: []
