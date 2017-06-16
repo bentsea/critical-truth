@@ -4,12 +4,12 @@ title:  "Life of Pi"
 blurb: "A tense ride through an incredible visual experience!"
 date:   2012-11-20 16:59:15
 rating: 80
-categories: [reviews, movies]
+categories: [review, movie]
 carousel: https://img.critical-truth.com/img/articles/life-of-pi-poster.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
    name: "Life of Pi"
-   sameAs: "http://www.imdb.com/title/tt0454876"
+   sameAs: "https://www.imdb.com/title/tt0454876"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BNTg2OTY2ODg5OF5BMl5BanBnXkFtZTcwODM5MTYxOA@@._V1_SX300.jpg"
    director: "Ang Lee"
    dateCreated: "21 Nov 2012"

@@ -2,15 +2,17 @@
 layout: post
 title:  "Jack Reacher: Never Go Back (2016)"
 blurb: "Never Go Back is a great example of how a film deeply rooted in formula can be well executed and enjoyable."
-final-verdict: "Formulaic and predictable, but still a fresh and exemplary entry into the action adventure genre."
-rating: 79
+reviewInfo:
+   final-verdict: "Formulaic and predictable, but still a fresh and exemplary entry into the action adventure genre."
+   rating: 79
 date:   2016-10-25 00:00:00
-categories: [reviews, movies, action, adventure, crime]
+categories: [review, movie, action, adventure, crime]
 carousel: https://img.critical-truth.com/img/articles/jack-reacher-never-go-back/never-go-back-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Jack Reacher: Never Go Back"
-   sameAs: "http://www.imdb.com/title/tt3393786"
+   sameAs: "https://www.imdb.com/title/tt3393786"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BODQ3ODQ3NDI4NV5BMl5BanBnXkFtZTgwMDY1Mzk5OTE@._V1_SX300.jpg"
    director: "Edward Zwick"
    dateCreated: "21 Oct 2016"

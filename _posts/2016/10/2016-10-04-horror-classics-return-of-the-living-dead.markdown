@@ -3,7 +3,7 @@ layout: post
 title:  "Horror Classics: The Return of the Living Dead"
 blurb: "A chilling exploration of the societal fears of an era, and maybe the most thoughtful zombie movie ever made!"
 date:   2016-10-04 16:00:00
-categories: [editorials, movies, horror]
+categories: [editorial, movie, Horror]
 carousel: https://img.critical-truth.com/img/articles/return-of-the-living-dead/return-of-the-living-dead-cover.jpg
 author: dscott
 ---

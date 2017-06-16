@@ -5,7 +5,7 @@ robots_index: False
 permalink: /reviews/
 paginate:
   collection: posts
-  category: 'reviews'
+  category: 'review'
   per_page: 9
 order: 1
 ---

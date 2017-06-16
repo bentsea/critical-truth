@@ -2,15 +2,17 @@
 layout: post
 title:  "Review: The Birth of a Nation (2016)"
 blurb: "A brutal, heartbreaking, and uncompromising depiction of man's inhumanity to man."
-final-verdict: "A challenging watch that will leave you so emotionally drained that you may miss its flaws."
-rating: 90
+reviewInfo:
+   final-verdict: "A challenging watch that will leave you so emotionally drained that you may miss its flaws."
+   rating: 90
 date:   2016-10-06 00:00:00
-categories: [reviews, movies, drama]
+categories: [review, movie, drama]
 carousel: https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/birth-of-a-nation-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "The Birth of a Nation"
-   sameAs: "http://www.imdb.com/title/tt4196450"
+   sameAs: "https://www.imdb.com/title/tt4196450"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTU5MjI3NzQxMl5BMl5BanBnXkFtZTgwMTUwNjYyOTE@._V1_SX300.jpg"
    director: "Nate Parker"
    dateCreated: "07 Oct 2016"

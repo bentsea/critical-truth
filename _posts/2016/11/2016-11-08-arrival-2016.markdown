@@ -2,15 +2,17 @@
 layout: post
 title:  "Arrival (2016)"
 blurb: "A beautiful and compelling science fiction narrative that perfectly uses the premise as a lens for human perspective."
-final-verdict: "Arrival is beautiful, moving, and alien, transcending the sci-fi genre and a must see film."
-rating: 92
+reviewInfo:
+   final-verdict: "Arrival is beautiful, moving, and alien, transcending the sci-fi genre and a must see film."
+   rating: 92
 date:   2016-11-08 00:00:00
-categories: [reviews, movies, Drama, Mystery, Sci-Fi]
+categories: [review, movie, Drama, Mystery, Science Fiction]
 carousel: https://img.critical-truth.com/img/2016/11/arrival-2016/arrival-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Arrival"
-   sameAs: "http://www.imdb.com/title/tt2543164"
+   sameAs: "https://www.imdb.com/title/tt2543164"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTExMzU0ODcxNDheQTJeQWpwZ15BbWU4MDE1OTI4MzAy._V1_SX300.jpg"
    director: "Denis Villeneuve"
    dateCreated: "11 Nov 2016"

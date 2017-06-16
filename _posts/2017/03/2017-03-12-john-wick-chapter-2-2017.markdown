@@ -1,14 +1,16 @@
 ---
 title: "John Wick: Chapter 2 (2017)"
 blurb: "As action packed and violent as the first in a way that doesn't feel as satisfying."
-final-verdict: "A fast paced thrill ride that is smarter than it needs to be."
-rating: 80
-categories: [reviews, movies, Action, Crime, Thriller]
+reviewInfo:
+   final-verdict: "A fast paced thrill ride that is smarter than it needs to be."
+   rating: 80
+categories: [review, movie, Action, Crime, Thriller]
 carousel: https://img.critical-truth.com/img/2017/03/john-wick-2-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "John Wick: Chapter 2"
-   sameAs: "http://www.imdb.com/title/tt4425200"
+   sameAs: "https://www.imdb.com/title/tt4425200"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjE2NDkxNTY2M15BMl5BanBnXkFtZTgwMDc2NzE0MTI@._V1_SX300.jpg"
    director: "Chad Stahelski"
    dateCreated: "10 Feb 2017"

@@ -1,14 +1,16 @@
 ---
 title: "Going in Style (2017)"
 blurb: "A remake that with a modern setting, that could have said something unique."
-final-verdict: "Good for a few laughs, but lacking the greater depth it teases."
-rating: 60
-categories: [reviews, movies, Comedy, Crime]
+reviewInfo:
+   final-verdict: "Good for a few laughs, but lacking the greater depth it teases."
+   rating: 60
+categories: [review, movie, Comedy, Crime]
 carousel: https://img.critical-truth.com/img/2017/04/going-in-style-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Going in Style"
-   sameAs: "http://www.imdb.com/title/tt2568862"
+   sameAs: "https://www.imdb.com/title/tt2568862"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTc5Mzg3NjI4OF5BMl5BanBnXkFtZTgwNzA3Mzg4MDI@._V1_SX300.jpg"
    director: "Zach Braff"
    dateCreated: "07 Apr 2017"

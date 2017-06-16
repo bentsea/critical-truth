@@ -3,12 +3,16 @@ title: "Guardians of the Galaxy Vol. 2 (2017)"
 blurb: "Does it live up to the expectations of the original?"
 final-verdict: "Another fantastic entry in the Marvel catalog that is arguably better than the original."
 rating: 80
-categories: [reviews, movies, Action, Adventure, Sci-Fi]
+categories: [review, movie, Action, Adventure, Science Fiction]
 carousel: https://img.critical-truth.com/img/2017/05/guardians-vol-2-cover.jpg
 author: dscott
 reviewInfo:
+   final-verdict: "Another fantastic entry in the Marvel catalog that is arguably better than the original."
+   rating: 80
+subjectInfo:
+   type: Movie
    name: "Guardians of the Galaxy Vol. 2"
-   sameAs: "http://www.imdb.com/title/tt3896198"
+   sameAs: "https://www.imdb.com/title/tt3896198"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg2MzI1MTg3OF5BMl5BanBnXkFtZTgwNTU3NDA2MTI@._V1_SX300.jpg"
    director: "James Gunn"
    dateCreated: "05 May 2017"

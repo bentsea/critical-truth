@@ -1,14 +1,16 @@
 ---
 title: "King Arthur: Legend of the Sword (2017)"
 blurb: "Why do people keep retelling the story of King Arthur?"
-final-verdict: "A complete mess that is neither worth your time or money."
-rating: 30
-categories: [reviews, movies, Action, Adventure, Drama]
+reviewInfo:
+   final-verdict: "A complete mess that is neither worth your time or money."
+   rating: 30
+categories: [review, movie, Action, Adventure, Drama]
 carousel: https://img.critical-truth.com/img/2017/04/legend-of-the-sword-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "King Arthur: Legend of the Sword"
-   sameAs: "http://www.imdb.com/title/tt1972591"
+   sameAs: "https://www.imdb.com/title/tt1972591"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM3ODY3Njc5Ml5BMl5BanBnXkFtZTgwMjQ5NjM5MTI@._V1_SX300.jpg"
    director: "Guy Ritchie"
    dateCreated: "12 May 2017"

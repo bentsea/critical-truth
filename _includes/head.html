@@ -33,13 +33,13 @@
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:image" content="{% if page.carousel %}{{ page.carousel }}{% else %}https://img.critical-truth.com/carousel/fullimage1.jpg{% endif %}">
-  <meta property="og:description" content="{% if page.url == '/' %}{{ site.description }}{% elsif page.blurb %}{{ page.blurb }}{% elsif paginator %}Archive of reviews for Critical-Truth, page {{ paginator.page }} of {{ paginator.total_pages }}.{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}" />
+  <meta property="og:description" content="{% if page.url == '/' %}{{ site.description }}{% elsif page.blurb %}{{ page.categories[1] | capitalize }} {{ page.categories[0] | capitalize }}: {{ page.blurb }}{% elsif paginator %}Archive of reviews for Critical-Truth, page {{ paginator.page }} of {{ paginator.total_pages }}.{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}" />
   <meta property="fb:app_id" content="{{ site.fbappid }}"/>
   
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
-  <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.cdnurl }}">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="{{ "/css/bootstrap-theme.min.css" | prepend: site.cdnurl }}">
   <link rel="stylesheet" href="{{ "/css/owl.carousel.css" | prepend: site.cdnurl }}">
   <link rel="stylesheet" href="{{ "/css/owl.transitions.css" | prepend: site.cdnurl }}">
@@ -48,43 +48,59 @@
   
   <!-- Social Sharing Icons -->
   <link rel="stylesheet" href="{{ "/css/social-share-kit.css" | prepend: site.cdnurl }}" type="text/css">
-  
-  
-  {% if page.reviewInfo %}
+
   {% assign author = site.data.authors[page.author] %}
   <!-- Structured Data -->
   <script type="application/ld+json">
     {
-      "@context": "http://schema.org/",
-      "@type": "Review",
+      "@context": "https://schema.org/",
+      "@type": {% if page.reviewInfo %}"Review"{% else %}"Article"{% endif %},
       "datePublished" : "{{ page.date }}",
-      "description" : "{{ page.blurb }}",
-      "itemReviewed": {
-        "@type": "Movie",
-        "name": "{{ page.reviewInfo.name }}",
-        "image": "{{ page.reviewInfo.image }}",
-        "sameAs": "{{ page.reviewInfo.sameAs }}",
-        "director":"{{ page.reviewInfo.director }}",
-        "dateCreated":"{{ page.reviewInfo.dateCreated }}"
+      "dateModified" : "{{ page.date }}",
+      "headline":"{{ page.title }}",
+      "description" : "{{ page.categories[1] | capitalize }} {{ page.categories[0] | capitalize }}: {{ page.blurb }}",
+      "image":{
+        "@type":"imageObject",
+        "url":"{{ page.carousel }}",
+        "width":"800",
+        "height":"450"
       },
+      {% if page.reviewInfo %}"reviewBody"{% else %}"articleBody"{% endif %}:"{{ page.content | strip_html }}",
+      {% if page.subjectInfo %}{% if page.reviewInfo %}"itemReviewed"{% else %}"about"{% endif %}: {
+        "@type": "{{ page.subjectInfo.type }}",
+        "name": "{{ page.subjectInfo.name }}",
+        {% if page.subjectInfo.image %}"image": "{{ page.subjectInfo.image }}",{% endif %}
+        {% if page.subjectInfo.sameAs %}"sameAs": "{{ page.subjectInfo.sameAs }}",{% endif %}
+        {% if page.subjectInfo.director %}"director":"{{ page.subjectInfo.director }}",{% endif %}
+        {% if page.subjectInfo.operatingSystem %}"operatingSystem":"{{ page.subjectInfo.operatingSystem }}",{% endif %}
+        {% if page.subjectInfo.applicationCategory %}"applicationCategory":"{{ page.subjectInfo.applicationCategory }}",{% endif %}
+        "dateCreated":"{{ page.subjectInfo.dateCreated }}"
+      },{% endif %}
       "author": {
         "@type": "Person",
         "name": "{{ author.name }}",
         "sameAs":"{{ author.web }}"
       },
-      "reviewRating": {
+      {% if page.reviewInfo %}"reviewRating": {
         "@type": "Rating",
-        "ratingValue": "{{ page.rating }}",
+        "ratingValue": "{{ page.reviewInfo.rating }}",
         "worstRating":"0",
         "bestRating": "100"
-      },
+      },{% endif %}
       "publisher": {
         "@type": "Organization",
-        "name": "Critical Truth"
+        "name": "Critical Truth",
+        "logo":{
+          "@type":"imageObject",
+          "url":"https://img.critical-truth.com/img/site-resource/logo.png"
+        }
+      },
+      "mainEntityOfPage":{
+        "@type":"WebPage",
+        "@id":"{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}"
       }
     }
   </script>
-  {% endif %}
   
   <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>

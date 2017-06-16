@@ -1,7 +1,7 @@
 ---
 title: " 10 More Interesting Movies (2017)"
 blurb: "Another list of movies we're looking out for in the near future."
-categories: [editorials,trailers,previews]
+categories: [editorial, movie, trailer, preview, Horror, Action, Science Fiction, Comedy, Drama]
 carousel: https://img.critical-truth.com/img/2017/04/interesting-movies-cover.jpg
 author: dscott
 ---

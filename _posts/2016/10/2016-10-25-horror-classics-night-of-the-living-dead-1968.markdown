@@ -3,7 +3,7 @@ layout: post
 title:  "Horror Classics: Night of the Living Dead (1968)"
 blurb: "The film that defined the modern zombie, and set the tone for a generation of horror films."
 date:   2016-10-25 16:00:00
-categories: [editorials, movies, horror]
+categories: [editorial, movie, Horror]
 carousel: https://img.critical-truth.com/img/articles/night-of-the-living-dead-1968/romeros-dead-girl.jpg
 author: dscott
 ---

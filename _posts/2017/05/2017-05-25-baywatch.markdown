@@ -1,14 +1,15 @@
 ---
 title: "Baywatch (2017)"
 blurb: "Can Dwayne Johnson make this resurrected 90's drama worth watching?"
-final-verdict: "Not worth your time, and definitely not worth your money."
-rating: 40
-categories: [reviews, movies, Action,Comedy]
+reviewInfo:
+   final-verdict: "Not worth your time, and definitely not worth your money."
+   rating: 40
+categories: [review, movie, Action,Comedy]
 carousel: https://img.critical-truth.com/img/2017/05/baywatch-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
    name: "Baywatch"
-   sameAs: "http://www.imdb.com/title/tt1469304"
+   sameAs: "https://www.imdb.com/title/tt1469304"
    image: "https://image.tmdb.org/t/p/original/rxQynWvwl41VbJGb0FEyYtuRwS2.jpg"
    director: "Seth Gordon"
    dateCreated: "2017-05-12"

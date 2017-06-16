@@ -2,15 +2,17 @@
 layout: post
 title:  "American Pastoral (2016)"
 blurb: "Good enough for serious drama fans, but a stilted and unpleasant slog for most."
-final-verdict: "Wooden dialog and disinterested actors weaken a competent drama that is too grim and unpleasant for most."
-rating: 60
+reviewInfo:
+   final-verdict: "Wooden dialog and disinterested actors weaken a competent drama that is too grim and unpleasant for most."
+   rating: 60
 date:   2016-10-27 00:00:00
-categories: [reviews, movies, drama]
+categories: [review, movie, drama]
 carousel: https://img.critical-truth.com/img/articles/american-pastoral/american-pastoral-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "American Pastoral"
-   sameAs: "http://www.imdb.com/title/tt0376479"
+   sameAs: "https://www.imdb.com/title/tt0376479"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjMyMDc3MzUxNl5BMl5BanBnXkFtZTgwOTQ0NjIzMDI@._V1_SX300.jpg"
    director: "Ewan McGregor"
    dateCreated: "21 Oct 2016"

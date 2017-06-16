@@ -4,43 +4,28 @@ layout: default
 <div class="row">
   <div class="col-lg-8">
     <div class="post">
-      {% if page.reviewInfo %}<span vocab="http://schema.org/" typeof="Review">{% else %}<span vocab="http://schema.org/" typeof="Article"><meta property="mainEntityOfPage" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">{% endif %}
-        <header class="post-header">
-          {% if page.reviewInfo %}<span property="itemReviewed" typeof="Movie">{% endif %}
-            <h1 class="post-title"><span property="name"><span property="headline">{{ page.title }}</span></span></h1>
-            {% if page.reviewInfo %}<meta property="sameAs" content="{{ page.reviewInfo.sameAs }}"><meta property="image" content="{{ page.reviewInfo.image }}"><meta property="dateCreated" content="{{ page.reviewInfo.dateCreated }}"><meta property="director" content="{{ page.reviewInfo.director }}">{% endif %}
-          {% if page.reviewInfo %}</span>{% endif %}
-          <meta property="description" content="{{ page.blurb }}"><meta property="image" content="{{ page.carousel }}">
-          <span property="publisher" typeof="Organization">
-            <meta property="name" content="Critical Truth"><meta property="logo" content="https://img.critical-truth.com/img/site-resource/logo.jpg">
-          </span>
-          <p class="post-meta"><span property="datePublished dateModified">{{ page.date | date: "%b %-d, %Y" }}</span>{% if page.author %}{% assign author = site.data.authors[page.author] %} • Author: <span property="author" typeof="Person"><a property="sameAs" href="{{ author.web }}"><span property="name">{{ author.name }}</span></a></span>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-          {% capture post_year %}{{ page.date | date: "%Y" }}{% endcapture %}{% assign post_year = post_year | plus:0 %}{% if post_year > 2016 %}<img class="img-responsive webfeedsFeaturedVisual " width="100%" style="margin: 0 10px 10px 0px;" src="{{ page.carousel }}">{% endif %}
-          
-          {% include social-media.html %}
-        </header>
-        <article class="post-content">
-          <span property="{% if page.reviewInfo %}reviewBody{% else %}articleBody{% endif %}">
-            {{ content }}
-          </span>
-          {% if page.rating %}
-          <span property="reviewRating" typeof="Rating">
-            <meta property="worstRating" content="0">
-            <table class="table">
-              <tbody>
-                <tr>
-                  <td><b>Final Verdict</b>:</td><td>{{ page.final-verdict }}</td>
-                </tr>
-                <tr>
-                  <td><b>Rating</b>:</td><td><span property="ratingValue">{{ page.rating }}</span> / <span property="bestRating">100</span></td>
-                </tr>
-              </tbody>
-            </table>
-          </span>
-          {% endif %}
-          {% include ads.html %}
-        </article>
-      </span>
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        <p class="post-meta">{% if page.categories %}{{ page.categories[1] | capitalize }} {{ page.categories | first | capitalize }} • {% endif %}{{ page.date | date: "%b %-d, %Y" }}{% if page.author %}{% assign author = site.data.authors[page.author] %} • Author: <a href="{{ author.web }}">{{ author.name }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+        {% capture post_year %}{{ page.date | date: "%Y" }}{% endcapture %}{% assign post_year = post_year | plus:0 %}{% if post_year > 2016 %}<img class="img-responsive webfeedsFeaturedVisual " width="100%" style="margin: 0 10px 10px 0px;" src="{{ page.carousel }}">{% endif %}
+        {% include social-media.html %}
+      </header>
+      <article class="post-content">
+        {{ content }}
+        {% if page.reviewInfo.rating %}
+        <table class="table">
+          <tbody>
+            <tr>
+              <td><b>Final Verdict</b>:</td><td>{{ page.reviewInfo.final-verdict }}</td>
+            </tr>
+            <tr>
+              <td><b>Rating</b>:</td><td>{{ page.reviewInfo.rating }} / 100</td>
+            </tr>
+          </tbody>
+        </table>
+        {% endif %}
+        {% include ads.html %}
+      </article>
       {% include social-media.html %}
       <br>
       <hr class="clear">
@@ -56,12 +41,20 @@ layout: default
       <!--googleoff: all-->
       <!--noindex-->
       <h3>Related Articles</h3>
-      {% assign maxRelated = 6 %}
-      {% assign minCommonTags =  3 %}
+      {% assign totalPosts = site.related.max_count %}
+      {% assign minRecent = 1 %}
+      {% assign minCommonTags = 3 %}
+      
+      
+      
+      {% assign maxCommonTags = page.categories | size %}
       {% assign recentPosts = site.posts | where_exp:"item","item.url != page.url" %}
+      {% assign maxRelated = totalPosts | minus: minRecent %}
       
-      {% for post in recentPosts %}
       
+      {% for counter in page.categories %}
+        {% for post in recentPosts %}
+        
           {% assign sameTagCount = 0 %}
           {% assign commonTags = '' %}
       
@@ -72,22 +65,39 @@ layout: default
               {% assign commonTags = commonTags | append: tagmarkup %}
             {% endif %}
           {% endfor %}
+          
       
-          {% if sameTagCount >= minCommonTags %}
+          {% if sameTagCount >= maxCommonTags %}
             {% include related-post.html post=post %}
             {% assign recentPosts = recentPosts | where_exp: "item","item != post" %}
+          
             {% assign maxRelated = maxRelated | minus: 1 %}
             {% if maxRelated == 0 %}
               {% break %}
             {% endif %}
+            
           {% endif %}
+          
         {% endfor %}
-        {% assign maxRelated = maxRelated | plus: 1 %}
-        {% for post in recentPosts limit:maxRelated %}
-          {% include related-post.html post=post %}
-        {% endfor %}
-        <!--/noindex-->
-        <!--googleon: all-->
+        
+        {% if maxRelated == 0 %}
+          {% break %}
+        {% endif %}
+        
+        {% assign maxCommonTags = maxCommonTags | minus: 1 %}
+        
+        {% if maxCommonTags < minCommonTags %}
+          {% break %}
+        {% endif %}
+        
+      {% endfor %}
+      
+      {% assign maxRelated = maxRelated | plus: minRecent %}
+      {% for post in recentPosts limit:maxRelated %}
+        {% include related-post.html post=post %}
+      {% endfor %}
+      <!--/noindex-->
+      <!--googleon: all-->
     </div>
   </div>
 </div>

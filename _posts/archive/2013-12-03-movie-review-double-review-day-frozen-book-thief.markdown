@@ -3,7 +3,7 @@ layout: post
 title:  "Double Review Day: Frozen Book Thief"
 blurb: "A must see double feature!"
 date:   2013-12-01 16:59:15
-categories: [reviews, movies]
+categories: [review, movie]
 carousel: https://img.critical-truth.com/img/articles/frozen-poster.jpg
 author: dscott
 ---

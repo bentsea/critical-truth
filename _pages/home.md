@@ -25,7 +25,7 @@ permalink: /
 
   <!--
   {% assign this_years_posts = site.array %}
-  {% for post in site.categories.reviews %}
+  {% for post in site.categories.review %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
     {% if this_year == '2016' %}
       {% assign this_years_posts = this_years_posts | push: post %}

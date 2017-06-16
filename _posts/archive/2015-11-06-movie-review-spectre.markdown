@@ -5,12 +5,12 @@ blurb: "A middling bond movie that poorly resolves questions no one asked."
 final-verdict: "A middling bond movie that poorly resolves questions no one asked."
 rating: 65
 date:   2015-11-06 16:59:15
-categories: [reviews, movies]
+categories: [review, movie]
 carousel: https://img.critical-truth.com/img/articles/spectre-poster.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
    name: "Spectre"
-   sameAs: "http://www.imdb.com/title/tt2379713"
+   sameAs: "https://www.imdb.com/title/tt2379713"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM2Nzg4MzkwOF5BMl5BanBnXkFtZTgwNzA0OTE3NjE@._V1_SX300.jpg"
    director: "Sam Mendes"
    dateCreated: "06 Nov 2015"

@@ -1,10 +1,12 @@
 ---
 title: "Interesting Upcoming Movies Summer 2017"
 blurb: "Movies We're Still Excited for in 2017"
-categories: [editorials,trailers,previews]
+categories: [editorial, movie, trailer, preview, Horror, Action, Science Fiction, Comedy, Drama]
+date: 2017-03-26 16:59:15
 carousel: https://img.critical-truth.com/img/2017/03/upcoming-2017-cover.jpg
 author: dscott
 ---
+
 
 
 This is a list of upcoming movies in 2017 that we're excited about. Bear in mind that we have not seen these movies. Though these movies look interesting, it is very possible that they may be bad. Some of these have a high risk factor, so please do not take this list as an endorsement for these films. That said, these are the movies we are watching closely for in the upcoming months.

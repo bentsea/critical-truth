@@ -3,7 +3,7 @@ layout: post
 title:  "5 Movies that Made Action Scenes Boring"
 blurb: "How do you make a scene that is adrenaline filled by definition a total snooze fest?"
 date:   2016-11-01 00:00:00
-categories: [editorials, movies]
+categories: [editorial, movie]
 carousel: https://img.critical-truth.com/img/articles/directors-who-made-action-films-boring/hobbit-desolation-of-tolkien.jpg
 author: dscott
 ---

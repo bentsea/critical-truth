@@ -2,15 +2,17 @@
 layout: post
 title:  "Hacksaw Ridge (2016)"
 blurb: "An achievement that is breathtaking and brutal. One of the best war movies of all time."
-final-verdict: "An achievement that is breathtaking and brutal. One of the best war movies of all time."
-rating: 89
+reviewInfo:
+   final-verdict: "An achievement that is breathtaking and brutal. One of the best war movies of all time."
+   rating: 89
 date:   2016-11-03 00:00:00
-categories: [reviews, movies, biography, drama, romance]
+categories: [review, movie, biography, drama, romance]
 carousel: https://img.critical-truth.com/img/articles/hacksaw-ridge-2016/weaving-transformed.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Hacksaw Ridge"
-   sameAs: "http://www.imdb.com/title/tt2119532"
+   sameAs: "https://www.imdb.com/title/tt2119532"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjQ1NjM3MTUxNV5BMl5BanBnXkFtZTgwMDc5MTY5OTE@._V1_SX300.jpg"
    director: "Mel Gibson"
    dateCreated: "04 Nov 2016"

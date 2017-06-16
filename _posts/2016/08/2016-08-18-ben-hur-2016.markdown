@@ -2,15 +2,17 @@
 layout: post
 title:  "Review: Ben Derp (2016)"
 blurb: "A largely mediocre movie sprinkled with both excellent and awful moments."
-final-verdict: "Don't bother going out of your way to see it, but it's watchable and even has a few really good moments."
-rating: 50
+reviewInfo:
+   final-verdict: "Don't bother going out of your way to see it, but it's watchable and even has a few really good moments."
+   rating: 50
 date:   2016-08-18 16:59:15
-categories: [reviews, movies]
+categories: [review, movie]
 carousel: https://img.critical-truth.com/img/articles/ben-hur-2016/BenHur.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "In the Name of Ben Hur"
-   sameAs: "http://www.imdb.com/title/tt5582876"
+   sameAs: "https://www.imdb.com/title/tt5582876"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMzU3NjczNjQtYzBjMy00YTAxLTg0NzctZmVmMDY0MGE3Nzc2XkEyXkFqcGdeQXVyMjA3MjE1MzM@._V1_SX300.jpg"
    director: "Mark Atkins"
    dateCreated: "11 Aug 2016"

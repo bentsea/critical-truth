@@ -2,15 +2,17 @@
 layout: post
 title:  "Review: Masterminds (2016)"
 blurb: "Odd, often funny, and perfectly typical of the work of Galifianakis."
-final-verdict: "Fans of Galifianakis will find a lot to love, others will likely be bored and a little grossed out."
-rating: 60
+reviewInfo:
+   final-verdict: "Fans of Galifianakis will find a lot to love, others will likely be bored and a little grossed out."
+   rating: 60
 date:   2016-09-29 19:30:00
-categories: [reviews, movies, comedy]
+categories: [review, movie, comedy]
 carousel: https://img.critical-truth.com/img/articles/masterminds-2016/masterminds-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Masterminds"
-   sameAs: "http://www.imdb.com/title/tt2461150"
+   sameAs: "https://www.imdb.com/title/tt2461150"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTYzMTY5Mzg1Ml5BMl5BanBnXkFtZTgwNTUzODUwNjE@._V1_SX300.jpg"
    director: "Jared Hess"
    dateCreated: "30 Sep 2016"

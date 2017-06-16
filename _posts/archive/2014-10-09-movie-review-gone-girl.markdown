@@ -5,12 +5,12 @@ blurb: "A chilling thriller loaded with surprises! A must see for suspense fans.
 final-verdict: "An incredibly intense thriller, and an absolute must see."
 rating: 80
 date:   2014-10-09 16:59:15
-categories: [reviews, movies]
+categories: [review, movie]
 carousel: https://img.critical-truth.com/img/articles/gone-girl-poster.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
    name: "Gone Girl"
-   sameAs: "http://www.imdb.com/title/tt2267998"
+   sameAs: "https://www.imdb.com/title/tt2267998"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk0MDQ3MzAzOV5BMl5BanBnXkFtZTgwNzU1NzE3MjE@._V1_SX300.jpg"
    director: "David Fincher"
    dateCreated: "03 Oct 2014"

@@ -2,15 +2,17 @@
 layout: post
 title:  "Review: Keeping Up With the Joneses (2016)"
 blurb: "A well rounded cast, each bringing the best of what they do to an otherwise generic plot."
-final-verdict: "An excellent summer comedy. Funny and enjoyable, if somewhat forgettable."
-rating: 75
+reviewInfo:
+   final-verdict: "An excellent summer comedy. Funny and enjoyable, if somewhat forgettable."
+   rating: 75
 date:   2016-10-20 00:00:00
-categories: [reviews, movies, comedy]
+categories: [review, movie, comedy]
 carousel: https://img.critical-truth.com/img/articles/keeping-up-with-the-joneses-2016/joneses-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Keeping Up with the Joneses"
-   sameAs: "http://www.imdb.com/title/tt2387499"
+   sameAs: "https://www.imdb.com/title/tt2387499"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM0MjE4OTA2MF5BMl5BanBnXkFtZTgwMDMyNTMwMTI@._V1_SX300.jpg"
    director: "Greg Mottola"
    dateCreated: "21 Oct 2016"

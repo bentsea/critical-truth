@@ -2,15 +2,17 @@
 layout: post
 title:  "Star Trek: Beyond"
 blurb: "Justin Lin delivers the best of the new movies that better captures the feel of Star Trek!"
-final-verdict: "The best of the rebooted franchise, and a must watch for all sci-fi fans that satisfies in a way the series has been lacking."
-rating: 85
+reviewInfo:
+   final-verdict: "The best of the rebooted franchise, and a must watch for all sci-fi fans that satisfies in a way the series has been lacking."
+   rating: 85
 date:   2016-07-21 16:59:15
-categories: [reviews, movies]
+categories: [review, movie]
 carousel: https://img.critical-truth.com/img/articles/star-trek-beyond-poster.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Star Trek Beyond"
-   sameAs: "http://www.imdb.com/title/tt2660888"
+   sameAs: "https://www.imdb.com/title/tt2660888"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BODgzN2E1YjctODg5Yi00YzYwLWJjZjAtNDg2MGE2Y2MyYjBmXkEyXkFqcGdeQXVyNjM1MTQ0NTQ@._V1_SX300.jpg"
    director: "Justin Lin"
    dateCreated: "22 Jul 2016"

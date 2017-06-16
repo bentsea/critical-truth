@@ -3,7 +3,7 @@ layout: post
 title:  "Horror Classics: The Alien Franchise"
 blurb: "From isolating terror in the dark of space to frantic action, this franchise has entries that appeal to a variety of viewers."
 date:   2016-10-10 16:00:00
-categories: [editorials, movies, horror]
+categories: [editorial, movie, Horror, Action, Science Fiction, Thriller]
 carousel: https://img.critical-truth.com/img/articles/alien-franchise/alien-cover.jpg
 author: dscott
 ---

@@ -1,14 +1,16 @@
 ---
 title: "Kong: Skull Island (2017)"
 blurb: "More than a pure action flick, and an overall satisfying action experience."
-final-verdict: "Skull Island has fantastic action, great acting, music, and even has a few things to say. Go see it."
-rating: 87
-categories: [reviews, movies, Action, Adventure, Fantasy]
+reviewInfo:
+   final-verdict: "Skull Island has fantastic action, great acting, music, and even has a few things to say. Go see it."
+   rating: 87
+categories: [review, movie, Action, Adventure, Fantasy, Science Fiction]
 carousel: https://img.critical-truth.com/img/2017/03/kong-skull-island-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Kong: Skull Island"
-   sameAs: "http://www.imdb.com/title/tt3731562"
+   sameAs: "https://www.imdb.com/title/tt3731562"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUwMzI5ODEwNF5BMl5BanBnXkFtZTgwNjAzNjI2MDI@._V1_SX300.jpg"
    director: "Jordan Vogt-Roberts"
    dateCreated: "10 Mar 2017"

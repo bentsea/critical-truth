@@ -1,14 +1,16 @@
 ---
 title: "Alien: Covenant (2017)"
 blurb: "What did we get as a sequel to Prometheus?"
-final-verdict: "Alien: Covenant is one of the best films in the franchise and a must watch horror."
-rating: 85
-categories: [reviews, movies, Sci-Fi, Thriller]
+reviewInfo:
+   final-verdict: "Alien: Covenant is one of the best films in the franchise and a must watch horror."
+   rating: 85
+categories: [review, movie, Science Fiction,Thriller,Horror]
 carousel: https://img.critical-truth.com/img/2017/05/alien-covenant-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Alien: Covenant"
-   sameAs: "http://www.imdb.com/title/tt2316204"
+   sameAs: "https://www.imdb.com/title/tt2316204"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BNzI5MzM3MzkxNF5BMl5BanBnXkFtZTgwOTkyMjI4MTI@._V1_SX300.jpg"
    director: "Ridley Scott"
    dateCreated: "19 May 2017"

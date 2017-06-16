@@ -2,16 +2,18 @@
 layout: post
 title:  "Rogue One: A Star Wars Story (2016)"
 blurb: "A fun but flawed adventure story that will delight despite its failings."
-final-verdict: "A fun but flawed adventure story that will delight despite its failings."
+reviewInfo:
+   final-verdict: "A fun but flawed adventure story that will delight despite its failings."
+   rating: 75
 date: 2017-02-04
-rating: 75
-categories: [reviews, movies, Action, Adventure, Sci-Fi]
+categories: [review, movie, Action, Adventure, Science Fiction]
 carousel: https://img.critical-truth.com/img/2017/02/rogue-one-cover.jpg
 author: dscott
 published: True
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Rogue One"
-   sameAs: "http://www.imdb.com/title/tt3748528"
+   sameAs: "https://www.imdb.com/title/tt3748528"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjEwMzMxODIzOV5BMl5BanBnXkFtZTgwNzg3OTAzMDI@._V1_SX300.jpg"
    director: "Gareth Edwards"
    dateCreated: "16 Dec 2016"

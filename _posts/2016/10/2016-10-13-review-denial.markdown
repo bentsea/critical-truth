@@ -2,15 +2,17 @@
 layout: post
 title:  "Review: Denial (2016)"
 blurb: "A compelling drama filled with charismatic acting and a surprising maturity."
-final-verdict: "Highly recommended, Denial entertains with thoughtful dialog and insightful story telling portrayed through excellent acting."
-rating: 81
+reviewInfo:
+   final-verdict: "Highly recommended, Denial entertains with thoughtful dialog and insightful story telling portrayed through excellent acting."
+   rating: 81
 date:   2016-10-13 00:00:00
-categories: [reviews, movies, Biography, Drama, History]
+categories: [review, movie, Biography, Drama, History]
 carousel: https://img.critical-truth.com/img/articles/denial-2016/denial-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Denial"
-   sameAs: "http://www.imdb.com/title/tt4645330"
+   sameAs: "https://www.imdb.com/title/tt4645330"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjMzODExNDEzMl5BMl5BanBnXkFtZTgwMDg3NjIyOTE@._V1_SX300.jpg"
    director: "Mick Jackson"
    dateCreated: "21 Oct 2016"

@@ -2,14 +2,16 @@
 layout: post
 title:  "Collateral Beauty (2016)"
 blurb: "A clinical attempt to analyze pain and loss that is heartbreaking to watch."
-final-verdict: "Though devastating and sometimes too clever. Collateral Beauty is cathartic and worth watching."
-rating: 90
-categories: [reviews, movies, Comedy, Drama, Musical]
+reviewInfo:
+   final-verdict: "Though devastating and sometimes too clever. Collateral Beauty is cathartic and worth watching."
+   rating: 90
+categories: [review, movie, Comedy, Drama, Musical]
 carousel: https://img.critical-truth.com/img/2016/12/collateral-beauty/collateral-beauty-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Collateral Beauty"
-   sameAs: "http://www.imdb.com/title/tt4682786"
+   sameAs: "https://www.imdb.com/title/tt4682786"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTQ5ODE4MTY2NV5BMl5BanBnXkFtZTgwMzM2NzEzMDI@._V1_SX300.jpg"
    director: "David Frankel"
    dateCreated: "16 Dec 2016"

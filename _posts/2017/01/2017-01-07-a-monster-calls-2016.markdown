@@ -2,14 +2,16 @@
 layout: post
 title:  "A Monster Calls (2016)"
 blurb: "A complex and layered tear jerker that appears to be aimed at children."
-final-verdict: "A layered exploration of loss that will find an audience who will remember it for a long time as a classic."
-rating: 90
-categories: [reviews, movies, Drama, Fantasy]
+reviewInfo:
+   final-verdict: "A layered exploration of loss that will find an audience who will remember it for a long time as a classic."
+   rating: 90
+categories: [review, movie, Drama, Fantasy]
 carousel: https://img.critical-truth.com/img/2017/01/monster-calls/monster-calls-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "A Monster Calls"
-   sameAs: "http://www.imdb.com/title/tt3416532"
+   sameAs: "https://www.imdb.com/title/tt3416532"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg1OTA5OTkyNV5BMl5BanBnXkFtZTgwODMwNDU5OTE@._V1_SX300.jpg"
    director: "J.A. Bayona"
    dateCreated: "06 Jan 2017"

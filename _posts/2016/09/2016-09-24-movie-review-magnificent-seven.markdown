@@ -2,15 +2,17 @@
 layout: post
 title:  "Review: Magnificent Seven (2016)"
 blurb: "A remake of a remake set in the old west, both fun and intriguing."
-final-verdict: "Exceptionally entertaining, and a classic in and of itself, though a movie you may only wish to watch once."
-rating: 75
+reviewInfo:
+   final-verdict: "Exceptionally entertaining, and a classic in and of itself, though a movie you may only wish to watch once."
+   rating: 75
 date:   2016-09-23 19:30:00
-categories: [reviews, movies]
+categories: [review, movie]
 carousel: https://img.critical-truth.com/img/articles/magnificent-seven-2016/magnificent-seven-cover.jpg
 author: wholt
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "The Magnificent Seven"
-   sameAs: "http://www.imdb.com/title/tt2404435"
+   sameAs: "https://www.imdb.com/title/tt2404435"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTUzNTc0NTAyM15BMl5BanBnXkFtZTgwMTk1ODA5OTE@._V1_SX300.jpg"
    director: "Antoine Fuqua"
    dateCreated: "23 Sep 2016"

@@ -1,15 +1,17 @@
 ---
 title: "Ghost in the Shell (2017)"
 blurb: "Does the live action remake live up to the anime?"
-final-verdict: "A beautiful action movie dripping with the style of the original that drops the bigger ideas."
-rating: 85
-categories: [reviews, movies, Action, Crime, Drama]
+reviewInfo:
+   final-verdict: "A beautiful action movie dripping with the style of the original that drops the bigger ideas."
+   rating: 85
+categories: [review, movie, Action, Crime, Drama]
 carousel: https://img.critical-truth.com/img/2017/03/ghost-in-the-shell-cover.jpg
 banner: https://img.critical-truth.com/img/2017/03/ghost-in-the-shell-article1.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Ghost in the Shell"
-   sameAs: "http://www.imdb.com/title/tt1219827"
+   sameAs: "https://www.imdb.com/title/tt1219827"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMzJiNTI3MjItMGJiMy00YzA1LTg2MTItZmE1ZmRhOWQ0NGY1XkEyXkFqcGdeQXVyOTk4MTM0NQ@@._V1_SX300.jpg"
    director: "Rupert Sanders"
    dateCreated: "31 Mar 2017"

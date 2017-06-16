@@ -28,17 +28,17 @@ ExpiresDefault "access plus 2 days"
 </IfModule>
 ## EXPIRES CACHING ##
 
+# Allows CORS Requests
+Header set Access-Control-Allow-Origin "*"
+
 # Always use www in the domain
 # Force https (with wwww)
 RewriteEngine On
-RewriteCond %{SERVER_PORT} 80
+RewriteCond %{HTTP_HOST} ^critical-truth\.com [NC]
 RewriteCond %{HTTP_HOST} !img.critical-truth.com
 RewriteCond %{HTTP_HOST} !dev.critical-truth.com
 RewriteRule ^(.*)$ https://www.critical-truth.com/$1 [R,L]
 
-# Allows CORS Requests
-Header set Access-Control-Allow-Origin "*"
-
 {% for post in site.posts %}
-RewriteRule ^/?{% for cat in post.categories %}{{ cat }}\/{% endfor %}{{ post.date | date: "%Y\/%m\/%d" }}\/{{ post.slug }}\/$ https://www.critical-truth.com/articles/{{ post.slug }}/ [R=301,L]
+RewriteRule ^/?articles\/{{ post.slug }}/$ https://www.critical-truth.com/articles/{{ post.date | date: "%Y" }}/{{ post.slug }}/ [R=301,L]
 {% endfor %}

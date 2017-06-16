@@ -2,15 +2,17 @@
 layout: post
 title:  "The Space Between Us (2017)"
 blurb: "Broken and disjointed, The Space Between Us is more likely to put you to sleep than entertain you."
-final-verdict: "Broken and disjointed, The Space Between Us is more likely to put you to sleep than entertain you."
-rating: 50
+reviewInfo:
+   final-verdict: "Broken and disjointed, The Space Between Us is more likely to put you to sleep than entertain you."
+   rating: 50
 date: 2017-02-02
-categories: [reviews, movies, Adventure, Drama, Romance]
+categories: [review, movie, Adventure, Drama, Romance]
 carousel: https://img.critical-truth.com/img/2016/11/the-space-between-us-2016/space-between-us-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "The Space Between Us"
-   sameAs: "http://www.imdb.com/title/tt3922818"
+   sameAs: "https://www.imdb.com/title/tt3922818"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BNjYzODU1OTkwN15BMl5BanBnXkFtZTgwMDA3MTMwMDI@._V1_SX300.jpg"
    director: "Peter Chelsom"
    dateCreated: "03 Feb 2017"

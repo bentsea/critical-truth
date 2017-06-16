@@ -6,7 +6,7 @@ order: 2
 robots_index: False
 paginate:
   collection: posts
-  category: 'editorials'
+  category: 'editorial'
   per_page: 9
 ---
 

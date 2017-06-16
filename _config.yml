@@ -19,7 +19,7 @@ markdown: kramdown
 permalink: pretty
 highlighter: rouge
 encoding: utf-8
-permalink: /articles/:title/
+permalink: /articles/:year/:title/
 
 defaults:
   - scope:
@@ -49,7 +49,7 @@ array: []
 gems: [octopress-paginate]
 
 
-categories: [reviews, editorials, movies, books, games, comics, horror, comedy, drama]
+categories: [review,editorial,movie,book,game]
 
 sass:
   style: compressed

@@ -1,15 +1,17 @@
 ---
 title: "The Zookeeper's Wife (2017)"
 blurb: "Does this WWII holocaust drama have anything new to say?"
-final-verdict: "An entertaining if predictable drama that occassionally excels."
-rating: 75
-categories: [reviews, movies, Biography, Drama, History]
+reviewInfo:
+   final-verdict: "An entertaining if predictable drama that occassionally excels."
+   rating: 75
+categories: [review, movie, Biography, Drama, History]
 carousel: https://img.critical-truth.com/img/2017/03/zookeepers-wife-cover.jpg
 banner: https://img.critical-truth.com/img/2017/03/zookeeper-banner.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "The Zookeeper's Wife"
-   sameAs: "http://www.imdb.com/title/tt1730768"
+   sameAs: "https://www.imdb.com/title/tt1730768"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BNTY3YmZmYmMtZjc3Zi00N2VjLWE5ZGMtN2M0ODkzOGQ5M2UyL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNTk1MTQ3NDI@._V1_SX300.jpg"
    director: "Niki Caro"
    dateCreated: "31 Mar 2017"

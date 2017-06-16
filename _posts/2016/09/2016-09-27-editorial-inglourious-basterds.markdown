@@ -3,7 +3,7 @@ layout: post
 title:  "Editorial: Should it Feel Wrong?"
 blurb: "Should you be ashamed if you liked the end of Inglourious Basterds?"
 date:   2016-09-27 16:59:15
-categories: [editorials, movies]
+categories: [editorial, movie]
 carousel: https://img.critical-truth.com/img/articles/inglourious-basterds/inglourious-basterds-cover.jpg
 author: dscott
 ---

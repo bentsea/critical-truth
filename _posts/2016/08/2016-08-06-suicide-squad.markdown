@@ -2,15 +2,17 @@
 layout: post
 title:  "Review: Suicide Squad"
 blurb: "A sometimes fun, but otherwise forgetable action flick with more flaws than virtues."
-final-verdict: "Better than Batman v Superman, but still boring and soul-less trash that you should avoid."
-rating: 40
+reviewInfo:
+   final-verdict: "Better than Batman v Superman, but still boring and soul-less trash that you should avoid."
+   rating: 40
 date:   2016-08-06 16:59:15
-categories: [reviews, movies]
+categories: [review, movie]
 carousel: https://img.critical-truth.com/img/articles/suicide-squad-poster.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Suicide Squad"
-   sameAs: "http://www.imdb.com/title/tt1386697"
+   sameAs: "https://www.imdb.com/title/tt1386697"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjM1OTMxNzUyM15BMl5BanBnXkFtZTgwNjYzMTIzOTE@._V1_SX300.jpg"
    director: "David Ayer"
    dateCreated: "05 Aug 2016"

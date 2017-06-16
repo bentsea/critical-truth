@@ -2,15 +2,17 @@
 layout: post
 title:  "Review: Sausage Party"
 blurb: "A crass but well crafted nihilist manifesto for those who can stomach the extreme language and behavior."
-final-verdict: "Perfect for fans of stoner comedies and crass humor, and an out of the park success for nihilists that will leave else regretting having seen it."
-rating: 55
+reviewInfo:
+   final-verdict: "Perfect for fans of stoner comedies and crass humor, and an out of the park success for nihilists that will leave else regretting having seen it."
+   rating: 55
 date:   2016-08-11 16:59:15
-categories: [reviews, movies, comedy]
+categories: [review, movie, comedy]
 carousel: https://img.critical-truth.com/img/articles/sausage-party/Sausage-Party-poster.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Sausage Party"
-   sameAs: "http://www.imdb.com/title/tt1700841"
+   sameAs: "https://www.imdb.com/title/tt1700841"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMjkxOTk1MzY4MF5BMl5BanBnXkFtZTgwODQzOTU5ODE@._V1_SX300.jpg"
    director: "Greg Tiernan, Conrad Vernon"
    dateCreated: "12 Aug 2016"

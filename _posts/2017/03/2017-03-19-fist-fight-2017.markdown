@@ -1,14 +1,16 @@
 ---
 title: "Fist Fight (2017)"
 blurb: "A solid but crass comedy that delivers on multiple levels."
-final-verdict: "A recommended comedy that works on multiple levels and is smarter than it needs to be."
-rating: 80
-categories: [reviews, movies, Comedy]
+reviewInfo:
+   final-verdict: "A recommended comedy that works on multiple levels and is smarter than it needs to be."
+   rating: 80
+categories: [review, movie, Comedy]
 carousel: https://img.critical-truth.com/img/2017/03/fist-fight-cover.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
+   type: Movie
    name: "Fist Fight"
-   sameAs: "http://www.imdb.com/title/tt3401882"
+   sameAs: "https://www.imdb.com/title/tt3401882"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BMTg0NzkyMjE5NF5BMl5BanBnXkFtZTgwMDE5NTg3MDI@._V1_SX300.jpg"
    director: "Richie Keen"
    dateCreated: "17 Feb 2017"

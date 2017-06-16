@@ -5,12 +5,12 @@ blurb: "A must watch that triggers every emotion!"
 final-verdict: "Gripping and horrifying all at once, and an absolute must watch."
 rating: 90
 date:   2015-12-19 16:59:15
-categories: [reviews, movies]
+categories: [review, movie]
 carousel: https://img.critical-truth.com/img/articles/The-Big-Short-2015-banner.jpg
 author: dscott
-reviewInfo:
+subjectInfo:
    name: "The Big Short"
-   sameAs: "http://www.imdb.com/title/tt1596363"
+   sameAs: "https://www.imdb.com/title/tt1596363"
    image: "https://images-na.ssl-images-amazon.com/images/M/MV5BNDc4MThhN2EtZjMzNC00ZDJmLThiZTgtNThlY2UxZWMzNjdkXkEyXkFqcGdeQXVyNDk3NzU2MTQ@._V1_SX300.jpg"
    director: "Adam McKay"
    dateCreated: "23 Dec 2015"
