@@ -28,12 +28,12 @@
   <meta name="theme-color" content="#ffffff">
 
   <title>{% if page.title %}{{ page.title }} | {% endif %}{% if page.categories %}{{ page.categories | first | capitalize }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{% if page.url == '/' %}{{ site.description }}{% elsif page.blurb %}{{ page.blurb }}{% elsif paginator %}Archive of reviews for Critical-Truth, page {{ paginator.page }} of {{ paginator.total_pages }}.{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
+  <meta name="description" content="{% if page.url == '/' %}{{ site.description }}{% elsif page.blurb %}{{ page.title }}, {{ page.categories[1] | capitalize }} {{ page.categories[0] | capitalize }}: {{ page.blurb }}{% elsif paginator %}Archive of reviews for Critical-Truth, page {{ paginator.page }} of {{ paginator.total_pages }}.{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}">
 
   <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:image" content="{% if page.carousel %}{{ page.carousel }}{% else %}https://img.critical-truth.com/carousel/fullimage1.jpg{% endif %}">
-  <meta property="og:description" content="{% if page.url == '/' %}{{ site.description }}{% elsif page.blurb %}{{ page.categories[1] | capitalize }} {{ page.categories[0] | capitalize }}: {{ page.blurb }}{% elsif paginator %}Archive of reviews for Critical-Truth, page {{ paginator.page }} of {{ paginator.total_pages }}.{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}" />
+  <meta property="og:description" content="{% if page.url == '/' %}{{ site.description }}{% elsif page.blurb %}{{ page.title }}, {{ page.categories[1] | capitalize }} {{ page.categories[0] | capitalize }}: {{ page.blurb }}{% elsif paginator %}Archive of reviews for Critical-Truth, page {{ paginator.page }} of {{ paginator.total_pages }}.{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% endif %}" />
   <meta property="fb:app_id" content="{{ site.fbappid }}"/>
   
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
@@ -102,11 +102,29 @@
     }
   </script>
   
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  {% comment %}<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <script>
     (adsbygoogle = window.adsbygoogle || []).push({
       google_ad_client: "ca-pub-8475356019399300",
       enable_page_level_ads: true
     });
-  </script>
+  </script> {% endcomment %}
+  
+  
+  <style>
+    /**
+     * Note: I have omitted any vendor-prefixes for clarity.
+     * Adding them is left as an exercise for the reader.
+     */
+    .headroom {
+        will-change: transform;
+        transition: transform 200ms linear;
+    }
+    .headroom--pinned {
+        transform: translateY(0%);
+    }
+    .headroom--unpinned {
+        transform: translateY(-100%);
+    }
+  </style>
 </head>

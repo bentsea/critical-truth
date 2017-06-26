@@ -24,7 +24,7 @@ layout: default
           </tbody>
         </table>
         {% endif %}
-        {% include ads.html %}
+        {% comment %}{% include ads.html %}{% endcomment %}
       </article>
       {% include social-media.html %}
       <br>
@@ -36,8 +36,8 @@ layout: default
   </div>
   <div class="col-lg-4">
     <div class="sidebar-nav">
-      <h3>Sponsors</h3>
-      {% include ads.html %}
+      {% comment %}<h3>Sponsors</h3>
+      {% include ads.html %}{% endcomment %}
       <!--googleoff: all-->
       <!--noindex-->
       <h3>Related Articles</h3>

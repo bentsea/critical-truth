@@ -87,16 +87,20 @@ body {
   clear: both;
 }
 // Header CSS for Headroom
-
-header {
-    top: 0;
-    transition: top 0.2s ease-in-out;
+ /**
+ * Note: I have omitted any vendor-prefixes for clarity.
+ * Adding them is left as an exercise for the reader.
+ */
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
 }
-
-.nav-up {
-    top: -60px;
+.headroom--pinned {
+    transform: translateY(0%);
 }
-
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
 // End header CSS
 
 #home-slider .item img{
