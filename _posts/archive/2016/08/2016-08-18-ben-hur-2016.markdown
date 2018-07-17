@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Review: Ben Derp (2016)"
+title:  "Ben Derp (2016)"
 blurb: "A largely mediocre movie sprinkled with both excellent and awful moments."
 reviewInfo:
    final-verdict: "Don't bother going out of your way to see it, but it's watchable and even has a few really good moments."
    rating: 50
 date:   2016-08-18 16:59:15
 categories: [review, movie]
-carousel: https://img.critical-truth.com/img/articles/ben-hur-2016/BenHur.jpg
+image: https://img.critical-truth.com/img/articles/ben-hur-2016/BenHur.jpg
 author: dscott
 subjectInfo:
    type: Movie

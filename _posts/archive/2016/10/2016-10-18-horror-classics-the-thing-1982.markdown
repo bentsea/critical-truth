@@ -4,7 +4,7 @@ title:  "Horror Classics: The Thing (1982)"
 blurb: "Isolation, paranoia, body horror, and Kurt Russell. A a recipe for a chilling classic that still feels contemporary."
 date:   2016-10-18 00:00:00
 categories: [editorial, movie, Horror, Science Fiction, Thriller]
-carousel: https://img.critical-truth.com/img/articles/the-thing-1982/the-thing-1982-cover.jpg
+image: https://img.critical-truth.com/img/articles/the-thing-1982/the-thing-1982-cover.jpg
 author: dscott
 ---
 

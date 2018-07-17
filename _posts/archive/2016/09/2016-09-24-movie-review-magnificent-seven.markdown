@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Review: Magnificent Seven (2016)"
+title:  "Magnificent Seven (2016)"
 blurb: "A remake of a remake set in the old west, both fun and intriguing."
 reviewInfo:
    final-verdict: "Exceptionally entertaining, and a classic in and of itself, though a movie you may only wish to watch once."
    rating: 75
 date:   2016-09-23 19:30:00
 categories: [review, movie]
-carousel: https://img.critical-truth.com/img/articles/magnificent-seven-2016/magnificent-seven-cover.jpg
+image: https://img.critical-truth.com/img/articles/magnificent-seven-2016/magnificent-seven-cover.jpg
 author: wholt
 subjectInfo:
    type: Movie

@@ -7,10 +7,10 @@ layout: default
       <header class="post-header">
         <h1 class="post-title">{{ page.title }}</h1>
         <p class="post-meta">{% if page.categories %}{{ page.categories[1] | capitalize }} {{ page.categories | first | capitalize }} • {% endif %}{{ page.date | date: "%b %-d, %Y" }}{% if page.author %}{% assign author = site.data.authors[page.author] %} • Author: <a href="{{ author.web }}">{{ author.name }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-        {% capture post_year %}{{ page.date | date: "%Y" }}{% endcapture %}{% assign post_year = post_year | plus:0 %}{% if post_year > 2016 %}<img class="img-responsive webfeedsFeaturedVisual " width="100%" style="margin: 0 10px 10px 0px;" src="{{ page.carousel }}">{% endif %}
         {% include social-media.html %}
       </header>
       <article class="post-content">
+        {% capture post_year %}{{ page.date | date: "%Y" }}{% endcapture %}{% assign post_year = post_year | plus:0 %}{% if post_year > 2016 %}<img class="img-responsive webfeedsFeaturedVisual " width="100%" style="margin: 0 10px 10px 0px;" src="{{ page.image }}">{% endif %}
         {{ content }}
         {% if page.reviewInfo.rating %}
         <table class="table">
@@ -24,7 +24,6 @@ layout: default
           </tbody>
         </table>
         {% endif %}
-        {% comment %}{% include ads.html %}{% endcomment %}
       </article>
       {% include social-media.html %}
       <br>
@@ -36,29 +35,33 @@ layout: default
   </div>
   <div class="col-lg-4">
     <div class="sidebar-nav">
-      {% comment %}<h3>Sponsors</h3>
-      {% include ads.html %}{% endcomment %}
+      <h3>Sponsors</h3>
+      {% include ads.html %}
       <!--googleoff: all-->
       <!--noindex-->
       <h3>Related Articles</h3>
       {% assign totalPosts = site.related.max_count %}
-      {% assign minRecent = 1 %}
-      {% assign minCommonTags = 3 %}
+      {% assign minRecent = site.related.min_recent %}
+      {% assign minCommonTags = site.related.min_related %}
       
       
       
-      {% assign maxCommonTags = page.categories | size %}
+      {% assign maxCommonTags = page.categories | size | minus: 3 %}
       {% assign recentPosts = site.posts | where_exp:"item","item.url != page.url" %}
       {% assign maxRelated = totalPosts | minus: minRecent %}
       
       
       {% for counter in page.categories %}
+        
+        {% if maxCommonTags < minCommonTags %}
+          {% break %}
+        {% endif %}
         {% for post in recentPosts %}
         
           {% assign sameTagCount = 0 %}
           {% assign commonTags = '' %}
       
-          {% for category in post.categories %}
+          {% for category in post.categories offset:2 %}
             {% if page.categories contains category %}
               {% assign sameTagCount = sameTagCount | plus: 1 %}
               {% capture tagmarkup %} <span class="label label-default">{{ category }}</span> {% endcapture %}
@@ -85,10 +88,6 @@ layout: default
         {% endif %}
         
         {% assign maxCommonTags = maxCommonTags | minus: 1 %}
-        
-        {% if maxCommonTags < minCommonTags %}
-          {% break %}
-        {% endif %}
         
       {% endfor %}
       

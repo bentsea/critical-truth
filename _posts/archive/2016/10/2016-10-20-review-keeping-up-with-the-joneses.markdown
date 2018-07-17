@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Review: Keeping Up With the Joneses (2016)"
+title:  "Keeping Up With the Joneses (2016)"
 blurb: "A well rounded cast, each bringing the best of what they do to an otherwise generic plot."
 reviewInfo:
    final-verdict: "An excellent summer comedy. Funny and enjoyable, if somewhat forgettable."
    rating: 75
 date:   2016-10-20 00:00:00
 categories: [review, movie, comedy]
-carousel: https://img.critical-truth.com/img/articles/keeping-up-with-the-joneses-2016/joneses-cover.jpg
+image: https://img.critical-truth.com/img/articles/keeping-up-with-the-joneses-2016/joneses-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

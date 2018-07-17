@@ -6,7 +6,7 @@ reviewInfo:
    final-verdict: "Though devastating and sometimes too clever. Collateral Beauty is cathartic and worth watching."
    rating: 90
 categories: [review, movie, Comedy, Drama, Musical]
-carousel: https://img.critical-truth.com/img/2016/12/collateral-beauty/collateral-beauty-cover.jpg
+image: https://img.critical-truth.com/img/2016/12/collateral-beauty/collateral-beauty-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

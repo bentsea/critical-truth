@@ -6,7 +6,7 @@ final-verdict: "Gripping and horrifying all at once, and an absolute must watch.
 rating: 90
 date:   2015-12-19 16:59:15
 categories: [review, movie]
-carousel: https://img.critical-truth.com/img/articles/The-Big-Short-2015-banner.jpg
+image: https://img.critical-truth.com/img/articles/The-Big-Short-2015-banner.jpg
 author: dscott
 subjectInfo:
    name: "The Big Short"

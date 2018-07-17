@@ -1,6 +1,22 @@
 ---
 ---
 
+
+# Force HTTPS
+RewriteEngine On 
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+
+
+# Always use www in the domain
+# Force https (with wwww)
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^critical-truth\.com [NC]
+RewriteCond %{HTTP_HOST} !img.critical-truth.com
+RewriteCond %{HTTP_HOST} !dev.critical-truth.com
+RewriteRule ^(.*)$ https://www.critical-truth.com/$1 [R=301,L]
+
 <IfModule mod_deflate.c>
   # Compress HTML, CSS, JavaScript, Text, XML and fonts
   AddOutputFilterByType DEFLATE application/javascript
@@ -51,13 +67,7 @@ ExpiresDefault "access plus 2 days"
 # Allows CORS Requests
 Header set Access-Control-Allow-Origin "*"
 
-# Always use www in the domain
-# Force https (with wwww)
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^critical-truth\.com [NC]
-RewriteCond %{HTTP_HOST} !img.critical-truth.com
-RewriteCond %{HTTP_HOST} !dev.critical-truth.com
-RewriteRule ^(.*)$ https://www.critical-truth.com/$1 [R,L]
+
 
 {% for post in site.posts %}
 RewriteRule ^/?articles\/{{ post.slug }}/$ https://www.critical-truth.com/articles/{{ post.date | date: "%Y" }}/{{ post.slug }}/ [R=301,L]

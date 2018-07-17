@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Review: Sully"
+title:  "Sully"
 blurb: "A well executed drama that successfully maintains suspense and evokes real emotion!"
 reviewInfo:
    final-verdict: "An enthralling drama filled with solid acting that evokes the whole range of emotion."
    rating: 85
 date:   2016-09-08 16:59:15
 categories: [review, movie]
-carousel: https://img.critical-truth.com/img/articles/sully/tom-hanks-as-sully.jpg
+image: https://img.critical-truth.com/img/articles/sully/tom-hanks-as-sully.jpg
 author: dscott
 subjectInfo:
    type: Movie

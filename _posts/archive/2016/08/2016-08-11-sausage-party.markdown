@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Review: Sausage Party"
+title:  "Sausage Party"
 blurb: "A crass but well crafted nihilist manifesto for those who can stomach the extreme language and behavior."
 reviewInfo:
-   final-verdict: "Perfect for fans of stoner comedies and crass humor, and an out of the park success for nihilists that will leave else regretting having seen it."
-   rating: 55
+   final-verdict: "Perfect for fans of stoner comedies and crass humor, and an out of the park success for nihilists that will leave anyone else regretting having seen it."
+   rating: 68
 date:   2016-08-11 16:59:15
 categories: [review, movie, comedy]
-carousel: https://img.critical-truth.com/img/articles/sausage-party/Sausage-Party-poster.jpg
+image: https://img.critical-truth.com/img/articles/sausage-party/Sausage-Party-poster.jpg
 author: dscott
 subjectInfo:
    type: Movie

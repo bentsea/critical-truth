@@ -8,8 +8,9 @@ description: >
 baseurl: "" # the subpath of your site, e.g. /blog/
 cdnurl: "https://img.critical-truth.com"
 url: "https://www.critical-truth.com" # the base hostname & protocol for your site
-twitter_username:
+twitter_username: Critical_truth_
 github_username:  bentsea
+facebook_username: acriticaltruth
 
 #App Properties
 fbappid: 969503389844347
@@ -35,8 +36,18 @@ defaults:
       layout: post
 
 related:
-  max_count: 7
+  max_count: 6
+  min_recent: 2
+  max_related: 5
+  min_related: 3
 
+pagination:
+  sort_reverse: True
+  limit: 5
+  per_page: 9
+  enabled: True
+  collection: 'posts'
+  
 
 # Includes and Excludes
 include: [.htaccess,_pages]
@@ -46,7 +57,7 @@ exclude: [ps.sh,getInfo.sh,new_post.py,Gemfile,Gemfile.lock]
 array: []
 
 #Gems
-gems: [octopress-paginate]
+plugins: [octopress-paginate,jekyll-paginate-v2]
 
 
 categories: [review,editorial,movie,book,game]

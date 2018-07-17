@@ -6,7 +6,7 @@ reviewInfo:
    final-verdict: "A near perfect movie that must be seen."
    rating: 95
 categories: [review, movie, Comedy, Drama, Musical]
-carousel: https://img.critical-truth.com/img/2016/12/la-la-land/la-la-land-cover.jpg
+image: https://img.critical-truth.com/img/2016/12/la-la-land/la-la-land-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

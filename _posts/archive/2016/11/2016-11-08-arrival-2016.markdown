@@ -7,7 +7,7 @@ reviewInfo:
    rating: 92
 date:   2016-11-08 00:00:00
 categories: [review, movie, Drama, Mystery, Science Fiction]
-carousel: https://img.critical-truth.com/img/2016/11/arrival-2016/arrival-cover.jpg
+image: https://img.critical-truth.com/img/2016/11/arrival-2016/arrival-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

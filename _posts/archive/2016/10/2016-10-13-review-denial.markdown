@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Review: Denial (2016)"
+title:  "Denial (2016)"
 blurb: "A compelling drama filled with charismatic acting and a surprising maturity."
 reviewInfo:
    final-verdict: "Highly recommended, Denial entertains with thoughtful dialog and insightful story telling portrayed through excellent acting."
    rating: 81
 date:   2016-10-13 00:00:00
 categories: [review, movie, Biography, Drama, History]
-carousel: https://img.critical-truth.com/img/articles/denial-2016/denial-cover.jpg
+image: https://img.critical-truth.com/img/articles/denial-2016/denial-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

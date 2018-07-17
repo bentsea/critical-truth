@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Review: Masterminds (2016)"
+title:  "Masterminds (2016)"
 blurb: "Odd, often funny, and perfectly typical of the work of Galifianakis."
 reviewInfo:
    final-verdict: "Fans of Galifianakis will find a lot to love, others will likely be bored and a little grossed out."
    rating: 60
 date:   2016-09-29 19:30:00
 categories: [review, movie, comedy]
-carousel: https://img.critical-truth.com/img/articles/masterminds-2016/masterminds-cover.jpg
+image: https://img.critical-truth.com/img/articles/masterminds-2016/masterminds-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

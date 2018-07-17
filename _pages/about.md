@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: Learn about who we are, the authors that contribute to our site, and also about how to contact us.
 order: 10
 permalink: /about/
 ---

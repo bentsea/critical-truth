@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Review: The Birth of a Nation (2016)"
+title:  "The Birth of a Nation (2016)"
 blurb: "A brutal, heartbreaking, and uncompromising depiction of man's inhumanity to man."
 reviewInfo:
    final-verdict: "A challenging watch that will leave you so emotionally drained that you may miss its flaws."
    rating: 90
 date:   2016-10-06 00:00:00
 categories: [review, movie, drama]
-carousel: https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/birth-of-a-nation-cover.jpg
+image: https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/birth-of-a-nation-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie
