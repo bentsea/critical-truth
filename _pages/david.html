@@ -1,0 +1,38 @@
+---
+title: Author Articles
+description: "All articles written by David Scott indexed and linked to separated by article type and sorted by date published."
+layout: default
+permalink: /author/davidscott/
+robots_index: False
+---
+
+
+<div class="home">
+    <div class="page-header">
+        <h1 class="page-heading">Articles by David Scott</h1>
+    </div>
+  
+    <h2>Reviews</h2>
+    {% assign posts = site.posts | where: "author","dscott" | where: "categories","review" %}
+    <ul>
+    {% for post in posts %}
+        <li>
+            <a href="{{ post.url }}"><strong>{{ post.title }}</strong><br /><p><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | {% if post.blurb %}{{ post.blurb }}{% else %}{{post.content|strip_html|truncate:110}}{% endif %}</p></a>
+        </li>
+    {% endfor %}
+    </ul>
+    <h2>Editorials</h2>
+    {% assign posts = site.posts | where: "author","dscott" | where: "categories","editorial" %}
+    <ul>
+        {% for post in posts %}
+        <li>
+            <a href="{{ post.url }}"><strong>{{ post.title }}</strong><br /><p><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | {% if post.blurb %}{{ post.blurb }}{% else %}{{post.content|strip_html|truncate:110}}{% endif %}</p></a>
+        </li>
+    {% endfor %}
+    </ul>
+  
+ 
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>

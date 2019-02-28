@@ -31,6 +31,7 @@ sitemap:
     {% endunless %}
   {% endfor %}
   {% for page in site.pages %}
+    {% unless page.robots_index == false %}
     {% unless page.sitemap.exclude == "yes" %}
     <url>
       <loc>{{ site.url }}{{ page.url | remove: "index.html" }}</loc>
@@ -44,7 +45,7 @@ sitemap:
       {% if page.sitemap.changefreq %}
         <changefreq>{{ page.sitemap.changefreq }}</changefreq>
       {% else %}
-        <changefreq>monthly</changefreq>
+        <changefreq>daily</changefreq>
       {% endif %}
       {% if page.sitemap.priority %}
         <priority>{{ page.sitemap.priority }}</priority>
@@ -53,5 +54,6 @@ sitemap:
       {% endif %}
     </url>
     {% endunless %}
+    {% endunless %}  
   {% endfor %}
 </urlset>

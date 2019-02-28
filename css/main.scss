@@ -1,5 +1,6 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
+robots_index: false
 ---
 @charset "utf-8";
 
@@ -281,6 +282,7 @@ body {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     padding-top: 25px;
+    margin-bottom: 25px;
     height: 0;
 }
 .videoWrapper iframe {

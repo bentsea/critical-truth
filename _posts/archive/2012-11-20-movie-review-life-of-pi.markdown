@@ -16,7 +16,7 @@ subjectInfo:
 ---
 
 <div class="videoWrapper">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/mX2HBsHbNZM" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/mX2HBsHbNZM" allowfullscreen></iframe>
 </div>
 
 The Life of Pi is not just an amazing movie, and you should watch it. It is not just a beautiful script with wonderful actors telling an amazing tale set to vivid and evocative imagery and music that touches on every emotion in the spectrum of human feeling effectively. Yes, it is all of those things, but I also feel that it is the first movie to really prove that a movie can be designed so thoroughly around 3d that the final result simply wouldn't be quite the same if you saw the movie without it.

@@ -18,7 +18,7 @@ In no particular order:
 An original Lego intellectual property, Ninjago is a weird beast. This made it onto my radar despite a lack of interest in the source material. After a strong trailer and Lego's hot streak after both Lego Movie and The Lego Batman Movie, I want to know more.
 
 <div class="videoWrapper">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/sZSYYiATFTI" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/sZSYYiATFTI" allowfullscreen></iframe>
 </div><br><br>
 
 ## Alien: Covenant
@@ -28,7 +28,7 @@ Up until a few months ago, I thought we'd see Neill Blomkamp's Alien 5 before a 
 It's exciting to see a Ridley Scott Alien movie that actually includes xenomorphs. The cast is outright interesting, including both Danny McBride and James Franco. Prometheus had mixed results, though, so beware.  Despite any hesitation one might have over the Ridley Scott's follow up to Prometheus, it's hard not to get excited by this trailer:
 
 <div class="videoWrapper">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/svnAD0TApb8" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/svnAD0TApb8" allowfullscreen></iframe>
 </div><br><br>
 
 ## Valerian and the City of a Thousand Planets
@@ -38,7 +38,7 @@ The Fifth Element has forever left a hole in my life for a special type of scien
 Directed by the Fifth Element director Luc Besson and is an adaptation of the comic that inspired it. The trailer is loaded with style, action, and great music. For those who have waited for a movie that hits the same way as Fifth Element should keep their eyes open for this one.
 
 <div class="videoWrapper">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/NNrK7xVG3PM" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/NNrK7xVG3PM" allowfullscreen></iframe>
 </div><br><br>
 
 ## Blade Runner 2049
@@ -48,7 +48,7 @@ Harison Ford claimed that this was the best script he has ever read, and has ret
 That said, the teaser trailer feels weak to me. I'm very much hyped about this movie despite the trailer.
 
 <div class="videoWrapper">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/GDscTTE-P-k" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/GDscTTE-P-k" allowfullscreen></iframe>
 </div><br><br>
 
 ## Ghost in the Shell
@@ -60,7 +60,7 @@ That said, translations are rarely ever done well. Not only that, but there is a
 However, the trailer is awesome:
 
 <div class="videoWrapper">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/G4VmJcZR0Yg" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/G4VmJcZR0Yg" allowfullscreen></iframe>
 </div><br><br>
 
 ## Spiderman: Homecoming
@@ -70,7 +70,7 @@ The best part of Captain America: Civil War for me was Spiderman, without questi
 Even better, Marvel is now contributing to the production for Spiderman. It's hard not to get excited over that.
 
 <div class="videoWrapper">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/n9DwoQ7HWvI" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/n9DwoQ7HWvI" allowfullscreen></iframe>
 </div><br><br>
 
 ## Guardians of the Galaxy Vol. 2
@@ -78,7 +78,7 @@ Even better, Marvel is now contributing to the production for Spiderman. It's ha
 It's Guardians of the Galaxy Vol. 2, nuff said. If I have to pick a second reason, it's to see baby Groot actually kick ass. There is a new trailer, though:
 
 <div class="videoWrapper">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/EiIdrMeUCYU" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/EiIdrMeUCYU" allowfullscreen></iframe>
 </div><br><br>
 
 These are only a few of the films that are on my radar in the coming months. Given the strong entries we've already had this year, 2017 is shaping up to be an excellent year.

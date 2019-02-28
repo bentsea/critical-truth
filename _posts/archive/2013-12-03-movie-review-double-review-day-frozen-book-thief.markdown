@@ -13,7 +13,7 @@ I sit here tonight, eager to play more of Dishonored GOTYE, which I just started
 ##Disney's Frozen
 
 <div class="videoWrapper">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/FLzfXQSPBOg" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/FLzfXQSPBOg" allowfullscreen></iframe>
 </div>
 
 I wish I could say I was surprised by this movie, but I'd managed to totally avoid any trailers for it and I didn't hear anything about it till the buzz exploded that it was just a fantastic film. I'm happy to say that I was not in the least disappointed. I went in expecting a great film and I got one. It's easily the best film in Disney's "Disney Film" repertoire of feature animations since Beauty and the Beast. I mean, sure Wreck it Ralph and the most recent Winnie the Pooh were both just stand out amazing movies from the same studio, but this one FEELS like classic Disney.
@@ -30,7 +30,7 @@ These are just rough edges though. It's no a perfect movie, though it felt like 
 ##The Book Thief
 
 <div class="videoWrapper">
-	<iframe width="600" src="https://www.youtube.com/embed/92EBSmxinus" frameborder="0" allowfullscreen></iframe>
+	<iframe width="600" src="https://www.youtube.com/embed/92EBSmxinus" allowfullscreen></iframe>
 </div>
 
 This movie is just beautiful. It feels like a movie from my childhood that I forgot. The pacing just feels like something from another decade, everything about it feels ancient and it fits very much with the themes and ideas. There's more happening than just the main plot line, all of the characters have something going on. This movie is able to convey a lot of sub-textual story telling because of the well know historical background that allows it to include a great deal of history that would otherwise make it very much impossible to tell the whole story in a meaningful way.

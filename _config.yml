@@ -36,10 +36,10 @@ defaults:
       layout: post
 
 related:
-  max_count: 6
+  max_count: 8
   min_recent: 2
-  max_related: 5
-  min_related: 3
+  max_related: 7
+  min_related: 1
 
 pagination:
   sort_reverse: True
@@ -57,7 +57,7 @@ exclude: [ps.sh,getInfo.sh,new_post.py,Gemfile,Gemfile.lock]
 array: []
 
 #Gems
-plugins: [octopress-paginate,jekyll-paginate-v2]
+plugins: [jekyll-paginate-v2]
 
 
 categories: [review,editorial,movie,book,game]

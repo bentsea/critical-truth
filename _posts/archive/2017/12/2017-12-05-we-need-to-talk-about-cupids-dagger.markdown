@@ -7,7 +7,7 @@ author: dscott
 ---
 
 
-If you haven't been watching *The Orville*, or if you're not the type to keep track of episode titles, you may not be familiar with *Cupid's Dagger*. *The Orville* is a series that has proven quite divisive among audiences. Despite a rocky start, *The Orville* quickly began thoughtfully tackling [complicated issues]({{ site.baseurl }}{% post_url 2017-09-25-finding-balance-with-the-orville %}) with nuanced sensitivity. As of now, the vast majority of the aired episodes stand out as challenging science fiction that elevates the series to that rare class of parody that doesn't just mock its genre but truly aspires to the best of what it can produce. 
+If you haven't been watching *The Orville*, or if you're not the type to keep track of episode titles, you may not be familiar with *Cupid's Dagger*. *The Orville* is a series that has proven quite divisive among audiences. Despite a rocky start, *The Orville* quickly began thoughtfully tackling [complicated issues]({{ site.baseurl }}{% post_url /archive/2017/09/2017-09-25-finding-balance-with-the-orville %}) with nuanced sensitivity. As of now, the vast majority of the aired episodes stand out as challenging science fiction that elevates the series to that rare class of parody that doesn't just mock its genre but truly aspires to the best of what it can produce. 
 
 But, we desperately need to talk critically about episode 9 of the first season, titled *Cupid's Dagger*. 
 

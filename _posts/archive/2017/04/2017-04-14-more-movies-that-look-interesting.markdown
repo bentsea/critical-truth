@@ -20,7 +20,7 @@ The bad signs: The last two Thor movies are among the lesser Marvel movies. More
 
 
 <div class="videoWrapper">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/v7MGUNV8MxU" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/v7MGUNV8MxU" allowfullscreen></iframe>
 </div><br><br>
 
 # Sleight
@@ -30,7 +30,7 @@ The bad signs: When you look deeper into it, sharing a producer doesn't mean any
  
 
 <div class="videoWrapper">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/jOBAoSy4oJI " frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/jOBAoSy4oJI " allowfullscreen></iframe>
 </div><br><br>
 
  
@@ -42,7 +42,7 @@ The bad signs: It's just a trailer. Trailers frequently fail to be representativ
 
 <div class="videoWrapper">
 
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/0iZx19elG9Y" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/0iZx19elG9Y" allowfullscreen></iframe>
 
 </div><br><br>
 
@@ -53,7 +53,7 @@ The bad signs: There doesn't appear to be a lot of substance to the plot. This c
 
 <div class="videoWrapper">
 
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/OUqfP1S-9ok" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/OUqfP1S-9ok" allowfullscreen></iframe>
 
 </div><br><br>
 
@@ -64,7 +64,7 @@ The bad signs: Netflix has absolutely proven they are fallible. Their catalog at
 
 <div class="videoWrapper">
 
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/sIqXRDDdo7c" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/sIqXRDDdo7c" allowfullscreen></iframe>
 
 </div><br><br>
 
@@ -77,7 +77,7 @@ The bad signs: More World War II. It's nearly impossible for me to be excited fo
 
 <div class="videoWrapper">
 
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/GEUsilurA3w" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/GEUsilurA3w" allowfullscreen></iframe>
 
 </div><br><br>
 
@@ -90,7 +90,7 @@ The bad signs: It's so easy for a film like this to dive off into empty gore and
 
 <div class="videoWrapper">
 
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/iBoLK5z_FHo" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/iBoLK5z_FHo" allowfullscreen></iframe>
 
 </div><br><br> 
 
@@ -101,7 +101,7 @@ The bad signs: There have already been shakeups in the production due to creativ
 
 <div class="videoWrapper">
 
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/I4tFNfROlqk" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/I4tFNfROlqk" allowfullscreen></iframe>
 
 </div><br><br>
 
@@ -113,7 +113,7 @@ The bad signs: This movie could easily have nothing else going for it, and not e
 
 <div class="videoWrapper">
 
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/oDD3I0uOlqY" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/oDD3I0uOlqY" allowfullscreen></iframe>
 
 </div><br><br> 
 
@@ -124,6 +124,6 @@ The bad signs: In a statement that is just feeling all too frequent, the majorit
 
 <div class="videoWrapper">
 
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/yIUube1pSC0" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/yIUube1pSC0" allowfullscreen></iframe>
 
 </div><br><br>

@@ -31,10 +31,10 @@ My favorite aspect of the film might feel like a small thing. The story starts w
 This is undermined by rushed character development. Failing to fully develop the crew is the largest failure in the story telling and the film as a whole. Clocking in at 2 hours long, Covenant still feels rushed, and could have benefited from being about 30 minutes longer. The best way to experience this movie is to watch the viral video prologues before watching the movie:
 
 <div class="videoWrapper">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/XeMVrnYNwus" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/XeMVrnYNwus" allowfullscreen></iframe>
 </div><br>
 <div class="videoWrapper">
-	<iframe width="853" height="480" src="https://www.youtube.com/embed/EkXgRlRao5I" frameborder="0" allowfullscreen></iframe>
+	<iframe width="853" height="480" src="https://www.youtube.com/embed/EkXgRlRao5I" allowfullscreen></iframe>
 </div><br>
 
 Both of these are fantastic short films that add context and character to Covenant. In the case of The Last Supper, the personality it adds to some of our main characters is essential and absent from the film itself. It’s nice that they exist and are widely available, but I can’t help but imagine a film that captures this humanity. It would definitely be a better film.

@@ -1,0 +1,1 @@
+{% assign posts = site.posts | where_exp:"item","item.title == include.title" %}{% for post in posts %}{% capture post_date %}{{ post.date | date: '%Y' }}{% endcapture %}{% if post_date == include.year %}{{ post.id }}{% endif %}{% endfor %}

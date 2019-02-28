@@ -76,7 +76,7 @@ Prometheus uses all of the elements of human curiosity by using the perspective 
 
 Too different and too broken, few appreciated Scott’s beautiful use of color and cinematography to draw us into a terrifying place and the intimidating question of what it would mean to be able to meet our maker and how hollow it would make us feel to be unsatisfied with what we found and terrified by that maker immediately seeking to destroy us for having found it.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/alien-franchise/Neill-Blomkamp’s-Alien-Sequel-What-To-Expect-3.png">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/alien-franchise/Neill-Blomkamps-Alien.png">
 
 ## The Future
 
