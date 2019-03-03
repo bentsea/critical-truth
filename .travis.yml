@@ -33,6 +33,6 @@ sudo: false
 addons:
   apt:
     packages:
-      - lftp
+      - ncftp
       
 cache: bundler # caching bundler gem packages will speed up build
