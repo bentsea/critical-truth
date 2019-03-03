@@ -4,6 +4,7 @@ _site/
 public_html/
 
 .sass-cache
+Gemfile.lock
 
 # Windows image file caches
 Thumbs.db

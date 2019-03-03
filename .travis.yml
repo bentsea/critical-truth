@@ -34,3 +34,5 @@ addons:
   apt:
     packages:
       - lftp
+      
+cache: bundler # caching bundler gem packages will speed up build
