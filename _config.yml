@@ -51,7 +51,7 @@ pagination:
 
 # Includes and Excludes
 include: [.htaccess,_pages]
-exclude: [ps.sh,getInfo.sh,new_post.py,Gemfile,Gemfile.lock]
+exclude: [ps.sh,getInfo.sh,new_post.py,Gemfile,Gemfile.lock,vendor]
 
 #Blank array for use in site.
 array: []
