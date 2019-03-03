@@ -2,11 +2,16 @@
 
 if  [[ $TRAVIS_PULL_REQUEST = "false" ]]
 then
-    ncftp -u "$USER" -p "$PASS" "$HOST"<<EOF
-    rm -rf ./public_html/*
-    quit
+    lftp -u $USER,$PASS $HOST <<EOF
+    set ftp:ssl-allow false
+    rm -r ./public_html
+    mkdir public_html
+    bye
 EOF
-
     cd _site || exit
-    ncftpput -R -v -u "$USER" -p "$PASS" "$HOST" ./public_html .
+    lftp -u $USER,$PASS $HOST<<EOF
+    set ftp:ssl-allow false
+    mirror -R --parallel -c . ./public_html
+    bye
+EOF
 fi
