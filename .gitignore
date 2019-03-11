@@ -2,6 +2,7 @@
 
 _site/
 public_html/
+web/
 
 .sass-cache
 Gemfile.lock

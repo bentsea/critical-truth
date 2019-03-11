@@ -12,6 +12,9 @@ twitter_username: Critical_truth_
 github_username:  bentsea
 facebook_username: acriticaltruth
 
+source: app
+destination: web
+
 #App Properties
 fbappid: 969503389844347
 
@@ -47,7 +50,7 @@ pagination:
   per_page: 9
   enabled: True
   collection: 'posts'
-  
+
 
 # Includes and Excludes
 include: [.htaccess,_pages]
@@ -64,4 +67,3 @@ categories: [review,editorial,movie,book,game]
 
 sass:
   style: compressed
-  

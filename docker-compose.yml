@@ -1,0 +1,15 @@
+version: '3'
+services:
+    webapp:
+        container_name: critical-truth-site
+        image: bentsea/critical-truth-site
+        build: .
+        expose:
+          - 80
+          - 443
+        environment:
+          VIRTUAL_HOST: dev.critical-truth.com
+          LETSENCRYPT_HOST: dev.critical-truth.com
+          LETSENCRYPT_EMAIL: brokenmind@gmail.com
+        volumes:
+            - ./web:/var/www/html
