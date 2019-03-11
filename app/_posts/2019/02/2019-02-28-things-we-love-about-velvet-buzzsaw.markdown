@@ -1,14 +1,16 @@
 ---
 title: "Things We Love About Velvet Buzzsaw"
 blurb: "An unreserved discussion of just what we liked about this unique film."
-categories: [editorial]
+categories: [editorial,Horror,Thriller,Slasher]
 image: https://img.critical-truth.com/img/2019/02/why-we-love-velvet-buzzsaw-cover.jpg
 author: dscott
-published: False
+published: True
 ---
 
 
 Sometimes it is so easy to get lost in talking about whether a movie as a whole is good or bad or whether it is worth watching. I think that we can lose so much valuable nuance by reducing our discussion of films to this context, and so today I want to do something a little different. 
+
+{% include media type="youtube" src="XdAR-lK43YU" %}
 
 Netflix recently released *Velvet Buzzsaw*, a quirky supernatural slasher flick from director Dan Gilroy about a group of people who represent those who profit from the exploitation of art by literally being murdered by art that surrounds them. It's not a perfect film, but I enjoyed it immensely and there were some elements of it that I absolutely loved. Given the ubiquity of Netflix, this is an opportunity to change the nature of criticism. I think the root of criticism should be about a discussion of films as art, diving into their merits far beyond whether or not you should watch them.
 
@@ -16,7 +18,7 @@ So, in the spirit of pure appreciation, I would rather talk simply about why thi
 
 And so, here are 5 things that I simply loved about *Velvet Buzzsaw*:
 
-> Warning: Spoilers ahead, so stop reading now and go watch the movie before reading on if you don't want it spoiled.
+> Warning: Spoilers ahead, so stop reading now and go watch the movie before reading on if you want that experience.
 
 ## 5. Neurotic Performances
 I am always thrilled when actors can play with a role. Getting to see wonky performances from talented individuals as they explore their space without boundaries is unique. *Velvet Buzzsaw* has three performances that stand out specifically: Jake Gyllenhaal, John Malkovitch, and Toni Collette. 
@@ -30,7 +32,9 @@ How explicitly does *Velvet Buzzsaw* acknowledge that tattoos are art? As mentio
 
 At the last moment, when she is sitting alone after having removed every painting or sculpture from around her, we see that there is one piece of art that she forgot about. A tattoo on the back of her neck that was prominently featured as a part of her character. In those final moments, the tattoo comes to life, violently killing Rhodora. This act unifies tattoos with all of the other art in the film, clearly making a statement, and that statement is that these acts of expression are meaningful.
 
-## 3. All Things Music
+## 3. Visual Style
+Director Dan Gilroy has filled the space of each frame with beautiful and powerful works of art. Compelling visual rustic colors, haunting symbols, and even stark modern sculpture. In a film about art, the art itself is used as a palette with entire styles of art used to decorate a frame the way others would use mere colors. The works of art that fill out the environment of *Velvet Buzzsaw* drew me in as much as the story itself.
+
 ## 2. The Art is the Victim
 In so many similar movies that cut at the art world, we see the art itself as part of the problem. It gets definitively included with all of the things that are wrong with the world in which it is surrounded. However, in *Velvet Buzzsaw* the art itself is the victim. The art is beautiful, genuine, and engrossing while it is surrounded by people who do a disservice to the very concept of art.
 
