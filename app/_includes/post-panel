@@ -1,0 +1,24 @@
+{% if include.post %}
+<article class="col-md-4 col-sm-6 post-thumb">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <a href="{{ include.post.url }}">
+                <figure class="blog-thumb">
+<!--                <img src="{% if post.image %}{{ include.post.image }}{% else %}/img/carousel/fullimage1.jpg{% endif %}" alt="{{ include.post.description }}" {% if post.description %}title="{{ include.post.description }}"{% endif %}>
+    -->
+ <img src="{% if post.image %}{{ include.post.image }}{% else %}/img/carousel/fullimage1.jpg{% endif %}" alt="{% if post.blurb %}{{ include.post.blurb }}{% else %}{{  post.title }}{% endif %}" title="{% if post.blurb %}{{ include.post.blurb }}{% else %}{{ include.post.title }}{% endif %}">
+            </figure>
+            </a>
+            <div class="post-area">
+                <a href="{{ include.post.url }}">
+                    <h4>{{ include.post.title }}</h4>
+                </a>
+                <p class="post-info"><span class="glyphicon glyphicon-time"></span> {{ include.post.date | date: "%b %-d, %Y" }} | <a href="{{ site.url }}{{ include.post.url }}#comments">Comments<!-- <span class="badge"><fb:comments-count href="{{ site.url }}{{ include.post.url }}"></fb:comments-count></span>--></a><!--{% if post.rating %} | <i>{{ include.post.rating}}/100</i>{% endif %}--><br />
+                <!--{{post.content|strip_html|truncate:110}}-->{% if post.blurb %}{{ include.post.blurb }}{% else %}{{post.content|strip_html|truncate:110}}{% endif %}</p>
+                
+                <div class="bottom-right"><a class="btn btn-primary btn-xs" href="{{ include.post.url }}">Read More</a></div>
+            </div>
+        </div>
+    </div>
+</article>
+{% endif %}

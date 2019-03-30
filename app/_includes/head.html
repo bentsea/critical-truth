@@ -9,22 +9,14 @@
   
 
   <!-- Favicon -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/favicon/android-icon-192x192.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/favicon/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/favicon/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#2d89ef">
+  <meta name="msapplication-config" content="/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
   <title>{% if page.title %}{{ page.title }} | {% endif %}{% if page.categories %}{{ page.categories | first | capitalize }} | {% endif %}{{ site.title }}{% if page.url == "/" %}: A Home for Critical Reviews and Editorials{% endif %}</title>
@@ -32,7 +24,7 @@
 
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{% if page.categories %}{{ page.categories | first | capitalize }} | {% endif %}{{ site.title }}{% if page.url == "/" %}: Reviews and Editorials{% endif %}">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}https://img.critical-truth.com/img/site-resource/logo-page.jpg{% endif %}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ "/img/site-resource/logo-page.jpg" | prepend: site.cdnurl }}{% endif %}">
   <meta property="og:description" content="{% if page.url == '/' %}{{ site.description }}{% elsif page.blurb %}{% if page.subjectInfo.name %}{{ page.subjectInfo.name }}{% else %}{{ page.title }}{% endif %}, {{ page.categories[1] | capitalize }} {{ page.categories[0] | capitalize }}: {{ page.blurb }}{% elsif paginator %}Archive of reviews for Critical-Truth, page {{ paginator.page }} of {{ paginator.total_pages }}.{% elsif page.description %}{{ page.description }}{% else %}{{ page.excerpt | strip_html | strip_newlines | truncate: 120 }}{% endif %}" />
   <meta property="fb:app_id" content="{{ site.fbappid }}"/>
   
@@ -90,7 +82,7 @@
       },{% endif %}
       "publisher": {
         "@type": "Organization",
-        "name": "Critical Truth",
+        "name": "{{ site.title }}",
         "logo":{
           "@type":"imageObject",
           "url":"https://img.critical-truth.com/img/site-resource/logo.png"

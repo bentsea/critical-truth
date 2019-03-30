@@ -4,8 +4,8 @@ permalink: /
 ---
 
 <div class="home">
-  <div class="page-heading">
-    <h1>Critical Truth: A Home for Critical Reviews and Editorials</h1>
+  <div class="page-heading visible-md-block visible-lg-block">
+    <h1>{{ site.title }}: A Home for Critical Reviews and Editorials</h1>
     <h3 class="page-meta">A Place to Talk Critically About What You Love</h3>
   </div>
 
@@ -29,22 +29,7 @@ permalink: /
   
   <div class="row">
     {% for post in site.categories["review"] limit: 3 %}
-    <article class="col-md-4 col-sm-6 post-thumb">
-        <a href="{{ post.url }}">
-          <figure class="blog-thumb">
-              <img src="{% if post.image %}{{ post.image }}{% else %}/img/carousel/fullimage1.jpg{% endif %}" alt="{% if post.blurb %}{{ post.blurb }}{% else %}{{  post.description }}{% endif %}" title="{% if post.blurb %}{{ post.blurb }}{% else %}{{ post.description }}{% endif %}">
-          </figure>
-        </a>
-        <div class="post-area">
-            <a href="{{ post.url }}">
-                <h4>{{ post.title }}</h4>
-            </a>
-            <p class="post-info"><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ site.url }}{{ post.url }}#comments">Comments<!-- <span class="badge"><fb:comments-count href="{{ site.url }}{{ post.url }}"></fb:comments-count></span>--></a><!--{% if post.rating %} | <i>{{ post.rating}}/100</i>{% endif %}--><br />
-            <!--{{post.content|strip_html|truncate:110}}-->{% if post.blurb %}{{ post.blurb }}{% else %}{{post.content|strip_html|truncate:110}}{% endif %}</p>
-            
-            <div class="bottom-right"><a class="btn btn-primary btn-xs" href="{{ post.url }}">Read More</a></div>
-        </div>
-    </article>
+    {% include post-panel post=post %}
     {% endfor %}
   </div>
   
@@ -52,22 +37,7 @@ permalink: /
   
   <div class="row">
     {% for post in site.categories["editorial"] limit: 3 %}
-    <article class="col-md-4 col-sm-6 post-thumb">
-        <a href="{{ post.url }}">
-          <figure class="blog-thumb">
-              <img src="{% if post.image %}{{ post.image }}{% else %}/img/carousel/fullimage1.jpg{% endif %}" alt="{% if post.blurb %}{{ post.blurb }}{% else %}{{  post.description }}{% endif %}" title="{% if post.blurb %}{{ post.blurb }}{% else %}{{ post.description }}{% endif %}">
-          </figure>
-        </a>
-        <div class="post-area">
-            <a href="{{ post.url }}">
-                <h4>{{ post.title }}</h4>
-            </a>
-            <p class="post-info"><span class="glyphicon glyphicon-time"></span> {{ post.date | date: "%b %-d, %Y" }} | <a href="{{ site.url }}{{ post.url }}#comments">Comments<!-- <span class="badge"><fb:comments-count href="{{ site.url }}{{ post.url }}"></fb:comments-count></span>--></a><!--{% if post.rating %} | <i>{{ post.rating}}/100</i>{% endif %}--><br />
-            <!--{{post.content|strip_html|truncate:110}}-->{% if post.blurb %}{{ post.blurb }}{% else %}{{post.content|strip_html|truncate:110}}{% endif %}</p>
-            
-            <div class="bottom-right"><a class="btn btn-primary btn-xs" href="{{ post.url }}">Read More</a></div>
-        </div>
-    </article>
+    {% include post-panel post=post %}
     {% endfor %}
   </div>
 

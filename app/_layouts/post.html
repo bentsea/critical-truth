@@ -19,7 +19,7 @@ layout: default
               <td><b>Final Verdict</b>:</td><td>{{ page.reviewInfo.final-verdict }}</td>
             </tr>
             <tr>
-              <td><b>Rating</b>:</td><td>{{ page.reviewInfo.rating }} / 100</td>
+              <td><b>Rating</b>:</td><td>{% if page.reviewInfo.rating > 81 %}A{% elsif page.reviewInfo.rating > 61 %}B{% elsif page.reviewInfo.rating > 41 %}C{% elsif page.reviewInfo.rating > 21 %}D{% else %}F{% endif %}</td>
             </tr>
           </tbody>
         </table>

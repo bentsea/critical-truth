@@ -1,16 +1,24 @@
 # Site settings
-title: Critical Truth
+title: EskimoTV
 email: fearsometruth@gmail.com
 description: >
   A home for critical and honest reviews that strive for a
   thoughtful exploration of all forms of art and expression, especially reviews of movies,
   music, TV, and games!
 baseurl: "" # the subpath of your site, e.g. /blog/
-cdnurl: "https://img.critical-truth.com"
+#cdnurl: "https://img.critical-truth.com"
+cdnurl: ""
 url: "https://www.critical-truth.com" # the base hostname & protocol for your site
 twitter_username: Critical_truth_
 github_username:  bentsea
 facebook_username: acriticaltruth
+
+#primary_color: e95420
+#secondary_color1: d34615
+#secondary_color2: ac3911
+primary_color: 6699cc
+secondary_color1: 003366
+secondary_color2: 336699
 
 source: app
 destination: web
