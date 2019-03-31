@@ -6,8 +6,8 @@ description: >
   thoughtful exploration of all forms of art and expression, especially reviews of movies,
   music, TV, and games!
 baseurl: "" # the subpath of your site, e.g. /blog/
-cdnurl: "https://img.critical-truth.com"
-url: "https://www.critical-truth.com" # the base hostname & protocol for your site
+cdnurl: "http://img.critical-truth.com"
+url: "http://www.critical-truth.com" # the base hostname & protocol for your site
 twitter_username: Critical_truth_
 github_username:  bentsea
 facebook_username: acriticaltruth

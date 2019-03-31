@@ -18,7 +18,7 @@ subjectInfo:
 
 If all you want to know is whether or not a movie is worth watching, here it is: The Big Short is an astounding example of everything done right as all of the writing, dialog, acting, music, and directing fall together pefectly. It all results in a well paced film that will bring out every emotion in your body and leave you tired and worn out, and you must watch this film.
 
-<img class="img-responsive centered" width="80%" src="https://img.critical-truth.com/img/articles/The-Big-Short-2015-banner.jpg" title="The Big Short Promo Image">
+<img class="img-responsive centered" width="80%" src="{{ "/img/articles/The-Big-Short-2015-banner.jpg" | prepend: site.cdnurl }}" title="The Big Short Promo Image">
 
 For readers who want more, I can tell you that this is probably one of the best performances seen from Christian Bale, who actually became another character for me and not just another version of what we've seen in every other movie he's been in. Steve Carell's character probably doesn't fall that far from what we've seen from him before, but is emotionally captivating none the less. You get everything you expect from Ryan Gosling, a solid performance that doesn't knock it out of the park but definitely adds more to the film than many other actors would in that role.
 

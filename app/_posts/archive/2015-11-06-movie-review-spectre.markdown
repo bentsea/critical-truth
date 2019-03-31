@@ -16,7 +16,7 @@ subjectInfo:
    dateCreated: "06 Nov 2015"
 ---
 
-<img class="img-responsive" width="20%" style="float:left;margin:10px;" src="https://img.critical-truth.com/img/articles/spectre-poster.jpg">
+<img class="img-responsive" width="20%" style="float:left;margin:10px;" src="{{ "/img/articles/spectre-poster.jpg" | prepend: site.cdnurl }}">
 Casino Royale was a well paced and superior addition to the James Bond franchise, shifting dramatically from the exotic almost science fiction entries from previous years to gripping spy narrative focusing more on espionage and intrigue than gadgets and explosions. It was followed up by the more traditional and forgettable Quantum of Solace before the final turn in Skyfall with a deconstruction of Bond as a character and a Mission Impossible style exploration of the destruction of Bond's support structure.
 
 The trilogy genuinely felt complete, which tragically undermines Spectre's attempts to insert itself into the previous narrative with heavy handed gimmicks and exposition based on an increasingly implausible back story forced directly onto Bond's character. Absolutely everything that is wrong with this movie revolves around attempting to tie it into the narrative of the complete and well resolved trilogy leading up to it. If you're able to overlook these issues, you're in for a treat to one of the best action movies of the summer.

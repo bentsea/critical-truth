@@ -16,7 +16,7 @@ permalink: /feed.xml
     <generator>Jekyll v{{ jekyll.version }}</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <image>
-      <url>https://img.critical-truth.com/img/site-resource/logo-page.jpg</url>
+      <url>{{ "/img/site-resource/logo-page.jpg" | prepend: site.cdnurl }}</url>
       <title>{{ site.title }}</title>
       <link>{{ site.url }}</link>
     </image>

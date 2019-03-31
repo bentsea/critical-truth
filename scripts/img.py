@@ -57,7 +57,7 @@ def main(argv):
         sys.exit(2)
          
     saveImage(imgURL,imgName)
-    print('<img class="img-responsive article-pic" src="https://img.critical-truth.com/img%s" alt="%s" title="%s">' % (time.strftime("/%Y/%m/") + imgName,title,title))
+    print('<img class="img-responsive article-pic" src="{{ "/img%s" | prepend: site.cdnurl }}" alt="%s" title="%s">' % (time.strftime("/%Y/%m/") + imgName,title,title))
     
     
 if __name__ == "__main__":

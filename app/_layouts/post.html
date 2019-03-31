@@ -10,7 +10,7 @@ layout: default
           <p class="post-meta">{% if page.categories %}{{ page.categories[1] | capitalize }} {{ page.categories | first | capitalize }} • {% endif %}{{ page.date | date: "%b %-d, %Y" }}{% if page.author %}{% assign author = site.data.authors[page.author] %} • Author: <a href="{{ author.web }}">{{ author.name }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
           {% include social-media.html %}
         </header>
-        {% capture post_year %}{{ page.date | date: "%Y" }}{% endcapture %}{% assign post_year = post_year | plus:0 %}{% if post_year > 2016 %}<img class="img-responsive webfeedsFeaturedVisual " style="margin: 0 10px 10px 0px; width: 100%;" src="{{ page.image }}" alt="{{ page.title }} Cover">{% endif %}
+        {% capture post_year %}{{ page.date | date: "%Y" }}{% endcapture %}{% assign post_year = post_year | plus:0 %}{% if post_year > 2016 %}<img class="img-responsive webfeedsFeaturedVisual " style="margin: 0 10px 10px 0px; width: 100%;" src="{{ page.image | prepend: site.cdnurl }}" alt="{{ page.title }} Cover">{% endif %}
         {{ content }}
         {% if page.reviewInfo.rating %}
         <table class="table">
