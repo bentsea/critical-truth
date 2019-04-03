@@ -9,19 +9,19 @@ robots_index: false
 
 # Always use www in the domain
 # Force https (with wwww)
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^critical-truth\.com [NC]
-RewriteCond %{HTTP_HOST} !img.critical-truth.com
-RewriteCond %{HTTP_HOST} !dev.critical-truth.com
-RewriteRule ^(.*)$ https://www.critical-truth.com/$1 [R=301,L]
+#RewriteEngine On
+#RewriteCond %{HTTP_HOST} ^critical-truth\.com [NC]
+#RewriteCond %{HTTP_HOST} !img.critical-truth.com
+#RewriteCond %{HTTP_HOST} !dev.critical-truth.com
+#RewriteRule ^(.*)$ https://www.critical-truth.com/$1 [R=301,L]
 
 # Force HTTPS
-RewriteEngine On
-RewriteCond %{HTTP_HOST} !^dev\. [NC]
+#RewriteEngine On
+#RewriteCond %{HTTP_HOST} !^dev\. [NC]
 #RewriteCond %{HTTP:X_FORWARDED_PROTO} !https
 #RewriteCond %{HTTP:CF-VISITOR} '"scheme":"http"'
-RewriteCond %{REQUEST_SCHEME} !https
-RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+#RewriteCond %{REQUEST_SCHEME} !https
+#RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
 <IfModule mod_deflate.c>
   # Compress HTML, CSS, JavaScript, Text, XML and fonts
@@ -74,7 +74,8 @@ ExpiresDefault "access plus 2 days"
 Header set Access-Control-Allow-Origin "*"
 
 
-
+{% comment %}
 {% for post in site.posts %}
 RewriteRule ^/?articles\/{{ post.slug }}/$ https://www.critical-truth.com/articles/{{ post.date | date: "%Y" }}/{{ post.slug }}/ [R=301,L]
 {% endfor %}
+{% endcomment %}
