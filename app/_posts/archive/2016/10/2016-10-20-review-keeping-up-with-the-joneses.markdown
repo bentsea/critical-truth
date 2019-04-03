@@ -18,7 +18,7 @@ subjectInfo:
    dateCreated: "21 Oct 2016"
 ---
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/keeping-up-with-the-joneses-2016/joneses-banner.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/keeping-up-with-the-joneses-2016/joneses-banner.jpg" | prepend: site.cdnurl }}">
 
 The real brilliance of Keeping Up with the Joneses (2016) is the chemistry of the cast and how they respond to each other and play off each others foils. What keeps it from greatness is a largely forgettable and and throwaway story. While the movie is technically well executed, outside of some fun chase scenes, no aspect outside of the acting and dialog writing really adds anything extra.
 
@@ -26,13 +26,13 @@ One of the real highlights of the cast is Zach Galifianakis, who shines outstand
 
 Isla Fisher, always on point, brings her own type of special to that dynamic, working with Zach's talent for embodying these awkward and vulnerable characters and adding to it by imbuing her role as Karen Gaffney with a clever playfulness. She balances out the core relationship of the film with a sense of fun that actually allows Zach to tone down some of his rougher edges that detract from his performances in other films. She even gets more than enough time to stand completely on her own as the fantastic comedian and character actor that she has time and again brought to each of her previous endeavors.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/keeping-up-with-the-joneses-2016/keeping-up-with-the-joneses-zach-galifianakis-jon-hamm.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/keeping-up-with-the-joneses-2016/keeping-up-with-the-joneses-zach-galifianakis-jon-hamm.jpg" | prepend: site.cdnurl }}">
 
 John Hamm and Gal Gadot work as an awesome power couple. Functionally falling into supporting roles, they act as perfect foils in their embodiment of human perfection that highlights the fun of the normality of Galifianakis and Fisher. The relationship that develops between the characters of Hamm and Galifianakis has a really charming affect. Possibly the weakest link here is Gal Gadot, with a few of her deliveries feeling a bit thin, but with the rest of the cast, including roles played by Matt Walsh and Patton Oswalt, most viewers wont even notice when her dialog delivery is a little flat.
 
 Unfortunately, with all of this chemistry, the plot itself is fairly dull. It feels rehashed. Whether this is the best version of a normal couple entangled with super spies or not, it just is not that engaging of a use of such wonderful chemistry and this is absolutely palpable. Most viewers will likely begin forgetting the major plot points even before the movie is over despite having been given plenty of good laughs.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/keeping-up-with-the-joneses-2016/hamm-gadot-joneses.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/keeping-up-with-the-joneses-2016/hamm-gadot-joneses.jpg" | prepend: site.cdnurl }}">
 
 There are some passable action scenes, the pacing is clean, and the cinematography is competent. Is competency enough? If this movie hits a special place for you, it definitely is. However, most viewers likely wont remember this movie as much more than an amusing adventure. Maybe there's a lack of depth, maybe it's because it lacks teeth. We never hurt for any of these characters, and so we don't have any pain to latch onto.
 

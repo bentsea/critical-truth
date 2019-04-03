@@ -24,14 +24,14 @@ The setup is so cleanly cut and overt that it is easy to miss what the story is 
 
 If all we have is the unreliable testimony of eye-witnesses and survivors, then it all fades away as soon as they’ve faded away. The evidence of what happened could literally die off. Given this, the movie takes on the heavy burden of exploring the topic of the Holocaust without the easy fallback of survivor testimony. We’ve seen that before, and it’s easy, it’s easy because it’s emotional. It’s easy because when you have a face to look into, it disarms you, and you connect with them, especially when they have so much pain that it’s transparent in everything they say and do.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/denial-2016/denial-timothy-spall.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/denial-2016/denial-timothy-spall.jpg" | prepend: site.cdnurl }}">
 
 
 It should be weird to think of the Holocaust as a subject that is rarely approached from a mature angle, but when you stop and think about it, it almost never is. This is *why* the evidence is so lacking, and why a trial like this ever happened. Denial is subtle in how it approaches these questions, and then further prods us to constantly think about making hard choices: sitting still in the face of those who offend us, avoiding the easy answers to hard questions, and working diligently to be prepared to answer hard questions in a way that will last forever.
 
 Director Mike Jackson really shines when it comes to placing these questions and answers down almost casually, but close enough to have the audience connect the dots. Narrative construction is where Denial shines the most, conveying what we need to think about and what we need to ask with a grace that appears effortless.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/denial-2016/denial_tom_wilkinson.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/denial-2016/denial_tom_wilkinson.jpg" | prepend: site.cdnurl }}">
 
 
 There is a lot of dialog here that is meticulously written and a lot can be unpacked from just a little bit. What’s more, is it’s delivered with nuance by a cast of actors with outstanding careers and talent. Rachel Weisz’ portrayal of Deborah is solid, and manages to successfully hit the most important notes of her character arc, and is strongest in the places where it needs to be when she is most challenged by her inner conflict. Her performance falls apart in one or two scenes which are forgivable in the larger context.
@@ -40,7 +40,7 @@ Tom Wilkinson knocks it out of the park with his portrayal of Richard Rampton. H
 
 A movie with so much legal nuance requires a large amount of exposition to prepare the audience to understand the actions in the courtroom. It can be challenging to outright instruct the audience on what is happening without having them feel alienated, but Andrew Scott’s portrayal of Anthony Julius successfully entertains while giving us a tour of the ins and outs of a libel case. 
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/denial-2016/denial_deborah_lipstadt_rachel_wiesz.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/denial-2016/denial_deborah_lipstadt_rachel_wiesz.jpg" | prepend: site.cdnurl }}">
 
 
 Rarely does a movie enthrallingly tell the story of good decision making, as drama is rarely the product of mature behavior. Denial’s goal of asking us to be more mindful of how we document history, having us take a second look to think about when and how we get evidence of what we believe, and following this up with messages about restraining our emotions when taking an argument to a place that is more humanly satisfying is refreshing and enjoyable.

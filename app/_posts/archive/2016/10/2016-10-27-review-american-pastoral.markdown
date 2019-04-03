@@ -27,7 +27,7 @@ The story opens with some awkward exposition delivered with cardboard grade pass
 
 What’s surprising is that *American Pastoral* is filled with talented and capable actors who all feel like they are better than this, and you can even tell that they’re trying to do something with their delivery. It just doesn’t work though. To be fair, though you can largely rule out the quality of the acting given the large amount of affected talent.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/american-pastoral/american-pastoral-ewan-looking-martyrly.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/american-pastoral/american-pastoral-ewan-looking-martyrly.jpg" | prepend: site.cdnurl }}">
 
 Given that the directing is otherwise competent, it must be assumed that the writing is the source of the stiffness here. However, capable directing is not always a good thing. By merely effectively capturing the story, and failing to impart anything remarkably good or bad, a sort of blandness results, preventing this from being a credit to the film.
 
@@ -37,7 +37,7 @@ These sins are subjective, and a lot of viewers may not be bothered by them, and
 
 The premise: The Swede is a near flawless example of human perfection. Exemplary at all sports, volunteered for World War II, beauty queen wife, and owner of a small business that hires a multi-cultural staff even in the 50s onward. He is kind, attentive, caring, sensitive, and when the time comes, he’s even opposed to the Vietnam war.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/american-pastoral/money-shot.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/american-pastoral/money-shot.jpg" | prepend: site.cdnurl }}">
 
 During the turbulence of the sixties and seventies, The Swede’s daughter falls in with anti war revolutionaries and disappears, resulting in the slow dissolution of his life as he perpetually seeks to find and redeem her.
 
@@ -46,7 +46,7 @@ The overtones at best over glorify and idolize the gilded edges of a point in Am
 
 I’d argue that even audiences who are able to forgive flawed writing and underwhelming acting and directing would find it hard to slog through life just beating the crap out of a guy whose core flaw is being too perfect. As a counter point, I think *The Passion of the Christ* actually did pretty well, so who knows how well *American Pastoral* will do.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/american-pastoral/physical-distance-between-characters-as-metaphor-for-emotional-rift.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/american-pastoral/physical-distance-between-characters-as-metaphor-for-emotional-rift.jpg" | prepend: site.cdnurl }}">
 
 I can’t even say that the music is a saving grace, despite being filled with powerful and emotional songs. Every movie about the 60s, 70s, and cultural revolution uses a similar soundtrack, it’s like a checklist almost. You’d be better off watching Forest Gump for the millionth time.
 

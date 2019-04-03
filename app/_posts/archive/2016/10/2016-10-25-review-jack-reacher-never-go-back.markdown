@@ -22,7 +22,7 @@ Jack Reacher: Never Go Back is the second entry in the Jack Reacher franchise. I
 
 Frequently movies may be criticized for following predictable patterns and well established templates for their genre. Arguably, however, this same adherence to a well tested recipe can allow a filmmaker to refine the overall quality of film making and display particular accomplishment in cinematography, choreography, pacing, writing, or even acting. Jack Reacher: Never Go Back is an excellent example of quality execution elevating an otherwise generic work.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/jack-reacher-never-go-back/jack-reacher-kitchen.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/jack-reacher-never-go-back/jack-reacher-kitchen.jpg" | prepend: site.cdnurl }}">
 
 One of the areas that particularly stands out is a muted performance from Tom Cruise. There is no surprise in the talent and ability of Tom Cruise being able to highlight the aspects of Jack Reacher that make him unique as a character: thoughtful and direct. Little to no time is lost on moments of indecision or superfluous conversation. This doubly works toward the strength of the film as a whole, as it wastes almost no time at all, using all of its scenes and dialog purposefully.
 
@@ -32,7 +32,7 @@ The action of Jack Reacher is effectively choreographed. Not as sparse or brutal
 
 Its narrative is where Never Go Back is weakest. The finer details of the story were already evaporating from my mind even as I left the theater. I still remember the broader strokes, but what I'm left with is more like an impressionists version of a story. All the major events are flat and the finer details just didn't feel important enough to stick out, especially not against the well developed character interactions.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/jack-reacher-never-go-back/a-reacher-parade.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/jack-reacher-never-go-back/a-reacher-parade.jpg" | prepend: site.cdnurl }}">
 
 This is probably because the antagonists are so thinly defined. We never get more than a few minutes with them as a whole. Never Go Back is so primarily focused with the relationships conflicts of reacher himself, that the actual villains of the story are little more than the background noise to highlight them. You'll be hard pressed to remember anything particularly interesting about any of the figures that Reacher struggles against.
 

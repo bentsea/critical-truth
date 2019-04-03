@@ -12,7 +12,7 @@ Though subdued when compared to later works of grotesque indulgence, the origina
 
 What I found incredibly surprising about Night of the Living Dead, is that it almost felt like a parody of itself. Where many later works criticized the original zombies for being slow and ineffective, I expected this to be a logical flaw in film's narrative that I would have to overlook.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/night-of-the-living-dead-1968/night-of-the-living-dead-cover.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/night-of-the-living-dead-1968/night-of-the-living-dead-cover.jpg" | prepend: site.cdnurl }}">
 
 To the contrary, George Romero deliberately made his zombies fatal only to the most inattentive and self destructive of people. This is underscored and outright stated in news broadcasts visible to the audience throughout the story. In the midst of the chaos experienced by the protagonists the audience is given television close-ups of militia groups wiping out entire masses of zombies.
 
@@ -25,7 +25,7 @@ The narrative issue I was most concerned about was directly addressed in an asid
 
 The only possible conclusion and purpose for this is damningly clear: that the fate of the protagonists rests entirely within the realm of their own internal conflict. When they die, they only truly die because they have killed themselves. This includes when the zombies act as agents of their death.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/night-of-the-living-dead-1968/barbara-confused-scared.JPG">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/night-of-the-living-dead-1968/barbara-confused-scared.JPG" | prepend: site.cdnurl }}">
 
 This is reinforced in smaller ways throughout the movie. For one, with the exception of the very first death in the film, every single death is the direct result of a failure of character, carelessness, or outright murder. This is an extreme movie that makes a mundane statement about how we treat each other, about how our cowardice, our frailty of will, and our inability to support each other is definitively destructive on a mortal level.
 
@@ -33,7 +33,7 @@ We are told directly as an audience that what is happening outside is just a dis
 
 The internal disorientation and stress the characters undergo is reinforced by the gore, and by the sharp and aggressive cinematography. As a director, Romero chooses intense and uncomfortable angles for his lens into this world. Viewers feel it, even as they feel the tension through the dialog, and the acting of the characters: fear, frustration, and despair.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/night-of-the-living-dead-1968/cleaning-up-the-zombies.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/night-of-the-living-dead-1968/cleaning-up-the-zombies.jpg" | prepend: site.cdnurl }}">
 
 Without a single jump scare, Romero creates a feeling of uncomfortable distress that lasts even after the end credits roll, and has produced a work with a narrative that is timeless and can entertain and upset thoughtful viewers even today. Romero went on to reinforce these themes in all of his films, from *Dawn of the Dead* all the way through his more recent works, such as *Survival of the Dead*.
 

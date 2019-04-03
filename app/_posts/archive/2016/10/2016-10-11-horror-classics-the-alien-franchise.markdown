@@ -17,13 +17,13 @@ Few franchises have such a strong start. Alien (1979) is one of the most lasting
 
 The evocative style of the xenomorphs, based on the work of H.R. Giger, haunt you on a subconscious level. They are organized in their chaos, and grotesque in their macabre physique. Simultaneously monstrous and admirable, grotesque and aesthetically engrossing, a series of paradoxical elements all come to life at once and working harmoniously with the narrative terrors they were meant to embody.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/alien-franchise/the-xenomorph.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/alien-franchise/the-xenomorph.jpg" | prepend: site.cdnurl }}">
 
 Opposing the xenomorphs is the Weyland-Yutani corporation. While we sometimes get a brief glimpse into them as a mega corporation creating everything from toys and clothes to moving vast intergalactic mining operations, they primarily serve as an invisible foil. A wall against which the aliens push the protagonists, undermining their survival from beyond reach in ways that can be subtle and sometimes aggressively overt.
 
 Each new director to create a film in the franchise has managed to take this creature in fundamentally new directions and sculpt unique interpretations. All of these entries have preserved the sense of claustrophobia caused by the being caught between extraterrestrial predators and the amorphous touch of corporate greed from afar. Even the debatably poor films in the franchise find new spaces to explore and viewed these core elements of the fear of the unknown vs. the terrors from within through the lenses of different genres.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/alien-franchise/weyland-makes-toys.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/alien-franchise/weyland-makes-toys.jpg" | prepend: site.cdnurl }}">
 
 ## Alien (1979)
 
@@ -40,7 +40,7 @@ After the original Alien, John Cameron’s Aliens redefined the franchise and is
 The film is about upsetting the feeling of invulnerability presented by such a strong setup, and eating away at the feeling of confidence the audience is supposed to have. As with the original, though, we’re served with a combination of punches in succession to knock us down. The xenomorphs first, as they overwhelm with numbers and with no regard for their own individual needs. Then, after the soldiers are weakened, we again experience the sabotage of the machinations of the Weyland-Yutani corporation prompting Ripley to verbalize the question: Which is the worst monster? Them or us?
 
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/alien-franchise/alien-egg-chamber.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/alien-franchise/alien-egg-chamber.jpg" | prepend: site.cdnurl }}">
 
 Aliens breaches the action adventure genre more than casually, arguably transitioning fully from its thriller origins by ending with a large set piece action sequence that gave audiences more of a bang to remember as they leave the theater than the whimper of the original. It’s fair to say that in their own ways, Alien and Aliens are each the very best of the genre they represent to this very day: sci-fi horror, and action adventure horror respectively.
 
@@ -64,7 +64,7 @@ Whedon’s more action centric narrative and less heady sense for science fictio
 
 As a pair, Jean-Pierre Jeunet created a space that’s so playful with angles and unusual environments as to be fun, and Whedon wrote a film that puts the corporate interests and extraterrestrial menace in the forefront of the film. Watched in series, though, viewers may find it too hard to separate Resurrection from the action roots that the franchise evoked in Aliens. Jeunet’s focus on emotion through charicature could only draw negative comparisons against the genius of Cameron’s technical mastery of the craft and focus on cohesive writing, as these are Jeunet’s weaknesses. Viewers who can let go of that baggage frequently do find a film that has its own voice and is a fun ride.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/alien-franchise/prometheus-meeting-god.png">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/alien-franchise/prometheus-meeting-god.png" | prepend: site.cdnurl }}">
 
 ## Prometheus (2012)
 
@@ -76,7 +76,7 @@ Prometheus uses all of the elements of human curiosity by using the perspective 
 
 Too different and too broken, few appreciated Scott’s beautiful use of color and cinematography to draw us into a terrifying place and the intimidating question of what it would mean to be able to meet our maker and how hollow it would make us feel to be unsatisfied with what we found and terrified by that maker immediately seeking to destroy us for having found it.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/alien-franchise/Neill-Blomkamps-Alien.png">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/alien-franchise/Neill-Blomkamps-Alien.png" | prepend: site.cdnurl }}">
 
 ## The Future
 

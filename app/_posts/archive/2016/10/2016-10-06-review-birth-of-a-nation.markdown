@@ -24,19 +24,19 @@ Sometimes the movies that are the hardest to watch are the ones that are most im
 
 Written, produced, and directed by Nate Parker, *The Birth of a Nation* is a dramatized biography of Nat Turner and Nat Turner's Rebellion (also known as the Southampton Insurrection). Nate Parker further stretches himself by taking the lead role, Nat Turner. Nate manages to deliver an inspired performance despite the challenges of so much responsibility.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/birth-nation-dreams.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/birth-of-a-nation-2016/birth-nation-dreams.jpg" | prepend: site.cdnurl }}">
 
 Opposite Nate Parker, Armie Hammer as Samuel Turner successfully captures the slow erosion of the human soul as we are given a long view of his life from childhood to maturity and the damage of slave ownership and slave culture on his disposition and temperament. Even as the audience is taken on a guided tour of grotesque abuse, we are shown Samuel Turner slowly become all of the things that initially tear him apart.
 
 Over the top violence and gore are not uncommon in modern cinema, though it would be fair to say that only a small few films really use it appropriately. When well executed, the horror of the real and the embrace of the degradation of humanity in conjunction with the destruction of the body leave the viewer vulnerable. *The Birth of a Nation* uses that vulnerability to prepare us to accept the destruction of every character touched by it as inevitable. Unlike its contemporaries, here this uncompromising insight into the worst isn't the point, but rather to prepare the audience for the emotional pain that surrounds it and to heighten our awareness.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/birth-of-a-nation-wedding.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/birth-of-a-nation-2016/birth-of-a-nation-wedding.jpg" | prepend: site.cdnurl }}">
 
 Finally, the environment drives all of the themes of the movie home. The religious fervor, the woods, the fields, and the barns all paired with the music and the people to capture a place in time. Tinged with the mingling of Christianity with the ceremonies and mysticism of the African culture. Nate Parker uses color sparsely, mingling the real world and dreams by muting their tones, except for when he uses red. It's visually striking and it stands out and grabs your attention and heightens your awareness.
 
 All of these aspects, the characters, the pain, and the world building, come together to put the audience through a grueling experience that will leave most drained and spent by the climax. It's such an intense ride that few will notice the flaws that mar the overall work.
 
-<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/pain-and-tragedy-birth-of-a-nation.jpg">
+<img class="img-responsive" width="100%" style="margin: 0 10px 10px 0px;" src="{{ "/img/articles/birth-of-a-nation-2016/pain-and-tragedy-birth-of-a-nation.jpg" | prepend: site.cdnurl }}">
 
 None of the issues here are systemic, most of them a failing of a single moment here or a moment there. A character having an unexplained shift in behavior to propel the plot one way, then another when it is convenient. A few lines of dialog are heavy handed observations on the parallels with current events. Well delivered, but still clumsily written, they land with stilted weight and are felt but don't entirely take hold like they should given the severity of their subject matter.
 
