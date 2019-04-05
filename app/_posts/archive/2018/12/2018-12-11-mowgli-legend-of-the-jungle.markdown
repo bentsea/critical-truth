@@ -2,7 +2,7 @@
 title: "Mowgli: Legend of the Jungle (2018)"
 blurb: "Andy Serkis tries to find new things to say with a classic story."
 categories: [review,movie,Adventure,Drama]
-image: https://img.critical-truth.com/img/2018/12/mowgli-legend-of-the-jungle-cover.jpg
+image: /img/2018/12/mowgli-legend-of-the-jungle-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A film that comes so close to being very good before stumbling hard."

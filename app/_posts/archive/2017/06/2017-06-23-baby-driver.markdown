@@ -2,7 +2,7 @@
 title: "Baby Driver (2017)"
 blurb: "The best thrill ride in years and a blast to watch."
 categories: [review, movie, Action,Crime,Thriller]
-image: https://img.critical-truth.com/img/2017/06/baby-driver-cover.jpg
+image: /img/2017/06/baby-driver-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Easy to recommend because of its soundtrack, but it delivers on almost every other merit as well."

@@ -7,7 +7,7 @@ reviewInfo:
    rating: 65
 date:   2016-09-16 16:59:15
 categories: [review, movie, horror]
-image: https://img.critical-truth.com/img/articles/blair-witch/blair-witch-banner.jpg
+image: /img/articles/blair-witch/blair-witch-banner.jpg
 author: dscott
 subjectInfo:
    type: Movie

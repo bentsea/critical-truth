@@ -2,7 +2,7 @@
 title: "Game Night (2018)"
 blurb: "A beautifully crafted and fun comedy adventure."
 categories: [review, movie, Mystery,Comedy,Crime,Action,Adventure]
-image: https://img.critical-truth.com/img/2018/02/game-night-cover.jpg
+image: /img/2018/02/game-night-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A well crafted comedy that delights and entertains."

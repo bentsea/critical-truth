@@ -3,7 +3,7 @@ title: "The Strangers: Prey at Night (2018)"
 blurb: "A sequel filled with more groans than scares with limited appeal."
 date: 2018-03-08 02:00:00
 categories: [review, movie, Horror,Thriller]
-image: https://img.critical-truth.com/img/2018/03/the-strangers-prey-at-night-cover.jpg
+image: /img/2018/03/the-strangers-prey-at-night-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Too little substance and too mean spirited to be worth your time."

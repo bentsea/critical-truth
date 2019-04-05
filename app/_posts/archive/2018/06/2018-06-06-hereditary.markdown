@@ -2,7 +2,7 @@
 title: "Hereditary (2018)"
 blurb: "A landmark in exploring a living nightmare through a unique lens."
 categories: [review, movie, Horror,Drama,Mystery,Thriller]
-image: https://img.critical-truth.com/img/2018/06/hereditary-cover.jpg
+image: /img/2018/06/hereditary-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A landmark horror film marrying subtance with style that is a must watch for anyone who can stomach it."

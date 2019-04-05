@@ -2,7 +2,7 @@
 title: "Hotel Artemis (2018)"
 blurb: "Is this the sci-fi crime thriller you're looking for?"
 categories: [review, movie, Thriller,Science Fiction]
-image: https://img.critical-truth.com/img/2018/06/hotel-artemis-cover.jpg
+image: /img/2018/06/hotel-artemis-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "An instant classic and a must watch for anyone who enjoys a science-fiction adventure. "

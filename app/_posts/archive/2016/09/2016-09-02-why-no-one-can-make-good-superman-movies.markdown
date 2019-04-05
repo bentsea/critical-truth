@@ -4,7 +4,7 @@ title:  "The Problem With Superman Movies"
 blurb: "Why there has been never really been a good Superman movie, and wont ever be."
 date:   2016-09-02 16:59:15
 categories: [editorial, movie, Comic,Action,Adventure,Action,Superman]
-image: https://img.critical-truth.com/img/articles/superman-movies/nikolas.jpeg
+image: /img/articles/superman-movies/nikolas.jpeg
 author: dscott
 ---
 

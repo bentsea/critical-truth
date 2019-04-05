@@ -2,7 +2,7 @@
 title: "The Disappointment of Rough Night"
 blurb: "Rough Night is Less 'Very Bad Things' and More 'Weekend at Bernies'"
 categories: [editorial,movie,Comedy,Horror,Drama,Crime]
-image: https://img.critical-truth.com/img/2017/07/rough-night-cover.jpg
+image: /img/2017/07/rough-night-cover.jpg
 author: dscott
 ---
 

@@ -2,7 +2,7 @@
 title: "Molly's Game (2017)"
 blurb: "Aaron Sorkin's directorial debut explores the enigmatic and alluring character of Molly Bloom."
 categories: [review, movie, Drama]
-image: https://img.critical-truth.com/img/2017/12/mollys-game-cover.jpg
+image: /img/2017/12/mollys-game-cover.jpg
 author: jkirby
 reviewInfo:
    final-verdict: "If your sights are set at the theater this winter season, this film is intriguing and worth the view."

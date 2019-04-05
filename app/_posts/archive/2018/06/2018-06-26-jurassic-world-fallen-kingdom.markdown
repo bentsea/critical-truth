@@ -2,7 +2,7 @@
 title: "Jurassic World: Fallen Kingdom (2018)"
 blurb: "Is it possible for a sequel to be worse than its predecessor but still more fun?"
 categories: [review, movie, Action,Adventure,Science Fiction]
-image: https://img.critical-truth.com/img/2018/06/jurassic-world-fallen-kingdom-cover.jpg
+image: /img/2018/06/jurassic-world-fallen-kingdom-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A fun ride for those who can overlook the flaws in this entertaining gem."

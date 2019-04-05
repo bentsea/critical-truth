@@ -7,7 +7,7 @@ reviewInfo:
    rating: 75
 date:   2016-09-23 19:30:00
 categories: [review, movie]
-image: https://img.critical-truth.com/img/articles/magnificent-seven-2016/magnificent-seven-cover.jpg
+image: /img/articles/magnificent-seven-2016/magnificent-seven-cover.jpg
 author: wholt
 subjectInfo:
    type: Movie

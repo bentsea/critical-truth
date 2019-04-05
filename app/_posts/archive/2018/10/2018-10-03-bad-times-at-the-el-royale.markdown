@@ -2,7 +2,7 @@
 title: "Bad Times at the El Royale (2018)"
 blurb: "A gripping suspense film from the creator of Cabin in the Woods"
 categories: [review, movie,Drama,Thriller,Mystery,Horror,Crime]
-image: https://img.critical-truth.com/img/2018/10/bad-times-at-the-el-royale-cover.jpg
+image: /img/2018/10/bad-times-at-the-el-royale-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A tight narrative with a gripping sense of suspense that will keep you on the edge of your seat."

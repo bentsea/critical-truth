@@ -7,7 +7,7 @@ reviewInfo:
    rating: 81
 date:   2016-10-13 00:00:00
 categories: [review, movie, Biography, Drama, History]
-image: https://img.critical-truth.com/img/articles/denial-2016/denial-cover.jpg
+image: /img/articles/denial-2016/denial-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

@@ -2,7 +2,7 @@
 title: "Valerian and the City of a Thousand Planets (2017)"
 blurb: "Despite the right ingredients, Luc Besson manages to fumble what might have been a classic."
 categories: [review, movie, Adventure,Science Fiction,Action]
-image: https://img.critical-truth.com/img/2017/07/valerian-and-the-city-of-a-thousand-planets-cover.jpg
+image: /img/2017/07/valerian-and-the-city-of-a-thousand-planets-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Though fun at times and loaded with style, Valerian disappoints too frequently. Wait to watch it at home."

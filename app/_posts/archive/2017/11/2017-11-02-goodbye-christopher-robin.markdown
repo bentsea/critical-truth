@@ -2,7 +2,7 @@
 title: "Goodbye Christopher Robin (2017)"
 blurb: "A relaxing period piece that is worth viewing for what it gets right, though it fails to deliver cleanly on its themes."
 categories: [review, movie, Family,History,Drama,Biography]
-image: https://img.critical-truth.com/img/2017/11/goodbye-christopher-robin-cover.jpg
+image: /img/2017/11/goodbye-christopher-robin-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A relaxing period piece that is worth viewing for what it gets right, though it fails to deliver cleanly on its themes."

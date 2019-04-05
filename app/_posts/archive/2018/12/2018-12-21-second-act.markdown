@@ -2,7 +2,7 @@
 title: "Second Act (2018)"
 blurb: "Lifetime movie by way of Jennifer Lopez."
 categories: [review,movie,Romance,Comedy]
-image: https://img.critical-truth.com/img/2018/12/second-act-cover.jpg
+image: /img/2018/12/second-act-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Entertaining despite being cheesy and predictable with some unfortunate messaging." 

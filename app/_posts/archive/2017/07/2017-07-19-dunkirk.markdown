@@ -2,7 +2,7 @@
 title: "Dunkirk (2017)"
 blurb: "A gripping and uncomfortable film that should be experienced if you can endure it."
 categories: [review, movie, Action,Drama,History,Thriller,War]
-image: https://img.critical-truth.com/img/2017/07/dunkirk-cover.jpg
+image: /img/2017/07/dunkirk-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A highly tense experience that may be too stressful, though it is a landmark achievement in WWII films."

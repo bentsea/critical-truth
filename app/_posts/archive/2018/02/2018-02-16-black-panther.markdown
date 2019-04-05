@@ -2,7 +2,7 @@
 title: "Black Panther (2018)"
 blurb: "The latest in Marvel's incredible cinematic universe is worth talking about."
 categories: [review, movie, Action,Adventure,Drama,Science Fiction,Thriller,Comic,Marvel]
-image: https://img.critical-truth.com/img/2018/02/black-panther-cover.jpg
+image: /img/2018/02/black-panther-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "An excellent film that excells technically as well as evolves the entire MCU. "

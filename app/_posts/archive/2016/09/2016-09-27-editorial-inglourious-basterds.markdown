@@ -4,7 +4,7 @@ title:  "Should it Feel Wrong?"
 blurb: "Should you be ashamed if you liked the end of Inglourious Basterds?"
 date:   2016-09-27 16:59:15
 categories: [editorial, movie]
-image: https://img.critical-truth.com/img/articles/inglourious-basterds/inglourious-basterds-cover.jpg
+image: /img/articles/inglourious-basterds/inglourious-basterds-cover.jpg
 author: dscott
 ---
 

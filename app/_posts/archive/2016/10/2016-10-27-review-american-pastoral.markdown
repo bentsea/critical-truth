@@ -7,7 +7,7 @@ reviewInfo:
    rating: 60
 date:   2016-10-27 00:00:00
 categories: [review, movie, drama]
-image: https://img.critical-truth.com/img/articles/american-pastoral/american-pastoral-cover.jpg
+image: /img/articles/american-pastoral/american-pastoral-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

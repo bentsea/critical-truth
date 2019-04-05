@@ -2,7 +2,7 @@
 title: "Trailers Vs. Movies: Godzilla (2014)"
 blurb: "How do misleading trailers affect the box office?"
 categories: [editorial,movie,Action,Adventure,Trailers,Science Fiction]
-image: https://img.critical-truth.com/img/2017/09/trailers-vs-movies-godzilla-cover.jpg
+image: /img/2017/09/trailers-vs-movies-godzilla-cover.jpg
 author: kevink
 ---
 

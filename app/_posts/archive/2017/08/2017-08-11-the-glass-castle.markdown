@@ -2,7 +2,7 @@
 title: "The Glass Castle (2017)"
 blurb: "A beautiful look at damaged people and the scars they carry."
 categories: [review, movie, Drama]
-image: https://img.critical-truth.com/img/2017/08/the-glass-castle-cover.jpg
+image: /img/2017/08/the-glass-castle-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Memorable and beautiful, this film has the power to make you both laugh and cry."

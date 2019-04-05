@@ -2,7 +2,7 @@
 title: "Sicario: Day of the Soldado (2018)"
 blurb: "How do you resolve 2 hours of constantly building suspense?"
 categories: [review, movie, Action,Crime,Drama,Thriller]
-image: https://img.critical-truth.com/img/2018/07/sicario-day-of-the-soldado-cover.jpg
+image: /img/2018/07/sicario-day-of-the-soldado-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Worth watching for a sepcific kind of audience, but unsatisfying for most."

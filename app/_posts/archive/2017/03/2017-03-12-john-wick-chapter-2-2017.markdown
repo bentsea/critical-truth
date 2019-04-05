@@ -5,7 +5,7 @@ reviewInfo:
    final-verdict: "A fast paced thrill ride that is smarter than it needs to be."
    rating: 80
 categories: [review, movie, Action, Crime, Thriller]
-image: https://img.critical-truth.com/img/2017/03/john-wick-2-cover.jpg
+image: /img/2017/03/john-wick-2-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

@@ -2,7 +2,7 @@
 title: "Gringo (2018)"
 blurb: "A creative ensemble piece with an excellent cast and a dark sense of humor."
 categories: [review, movie, Comedy,Drama,Action]
-image: https://img.critical-truth.com/img/2018/03/gringo-cover.jpg
+image: /img/2018/03/gringo-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A fantastically dark comedy that is both clever and amusing."

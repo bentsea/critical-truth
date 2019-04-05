@@ -7,7 +7,7 @@ reviewInfo:
    rating: 79
 date:   2016-10-25 00:00:00
 categories: [review, movie, action, adventure, crime]
-image: https://img.critical-truth.com/img/articles/jack-reacher-never-go-back/never-go-back-cover.jpg
+image: /img/articles/jack-reacher-never-go-back/never-go-back-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

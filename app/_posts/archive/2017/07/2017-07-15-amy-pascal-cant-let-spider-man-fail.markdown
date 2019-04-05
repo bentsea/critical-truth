@@ -2,7 +2,7 @@
 title: "All or Nothing: How Amy Pascal Can't Afford for Spider-Man to Fail"
 blurb: "Is Amy Pascal exploiting underrepresented minorities for a legacy she doesn't truly believe in?"
 categories: [editorial, movie, Action,Adventure,Science Fiction,MCU]
-image: https://img.critical-truth.com/img/2017/07/amy-pascal-cover.jpg
+image: /img/2017/07/amy-pascal-cover.jpg
 author: kevink
 ---
 

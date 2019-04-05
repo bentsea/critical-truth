@@ -2,7 +2,7 @@
 title: "The Nun (2018)"
 blurb: "Director Corin Hardy's expansion of The Conjuring franchise."
 categories: [review,movie,Horror,Mystery,Thriller]
-image: https://img.critical-truth.com/img/2018/09/the-nun-cover.jpg
+image: /img/2018/09/the-nun-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A cheesy funhouse ride that's entertaining if you can overlook its silliness."

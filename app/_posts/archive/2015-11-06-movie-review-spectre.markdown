@@ -6,7 +6,7 @@ final-verdict: "A middling bond movie that poorly resolves questions no one aske
 rating: 65
 date:   2015-11-06 16:59:15
 categories: [review, movie]
-image: https://img.critical-truth.com/img/articles/spectre-poster.jpg
+image: /img/articles/spectre-poster.jpg
 author: dscott
 subjectInfo:
    name: "Spectre"

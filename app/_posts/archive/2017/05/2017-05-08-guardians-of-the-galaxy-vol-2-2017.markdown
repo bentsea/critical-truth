@@ -4,7 +4,7 @@ blurb: "Does it live up to the expectations of the original?"
 final-verdict: "Another fantastic entry in the Marvel catalog that is arguably better than the original."
 rating: 80
 categories: [review, movie, Action, Adventure, Science Fiction]
-image: https://img.critical-truth.com/img/2017/05/guardians-vol-2-cover.jpg
+image: /img/2017/05/guardians-vol-2-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Another fantastic entry in the Marvel catalog that is arguably better than the original."

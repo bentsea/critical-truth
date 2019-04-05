@@ -2,7 +2,7 @@
 title: "Welcome to Marwen (2018)"
 blurb: "A fascinating visualization of a painful true story."
 categories: [review,movie,Drama,Comedy,Fantasy,Animation]
-image: https://img.critical-truth.com/img/2018/12/welcome-to-marwen-cover.jpg
+image: /img/2018/12/welcome-to-marwen-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "There is a lot of valuable insight here for those struggling with trauma."

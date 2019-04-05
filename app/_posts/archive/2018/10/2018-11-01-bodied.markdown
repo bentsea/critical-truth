@@ -2,7 +2,7 @@
 title: "Bodied (2018)"
 blurb: "An entertaining satirical exploration of rap battle culture."
 categories: [review, movie, Drama,Comedy]
-image: https://img.critical-truth.com/img/2018/10/bodied-cover.jpg
+image: /img/2018/10/bodied-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Entertaining, clever, and thought provoking for viewers who can appreciate difficult subject matter."

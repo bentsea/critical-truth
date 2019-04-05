@@ -3,7 +3,7 @@ layout: post
 title:  "The Dilemma of Passengers (2016)"
 blurb: "Passengers deserves a lot of credit for the questions it asks, even if the answers it gives aren't satisfactory."
 categories: [editorial, movie, Adventure, Drama, Science Fiction]
-image: https://img.critical-truth.com/img/2016/12/passengers/passengers-cover.jpg
+image: /img/2016/12/passengers/passengers-cover.jpg
 author: dscott
 ---
 

@@ -2,7 +2,7 @@
 title: "Top 10 Movies We're Excited About (Fall 2018)"
 blurb: "Check out the movies we're the most excited about!"
 categories: [editorial]
-image: https://img.critical-truth.com/img/2018/08/predator-cover.jpg
+image: /img/2018/08/predator-cover.jpg
 author: dscott
 published: True
 ---

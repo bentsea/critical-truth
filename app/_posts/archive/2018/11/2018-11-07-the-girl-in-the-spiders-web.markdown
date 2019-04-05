@@ -2,7 +2,7 @@
 title: "The Girl in the Spider's Web (2018)"
 blurb: "What even is this?"
 categories: [review,movie,Drama,Thriller,Mystery,Crime,Action]
-image: https://img.critical-truth.com/img/2018/11/the-girl-in-the-spiders-web-cover.jpg
+image: /img/2018/11/the-girl-in-the-spiders-web-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Visually acceptable with solid acting, but complete garbage for storytelling."

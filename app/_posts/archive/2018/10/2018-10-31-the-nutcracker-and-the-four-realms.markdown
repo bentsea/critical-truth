@@ -2,7 +2,7 @@
 title: "The Nutcracker and the Four Realms (2018)"
 blurb: "A modern interpretation of The Nutcracker by way of a sequel."
 categories: [review, movie, Fantasy,Adventure,Family]
-image: https://img.critical-truth.com/img/2018/10/the-nutcracker-and-the-four-realms-cover.jpg
+image: /img/2018/10/the-nutcracker-and-the-four-realms-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Mostly mediocre, though touched with a bit of warmth and weirdness that some will cherish."

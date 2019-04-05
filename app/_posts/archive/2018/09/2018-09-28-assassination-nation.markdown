@@ -2,7 +2,7 @@
 title: "Assassination Nation (2018)"
 blurb: "A genre defining film for modern horror."
 categories: [review, movie, Thriller]
-image: https://img.critical-truth.com/img/2018/09/assassination-nation-cover.jpg
+image: /img/2018/09/assassination-nation-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "If you're a fan of horror you cannot miss it."

@@ -2,7 +2,7 @@
 title: "We Need to Talk About Cupid's Dagger"
 blurb: "This isn't okay. We have to talk about this because it cannot be normalized."
 categories: [editorial]
-image: https://img.critical-truth.com/img/2017/12/disappointment-of-the-orville.jpg
+image: /img/2017/12/disappointment-of-the-orville.jpg
 author: dscott
 ---
 

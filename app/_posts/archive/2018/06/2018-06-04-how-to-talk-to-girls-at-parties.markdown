@@ -2,7 +2,7 @@
 title: "How to Talk to Girls at Parties (2018)"
 blurb: "Neil Gaiman's blend of punk and sci-fi comes to the big screen."
 categories: [review, movie, Comedy,Music,Romance,Science Fiction]
-image: https://img.critical-truth.com/img/2018/06/how-to-talk-to-girls-at-parties-cover.jpg
+image: /img/2018/06/how-to-talk-to-girls-at-parties-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Fun and cute, but too reserved."

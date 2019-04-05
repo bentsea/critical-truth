@@ -7,7 +7,7 @@ reviewInfo:
    rating: 89
 date:   2016-11-03 00:00:00
 categories: [review, movie, biography, drama, romance]
-image: https://img.critical-truth.com/img/articles/hacksaw-ridge-2016/weaving-transformed.jpg
+image: /img/articles/hacksaw-ridge-2016/weaving-transformed.jpg
 author: dscott
 subjectInfo:
    type: Movie

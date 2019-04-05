@@ -2,7 +2,7 @@
 title: "The Book of Henry (2017)"
 blurb: "A thrilling adventure that delivers on multiple levels that is both fun and insightful."
 categories: [review, movie, Drama, Comedy, Adventure]
-image: https://img.critical-truth.com/img/2017/06/the-book-of-henry-cover.jpg
+image: /img/2017/06/the-book-of-henry-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A film that is both excellently constructed and has interesting things to say, The Book of Henry is a must watch."

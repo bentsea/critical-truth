@@ -2,7 +2,7 @@
 title: "The Shape of Water (2017)"
 blurb: "A truly strange fairy tale that goes to some dark but beautiful places."
 categories: [review, movie, Drama,Fantasy,Romance]
-image: https://img.critical-truth.com/img/2017/12/the-shape-of-water-cover.jpg
+image: /img/2017/12/the-shape-of-water-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Something both sincerely weird and heartwarmingly special that is capable of pure joy."

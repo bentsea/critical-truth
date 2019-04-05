@@ -2,7 +2,7 @@
 title: "Top Ten Movies of 2017"
 blurb: "Time to talk about the very best films of the last year."
 categories: [editorial,movie,top ten,list,annual]
-image: https://img.critical-truth.com/img/2018/01/last-jedi.jpg
+image: /img/2018/01/last-jedi.jpg
 author: dscott
 ---
 

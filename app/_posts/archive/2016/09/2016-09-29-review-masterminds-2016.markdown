@@ -7,7 +7,7 @@ reviewInfo:
    rating: 60
 date:   2016-09-29 19:30:00
 categories: [review, movie, comedy]
-image: https://img.critical-truth.com/img/articles/masterminds-2016/masterminds-cover.jpg
+image: /img/articles/masterminds-2016/masterminds-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

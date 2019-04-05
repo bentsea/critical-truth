@@ -2,7 +2,7 @@
 title: "The Beach Bum (2019)"
 blurb: "It's hedonist with nilistic overtones, but pleasantly so."
 categories: [review,movie,Comedy,Drama,Tragedy]
-image: https://img.critical-truth.com/img/2019/03/the-beach-bum-cover.jpg
+image: /img/2019/03/the-beach-bum-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A film that is absolutely good, I just can't say whether or not you'll enjoy it."

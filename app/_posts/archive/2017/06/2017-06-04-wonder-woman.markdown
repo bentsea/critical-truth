@@ -2,7 +2,7 @@
 title: "Wonder Woman (2017)"
 blurb: "Is Wonder Woman the movie that DC needs to build their comic franchise?"
 categories: [review, movie, Action,Adventure,Comic,Fantasy,Science Fiction]
-image: https://img.critical-truth.com/img/2017/06/wonder-woman-cover.jpg
+image: /img/2017/06/wonder-woman-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Wonder Woman is well made and fun movie that upsets the super hero formula a bit, and is definitely worth watching."

@@ -7,7 +7,7 @@ reviewInfo:
    rating: 40
 date:   2016-08-06 16:59:15
 categories: [review, movie]
-image: https://img.critical-truth.com/img/articles/suicide-squad-poster.jpg
+image: /img/articles/suicide-squad-poster.jpg
 author: dscott
 subjectInfo:
    type: Movie

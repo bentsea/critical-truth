@@ -2,7 +2,7 @@
 title: "Kingsman: The Golden Circle (2017)"
 blurb: "Highly enjoyable with great style and solid but occasionally weak narrative."
 categories: [review, movie, Action,Adventure,Comedy]
-image: https://img.critical-truth.com/img/2017/10/kingsman-the-golden-circle-cover.jpg
+image: /img/2017/10/kingsman-the-golden-circle-cover.jpg
 author: kevink
 reviewInfo:
    final-verdict: "Highly enjoyable with great style and solid but occasionally weak narrative."

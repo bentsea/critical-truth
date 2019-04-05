@@ -5,7 +5,7 @@ reviewInfo:
    final-verdict: "An entertaining if predictable drama that occassionally excels."
    rating: 75
 categories: [review, movie, Biography, Drama, History]
-image: https://img.critical-truth.com/img/2017/03/zookeepers-wife-cover.jpg
+image: /img/2017/03/zookeepers-wife-cover.jpg
 banner: https://img.critical-truth.com/img/2017/03/zookeeper-banner.jpg
 author: dscott
 subjectInfo:

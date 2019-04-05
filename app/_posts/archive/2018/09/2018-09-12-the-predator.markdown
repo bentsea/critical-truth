@@ -2,7 +2,7 @@
 title: "The Predator (2018)"
 blurb: "Check it out as we rip this one to pieces... like a Predator."
 categories: [review, movie, Horror,Science Fiction,Action,Adventure]
-image: https://img.critical-truth.com/img/2018/09/the-predator-cover.jpg
+image: /img/2018/09/the-predator-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Fun to watch, but it gets worse and worse the more you think about it."

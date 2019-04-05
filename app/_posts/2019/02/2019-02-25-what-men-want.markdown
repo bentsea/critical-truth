@@ -2,7 +2,7 @@
 title: "What Men Want (2019)"
 blurb: "Exactly what it sounds like: A gender flipped version of the old Mel Gibson flick."
 categories: [review,movie,Comedy,Fantasy,Romance]
-image: https://img.critical-truth.com/img/2019/02/what-men-want-cover.jpg
+image: /img/2019/02/what-men-want-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A fascinating, if crass, reversal of strange movie that plays in some difficult spaces."

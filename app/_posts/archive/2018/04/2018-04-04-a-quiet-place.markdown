@@ -2,7 +2,7 @@
 title: "Seriously, Nobody Talks (2018)"
 blurb: "No joke, they're all completely silent the whole time."
 categories: [review, movie, Drama,Horror,Thriller]
-image: https://img.critical-truth.com/img/2018/04/a-quiet-place-cover.jpg
+image: /img/2018/04/a-quiet-place-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A must see exercise in creative, though stiff, directing that is an early contender for best horror film of the year."

@@ -2,7 +2,7 @@
 title: "Sorry to Bother You (2018)"
 blurb: "How does a call center comedy turn into a SciFi horror night terror?"
 categories: [review, movie, Fantasy,Science Fiction,Comedy,Horror]
-image: https://img.critical-truth.com/img/2018/06/sorry-to-bother-you-cover.jpg
+image: /img/2018/06/sorry-to-bother-you-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A chilling waking nightmare of a film that will sit with you long after it is over."

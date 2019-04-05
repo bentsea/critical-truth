@@ -5,7 +5,7 @@ blurb: "A tense ride through an incredible visual experience!"
 date:   2012-11-20 16:59:15
 rating: 80
 categories: [review, movie]
-image: https://img.critical-truth.com/img/articles/life-of-pi-poster.jpg
+image: /img/articles/life-of-pi-poster.jpg
 author: dscott
 subjectInfo:
    name: "Life of Pi"

@@ -5,7 +5,7 @@ reviewInfo:
    final-verdict: "A complete mess that is neither worth your time or money."
    rating: 30
 categories: [review, movie, Action, Adventure, Drama]
-image: https://img.critical-truth.com/img/2017/04/legend-of-the-sword-cover.jpg
+image: /img/2017/04/legend-of-the-sword-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

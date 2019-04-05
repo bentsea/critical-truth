@@ -2,7 +2,7 @@
 title: "The Happytime Murders (2018)"
 blurb: "When The Muppets \"Grow Up\""
 categories: [review, movie, Action,Comedy,Crime]
-image: https://img.critical-truth.com/img/2018/08/the-happytime-murders-cover.jpg
+image: /img/2018/08/the-happytime-murders-cover.jpg
 author: arenfro
 reviewInfo:
    final-verdict: "Definitely a must see for those who enjoyed The Muppets in their youth."

@@ -7,7 +7,7 @@ reviewInfo:
    rating: 50
 date:   2016-08-18 16:59:15
 categories: [review, movie]
-image: https://img.critical-truth.com/img/articles/ben-hur-2016/BenHur.jpg
+image: /img/articles/ben-hur-2016/BenHur.jpg
 author: dscott
 subjectInfo:
    type: Movie

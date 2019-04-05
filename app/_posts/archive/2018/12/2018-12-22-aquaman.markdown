@@ -2,7 +2,7 @@
 title: "Aquaman (2018)"
 blurb: "The second best film in the DCEU, for whatever that is worth."
 categories: [review,movie,Action,Fantasy,Science Fiction,Adventure]
-image: https://img.critical-truth.com/img/2018/12/aquaman-cover.jpg
+image: /img/2018/12/aquaman-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "You may enjoy it, but that still doesn't make it worth your time. You can do better."

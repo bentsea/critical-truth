@@ -2,7 +2,7 @@
 title: "Spider-Man: Into the Spider-Verse (2018)"
 blurb: "Best super  hero film of the year?"
 categories: [review,movie,Action,Adventure,Animation,Science Fiction,Comedy,Comic,Marvel]
-image: https://img.critical-truth.com/img/2018/12/spider-man-into-the-spider-verse-cover.jpg
+image: /img/2018/12/spider-man-into-the-spider-verse-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "An excellent movie with stunning visual style."

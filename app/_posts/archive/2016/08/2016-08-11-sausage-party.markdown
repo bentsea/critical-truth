@@ -7,7 +7,7 @@ reviewInfo:
    rating: 68
 date:   2016-08-11 16:59:15
 categories: [review, movie, comedy]
-image: https://img.critical-truth.com/img/articles/sausage-party/Sausage-Party-poster.jpg
+image: /img/articles/sausage-party/Sausage-Party-poster.jpg
 author: dscott
 subjectInfo:
    type: Movie

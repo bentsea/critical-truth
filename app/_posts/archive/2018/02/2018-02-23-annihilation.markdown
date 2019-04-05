@@ -2,7 +2,7 @@
 title: "Annihilation (2018)"
 blurb: "A beautiful work of macabre fiction that feels like a waking nightmare."
 categories: [review, movie, Mystery,Adventure,Science Fiction,Thriller,Horror]
-image: https://img.critical-truth.com/img/2018/02/annihilation-cover.jpg
+image: /img/2018/02/annihilation-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "An important work for the horror genre that fails to excel to its full potential."

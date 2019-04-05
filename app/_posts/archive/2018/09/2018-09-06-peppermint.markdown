@@ -2,7 +2,7 @@
 title: "Peppermint (2018)"
 blurb: "A Hard R Vigilante Revenge Flick, But is it What We Need?"
 categories: [review, movie, Action,Crime,Thriller]
-image: https://img.critical-truth.com/img/2018/09/peppermint-cover.jpg
+image: /img/2018/09/peppermint-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A problematic thrill ride that delivers intense action with a side of uncomfortable racial depictions."

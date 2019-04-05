@@ -2,7 +2,7 @@
 title: "The Dark Tower (2017)"
 blurb: "A light and fun adventure movie that lacks the depth or meaning of the novels."
 categories: [review, movie, Western,Science Fiction,Fantasy,Horror]
-image: https://img.critical-truth.com/img/2017/08/the-dark-tower-cover.jpg
+image: /img/2017/08/the-dark-tower-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A well-crafted adventure with great actors and a certain flavor that you can't get from anywhere else."

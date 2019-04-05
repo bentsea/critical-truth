@@ -2,7 +2,7 @@
 title: "Finding Balance with The Orville"
 blurb: "The latest episode of The Orville shows a glimpse of a bright future for the series."
 categories: [editorial]
-image: https://img.critical-truth.com/img/2017/09/finding-balance-with-the-orville.jpg
+image: /img/2017/09/finding-balance-with-the-orville.jpg
 author: dscott
 ---
 

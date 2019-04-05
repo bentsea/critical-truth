@@ -2,7 +2,7 @@
 title: "Serenity (2019)"
 blurb: "Bonkers and beautiful, but with a downside."
 categories: [review,movie,Thriller,Drama,Boring,Pretentious,Science Fiction]
-image: https://img.critical-truth.com/img/2019/01/serenity-cover.jpg
+image: /img/2019/01/serenity-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Pretentious to the point of being unwatchable."

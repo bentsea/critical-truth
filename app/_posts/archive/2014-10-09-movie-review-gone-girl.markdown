@@ -6,7 +6,7 @@ final-verdict: "An incredibly intense thriller, and an absolute must see."
 rating: 80
 date:   2014-10-09 16:59:15
 categories: [review, movie]
-image: https://img.critical-truth.com/img/articles/gone-girl-poster.jpg
+image: /img/articles/gone-girl-poster.jpg
 author: dscott
 subjectInfo:
    name: "Gone Girl"

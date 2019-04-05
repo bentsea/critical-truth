@@ -7,7 +7,7 @@ reviewInfo:
    rating: 90
 date:   2016-10-06 00:00:00
 categories: [review, movie, drama]
-image: https://img.critical-truth.com/img/articles/birth-of-a-nation-2016/birth-of-a-nation-cover.jpg
+image: /img/articles/birth-of-a-nation-2016/birth-of-a-nation-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

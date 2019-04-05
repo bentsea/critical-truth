@@ -2,7 +2,7 @@
 title: "Thor: Ragnarok (2017)"
 blurb: "The epitome of the current pantheon of films building thoughtfully on everything that came before it."
 categories: [review, movie, Action,Adventure,Fantasy,Science Fiction,Comedy,Comic]
-image: https://img.critical-truth.com/img/2017/11/thor-ragnarok-cover.jpg
+image: /img/2017/11/thor-ragnarok-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "This is a must watch for any fan of action adventure movies, and an overall excellent work of art."

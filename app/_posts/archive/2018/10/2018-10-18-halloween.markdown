@@ -2,7 +2,7 @@
 title: "Halloween (2018)"
 blurb: "A new movie that wreaks havoc with continuity for a 40 year old franchise!"
 categories: [review, movie, Horror,Thriller,Slasher]
-image: https://img.critical-truth.com/img/2018/10/halloween-cover.jpg
+image: /img/2018/10/halloween-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "An entertaining slasher, but it doesn't rise above slashers as a genre."

@@ -6,7 +6,7 @@ reviewInfo:
    final-verdict: "A layered exploration of loss that will find an audience who will remember it for a long time as a classic."
    rating: 90
 categories: [review, movie, Drama, Fantasy]
-image: https://img.critical-truth.com/img/2017/01/monster-calls/monster-calls-cover.jpg
+image: /img/2017/01/monster-calls/monster-calls-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

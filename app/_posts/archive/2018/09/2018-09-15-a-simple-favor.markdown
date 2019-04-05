@@ -2,7 +2,7 @@
 title: "A Simple Favor (2018)"
 blurb: "Anna Kendrick Dives in for Intense Suspense"
 categories: [review, movie, Thriller,Crime,Mystery]
-image: https://img.critical-truth.com/img/2018/09/a-simple-favor-cover.jpg
+image: /img/2018/09/a-simple-favor-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A tight balance between comedy and suspense that will leave you on the edge of your seat."

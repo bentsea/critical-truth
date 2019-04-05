@@ -2,7 +2,7 @@
 title: "The Happy Prince (2018)"
 blurb: "The heartbreaking tale of how Oscar Wilde met his tragic end."
 categories: [review, movie, Comedy,Drama,History,Tragedy]
-image: https://img.critical-truth.com/img/2018/10/the-happy-prince-cover.jpg
+image: /img/2018/10/the-happy-prince-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "It doesn't convey the best of Oscar Wilde, but it has enough of his spirit to enjoy."

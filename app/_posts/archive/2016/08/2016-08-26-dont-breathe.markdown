@@ -7,7 +7,7 @@ reviewInfo:
    rating: 79
 date:   2016-08-26 16:59:15
 categories: [review, movie, horror]
-image: https://img.critical-truth.com/img/articles/dont-breathe/dont-breathe-meta.jpg
+image: /img/articles/dont-breathe/dont-breathe-meta.jpg
 author: dscott
 subjectInfo:
    type: Movie

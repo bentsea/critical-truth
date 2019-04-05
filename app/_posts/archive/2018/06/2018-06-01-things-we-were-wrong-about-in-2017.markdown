@@ -2,7 +2,7 @@
 title: "Things We Were Wrong About in 2017"
 blurb: "You can't get them all right all the time."
 categories: [editorial]
-image: https://img.critical-truth.com/img/2018/06/movies-we-were-wrong-about-cover.jpg
+image: /img/2018/06/movies-we-were-wrong-about-cover.jpg
 author: dscott
 published: true
 ---

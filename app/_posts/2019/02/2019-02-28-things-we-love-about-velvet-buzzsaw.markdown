@@ -2,7 +2,7 @@
 title: "Things We Love About Velvet Buzzsaw"
 blurb: "An unreserved discussion of just what we liked about this unique film."
 categories: [editorial,Horror,Thriller,Slasher]
-image: https://img.critical-truth.com/img/2019/02/why-we-love-velvet-buzzsaw-cover.jpg
+image: /img/2019/02/why-we-love-velvet-buzzsaw-cover.jpg
 author: dscott
 published: True
 ---

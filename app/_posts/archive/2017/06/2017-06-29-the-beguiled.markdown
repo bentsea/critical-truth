@@ -2,7 +2,7 @@
 title: "The Beguiled (2017)"
 blurb: "It's not what you're expecting, but you'll probably like what we got."
 categories: [review, movie, Drama,Western]
-image: https://img.critical-truth.com/img/2017/06/the-beguiled-cover.jpg
+image: /img/2017/06/the-beguiled-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Too restrained to accomplish its goals, The Beguiled still delivers an enjoyable character-driven drama."

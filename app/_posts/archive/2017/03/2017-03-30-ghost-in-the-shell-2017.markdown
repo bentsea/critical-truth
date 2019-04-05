@@ -5,7 +5,7 @@ reviewInfo:
    final-verdict: "A beautiful action movie dripping with the style of the original that drops the bigger ideas."
    rating: 85
 categories: [review, movie, Action, Crime, Drama]
-image: https://img.critical-truth.com/img/2017/03/ghost-in-the-shell-cover.jpg
+image: /img/2017/03/ghost-in-the-shell-cover.jpg
 banner: https://img.critical-truth.com/img/2017/03/ghost-in-the-shell-article1.jpg
 author: dscott
 subjectInfo:

@@ -7,7 +7,7 @@ reviewInfo:
    rating: 85
 date:   2016-09-08 16:59:15
 categories: [review, movie]
-image: https://img.critical-truth.com/img/articles/sully/tom-hanks-as-sully.jpg
+image: /img/articles/sully/tom-hanks-as-sully.jpg
 author: dscott
 subjectInfo:
    type: Movie

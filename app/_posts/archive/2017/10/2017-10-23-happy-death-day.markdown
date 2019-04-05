@@ -2,7 +2,7 @@
 title: "Happy Death Day (2017)"
 blurb: "A flawed gem that wins a lot of points for a fun premise and a great ending."
 categories: [review, movie, Horror,Mystery,Thriller]
-image: https://img.critical-truth.com/img/2017/10/happy-death-day-cover.jpg
+image: /img/2017/10/happy-death-day-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A flawed gem that wins a lot of points for a fun premise and a great ending if you can embrace the premise."

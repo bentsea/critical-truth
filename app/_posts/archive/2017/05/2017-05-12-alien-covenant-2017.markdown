@@ -5,7 +5,7 @@ reviewInfo:
    final-verdict: "Alien: Covenant is one of the best films in the franchise and a must watch horror."
    rating: 85
 categories: [review, movie, Science Fiction,Thriller,Horror]
-image: https://img.critical-truth.com/img/2017/05/alien-covenant-cover.jpg
+image: /img/2017/05/alien-covenant-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

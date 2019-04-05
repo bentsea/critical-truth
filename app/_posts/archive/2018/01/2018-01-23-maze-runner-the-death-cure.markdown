@@ -2,7 +2,7 @@
 title: "Maze Runner: The Death Cure (2018)"
 blurb: "A flawed film that still delivers enjoyable action to those looking for popcorn post-apocalyptic escapism."
 categories: [review, movie, Action,Mystery,Science Fiction,Thriller]
-image: https://img.critical-truth.com/img/2018/01/maze-runner-the-death-cure-cover.jpg
+image: /img/2018/01/maze-runner-the-death-cure-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A flawed film that still delivers enjoyable action to those looking for enjoyable post-apocalyptic escapism."

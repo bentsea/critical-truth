@@ -7,7 +7,7 @@ reviewInfo:
    rating: 75
 date:   2016-10-20 00:00:00
 categories: [review, movie, comedy]
-image: https://img.critical-truth.com/img/articles/keeping-up-with-the-joneses-2016/joneses-cover.jpg
+image: /img/articles/keeping-up-with-the-joneses-2016/joneses-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

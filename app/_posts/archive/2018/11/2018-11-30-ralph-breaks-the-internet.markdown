@@ -2,7 +2,7 @@
 title: "Ralph Breaks the Internet (2018)"
 blurb: "You probably wont be surprised by what Ralph gets wrong."
 categories: [review,movie,Family,Animation]
-image: https://img.critical-truth.com/img/2018/11/ralph-breaks-the-internet-cover.jpg
+image: /img/2018/11/ralph-breaks-the-internet-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A fun movie if you can turn your brain off and just not think about it too much."

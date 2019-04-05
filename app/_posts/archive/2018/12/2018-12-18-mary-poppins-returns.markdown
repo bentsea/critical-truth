@@ -2,7 +2,7 @@
 title: "Mary Poppins Returns (2018)"
 blurb: "A cheap caricature of one of the most beloved Disney classics."
 categories: [review,movie,Fantasy,Music,Family,Disney,Musical]
-image: https://img.critical-truth.com/img/2018/12/mary-poppins-returns-cover.jpg
+image: /img/2018/12/mary-poppins-returns-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "A structural mess that is systemically flawed. Give it a pass."

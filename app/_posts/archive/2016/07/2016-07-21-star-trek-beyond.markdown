@@ -7,7 +7,7 @@ reviewInfo:
    rating: 85
 date:   2016-07-21 16:59:15
 categories: [review, movie]
-image: https://img.critical-truth.com/img/articles/star-trek-beyond-poster.jpg
+image: /img/articles/star-trek-beyond-poster.jpg
 author: dscott
 subjectInfo:
    type: Movie

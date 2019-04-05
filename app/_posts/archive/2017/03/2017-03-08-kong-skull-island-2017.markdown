@@ -5,7 +5,7 @@ reviewInfo:
    final-verdict: "Skull Island has fantastic action, great acting, music, and even has a few things to say. Go see it."
    rating: 87
 categories: [review, movie, Action, Adventure, Fantasy, Science Fiction]
-image: https://img.critical-truth.com/img/2017/03/kong-skull-island-cover.jpg
+image: /img/2017/03/kong-skull-island-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

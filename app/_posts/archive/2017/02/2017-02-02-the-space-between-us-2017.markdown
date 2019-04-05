@@ -7,7 +7,7 @@ reviewInfo:
    rating: 50
 date: 2017-02-02
 categories: [review, movie, Adventure, Drama, Romance]
-image: https://img.critical-truth.com/img/2016/11/the-space-between-us-2016/space-between-us-cover.jpg
+image: /img/2016/11/the-space-between-us-2016/space-between-us-cover.jpg
 author: dscott
 subjectInfo:
    type: Movie

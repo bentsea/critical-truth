@@ -3,7 +3,7 @@ title: "Interesting Upcoming Movies Summer 2017"
 blurb: "Movies We're Still Excited for in 2017"
 categories: [editorial, movie, trailer, preview, Horror, Action, Science Fiction, Comedy, Drama]
 date: 2017-03-26 16:59:15
-image: https://img.critical-truth.com/img/2017/03/upcoming-2017-cover.jpg
+image: /img/2017/03/upcoming-2017-cover.jpg
 author: dscott
 ---
 

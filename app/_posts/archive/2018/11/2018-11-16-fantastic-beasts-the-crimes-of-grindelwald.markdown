@@ -2,7 +2,7 @@
 title: "Fantastic Beasts: The Crimes of Grindelwald (2018)"
 blurb: "The real problem with this movie is pretty surprising."
 categories: [review,movie,Family,Fantasy,Action,Adventure]
-image: https://img.critical-truth.com/img/2018/11/fantastic-beasts-the-crimes-of-grindelwald-cover.jpg
+image: /img/2018/11/fantastic-beasts-the-crimes-of-grindelwald-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "The worst of its crimes is that it is just boring."

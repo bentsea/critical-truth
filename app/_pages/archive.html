@@ -21,7 +21,7 @@ pagination:
                 <figure class="blog-thumb">
 <!--                <img src="{% if post.image %}{{ post.image }}{% else %}/img/carousel/fullimage1.jpg{% endif %}" alt="{{ post.description }}" {% if post.description %}title="{{ post.description }}"{% endif %}>
     -->
- <img src="{% if post.image %}{{ post.image }}{% else %}/img/carousel/fullimage1.jpg{% endif %}" alt="{% if post.blurb %}{{ post.blurb }}{% else %}{{  post.title }}{% endif %}" title="{% if post.blurb %}{{ post.blurb }}{% else %}{{ post.title }}{% endif %}">
+ <img src="{% if post.image %}{{ post.image | prepend: site.cdnurl }}{% else %}{{ "/img/carousel/fullimage1.jpg" | prepend: site.cdnurl }}{% endif %}" alt="{% if post.blurb %}{{ post.blurb }}{% else %}{{  post.title }}{% endif %}" title="{% if post.blurb %}{{ post.blurb }}{% else %}{{ post.title }}{% endif %}">
             </figure>
             </a>
             <div class="post-area">

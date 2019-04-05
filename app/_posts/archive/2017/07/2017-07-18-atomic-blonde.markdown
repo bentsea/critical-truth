@@ -2,7 +2,7 @@
 title: "Atomic Blonde (2017)"
 blurb: "A violent and physical action thriller that tries too hard to be clever and falls short of greatness."
 categories: [review, movie, Action, Mystery, Adventure, Comic, Thriller]
-image: https://img.critical-truth.com/img/2017/07/atomic-blonde-cover.jpg
+image: /img/2017/07/atomic-blonde-cover.jpg
 author: dscott
 reviewInfo:
    final-verdict: "Despite a tedious story, Atomic Blonde delivers an under-served market with hard-hitting action that is entertaining but shallow."
