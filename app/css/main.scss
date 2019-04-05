@@ -16,7 +16,12 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+//$brand-color:      #e95420;
+//$secondary-color1: #d34615;
+//$secondary-color2: #ac3911;
+$brand-color:      #6699cc;
+$secondary-color1: #003366;
+$secondary-color2: #336699;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -53,6 +58,31 @@ $on-desktop:       1024px;
     .navbar-brand {
         font-family: 'chunkfiveroman';
         font-size: 40px;
+        height: 50px;
+    }
+}
+@media(min-width:1280px) {
+    .home .slide-text h2 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .home .slide-text {
+        font-size: 1em;
+    }
+    .home .slide-text .slide-blurb {
+        line-height: 15px;
+        font-size: 15px;
+    }
+}
+@media(max-width:1280px) {
+    .home .slide-text h2 {
+        line-height: 42px;
+    }
+    .home .slide-text h2 span {
+        font: bold 20px/30px Helvetica, Sans-Serif;
+    }
+    .slide-blurb {
+        display:none;
     }
 }
 
@@ -80,13 +110,62 @@ $on-desktop:       1024px;
 
 }
 
+.article-pic {
+    margin: 0 10px 10px 0px;
+    width: 100%;
+}
+
+.blog-thumb {
+    height: 150px;
+    max-width: 98%;
+}
+
+.blog-thumb img {
+    height: 150px;
+    min-width: 100%;
+    object-fit:cover;
+}
+
 body {
 	padding-top: 70px;
+}
+
+
+.bottom-right {
+    position: absolute;
+    bottom: 40px;
+    right: 25px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 25px;
+    left: 18px;
+}
+
+.centered {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .clear {
   clear: both;
 }
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.col-md-4:nth-child(3n+1){
+    clear:left
+}
+
 // Header CSS for Headroom
  /**
  * Note: I have omitted any vendor-prefixes for clarity.
@@ -108,6 +187,20 @@ body {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.home .slide-text h2 {
+    text-transform: uppercase;
+    line-height: 69px;
+    letter-spacing: 2px;
+    position: absolute;
+    bottom: 90px;
+}
+
+.item .slide-text span {
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 0
 }
 
 .item .slide-filter {
@@ -161,109 +254,30 @@ body {
     text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
     font-weight: 300;
     color: #FFF;
-    position: relative;
+    // position: relative;
 }
 
-.home .slide-text h2 {
-    text-transform: uppercase;
-    line-height: 69px;
-    letter-spacing: 2px;
-    position: absolute;
-    bottom: 90px;
-}
-@media(max-width:1280px) {
-    .home .slide-text h2 {
-        line-height: 42px;
-    }
-    .home .slide-text h2 span {
-        font: bold 20px/30px Helvetica, Sans-Serif;
-    }
-    .slide-blurb {
-        display:none;
-    }
-}
-@media(min-width:1280px) {
-    .home .slide-text h2 {
-        font-size: 30px;
-        line-height: 42px;
-    }
-    .home .slide-text {
-        font-size: 1em;
-    }
-    .home .slide-text .slide-blurb {
-        line-height: 15px;
-        font-size: 15px;
-    }
-}
-
-.article-pic {
-    margin: 0 10px 10px 0px;
-    width: 100%;
-}
-
-.item .slide-text span {
-    font-size: 25px;
-    line-height: 40px;
-    letter-spacing: 0
-}
-
-.col-md-4:nth-child(3n+1){
-    clear:left
+.navbar-brand > img {
+    height: 140%;
 }
 
 .portfolioContainer .col-md-4:nth-child(3n+1){
     clear:none
 }
 
-.blog-thumb {
-    height: 150px;
-    max-width: 98%;
+.post-info {
+    // position: absolute;
+    // top:215px;
+    margin-right:3px;
 }
 
-.blog-thumb img {
-    height: 150px;
-    min-width: 100%;
-    object-fit:cover;
-}
-
-.bottom-right {
-    position: absolute;
-    bottom: 40px;
-    right: 25px;
-}
-
-.bottom-left {
-    position: absolute;
-    bottom: 25px;
-    left: 18px;
+.post-thumb > .panel {
+    min-height:400px;
 }
 
 /* centered columns styles */
 .row-centered {
     text-align:center;
-}
-.col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
-}
-
-.centered {
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-}
-
-.post-info {
-    position: absolute;
-    top:215px;
-    margin-right:3px;
-}
-.post-thumb {
-    min-height:400px;
 }
 
 .slide-image {
@@ -278,20 +292,6 @@ body {
     object-fit:cover;
 }
 
-.videoWrapper {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    padding-top: 25px;
-    margin-bottom: 25px;
-    height: 0;
-}
-.videoWrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
 /* This gets Google to fall into place */
 .social {
 	font-size: 1px;
@@ -311,4 +311,19 @@ body {
 /* Adjust the widths individually if you like */
 .social .google {
 	width: 75px;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    margin-bottom: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
