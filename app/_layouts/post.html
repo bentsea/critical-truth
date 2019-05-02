@@ -10,7 +10,7 @@ layout: default
           <p class="post-meta">{% if page.categories %}{{ page.categories[1] | capitalize }} {{ page.categories | first | capitalize }} • {% endif %}{{ page.date | date: "%b %-d, %Y" }}{% if page.author %}{% assign author = site.data.authors[page.author] %} • Author: <a href="{{ author.web }}">{{ author.name }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
           {% include social-media.html %}
         </header>
-        {% capture post_year %}{{ page.date | date: "%Y" }}{% endcapture %}{% assign post_year = post_year | plus:0 %}{% if post_year > 2016 %}<img class="img-responsive webfeedsFeaturedVisual " style="margin: 0 10px 10px 0px; width: 100%;" src="{{ page.image | prepend: site.cdnurl }}" alt="{{ page.title }} Cover">{% endif %}
+        {% if page.youtube %}{% include media type="youtube" src=page.youtube %}{% else %}{% capture post_year %}{{ page.date | date: "%Y" }}{% endcapture %}{% assign post_year = post_year | plus:0 %}{% if post_year > 2016 %}<img class="img-responsive webfeedsFeaturedVisual " style="margin: 0 10px 10px 0px; width: 100%;" src="{{ page.image | prepend: site.cdnurl }}" alt="{{ page.title }} Cover">{% endif %}{% endif %}
         {{ content }}
         {% if page.reviewInfo.rating %}
         <table class="table">
@@ -19,12 +19,27 @@ layout: default
               <td><b>Final Verdict</b>:</td><td>{{ page.reviewInfo.final-verdict }}</td>
             </tr>
             <tr>
-              <td><b>Rating</b>:</td><td>{% if page.reviewInfo.rating > 81 %}A{% elsif page.reviewInfo.rating > 61 %}B{% elsif page.reviewInfo.rating > 41 %}C{% elsif page.reviewInfo.rating > 21 %}D{% else %}F{% endif %}</td>
+              <td><b>Rating</b>:</td><td>{% if page.reviewInfo.rating > 99 %}A+{% elsif page.reviewInfo.rating > 94 %}A{% elsif page.reviewInfo.rating > 89 %}A-{% elsif page.reviewInfo.rating > 88 %}B+{% elsif page.reviewInfo.rating > 84 %}B{% elsif page.reviewInfo.rating > 79 %}B-{% elsif page.reviewInfo.rating > 78 %}C+{% elsif page.reviewInfo.rating > 74 %}C{% elsif page.reviewInfo.rating > 69 %}C-{% elsif page.reviewInfo.rating > 59 %}D+{% elsif page.reviewInfo.rating > 39 %}D{% elsif page.reviewInfo.rating > 19 %}D-{% else %}F{% endif %}</td>
             </tr>
           </tbody>
         </table>
         {% endif %}
       </article>
+      {% if page.subjectInfo %}
+      {% assign sorted-posts = site.posts | where_exp: "post","post.subjectInfo.name == page.subjectInfo.name" %}
+      {% if sorted-posts.size > 1 %}
+      <div class="alert alert-info" role="alert">
+        <p><b>Want more content about <i>{{ page.subjectInfo.name }}</i>?</b> Interested in another perspective? Check out these other articles and videos from our authors about <i>{{ page.subjectInfo.name }}</i>:</p>
+        <ul>
+          {% for item in sorted-posts %}
+          {% if item.url != page.url %}
+          <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+          {% endif %}
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
+      {% endif %}
       {% include social-media.html %}
       <br>
       <hr class="clear">

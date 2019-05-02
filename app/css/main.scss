@@ -58,9 +58,21 @@ $on-desktop:       1024px;
     .navbar-brand {
         font-family: 'chunkfiveroman';
         font-size: 40px;
-        height: 50px;
+        height: 60px;
+    }
+    .nav {
+        height: 100%;
     }
 }
+
+@media (min-width: $on-palm) {
+    .navbar-nav>li>a {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-size: 20px;
+    }
+}
+
 @media(min-width:1280px) {
     .home .slide-text h2 {
         font-size: 30px;
@@ -103,8 +115,8 @@ $on-desktop:       1024px;
 
 @font-face {
     font-family: 'chunkfiveroman';
-    src: url('https://img.critical-truth.com/fonts/chunkfive-webfont.woff2') format('woff2'),
-         url('https://img.critical-truth.com/fonts/chunkfive-webfont.woff') format('woff');
+    src: url('{{ "/fonts/chunkfive-webfont.woff2" | prepend: site.cdnurl }}') format('woff2'),
+         url('{{ "/fonts/chunkfive-webfont.woff" | prepend: site.cdnurl }}') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -258,7 +270,7 @@ body {
 }
 
 .navbar-brand > img {
-    height: 140%;
+    height: 100%;
 }
 
 .portfolioContainer .col-md-4:nth-child(3n+1){

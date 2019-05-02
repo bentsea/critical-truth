@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import requests
+import random
 import sys, getopt
 import json
 import re
@@ -9,17 +10,24 @@ import os
 from PIL import Image
 from io import BytesIO
 from resizeimage import resizeimage
+from jinja2 import FileSystemLoader, Environment
+from pathlib import Path
 
-pathPrefix="/workspace/critical-truth/app/"
+pathPrefix="/workspace/eskimotv"
+appPrefix="/app"
 apiKey="6cd4598528ca8c2817528493556b2d49"
 language="en-US"
 url="https://api.themoviedb.org/3/"
 multiSearch = "search/multi"
+dateSuffix = time.strftime("/%Y/%m/")
+postSuffix = "/_posts" + dateSuffix
+imgSuffix = "/img" + dateSuffix
 
-postPath=pathPrefix + "_posts" + time.strftime("/%Y/%m/")
-imgPath=pathPrefix + "img" + time.strftime("/%Y/%m/")
+postPath=pathPrefix + appPrefix + postSuffix
+imgPath=pathPrefix + appPrefix + imgSuffix
 
 max_width = 1920
+
 
 
 if os.path.isdir(postPath) == False:
@@ -45,6 +53,7 @@ def saveImage(imgURL,imgName):
    img = img.resize((max_width,new_height))
    img = resizeimage.resize_crop(img,[1920,900])
    img.save(imgPath + imgName,optimize=True,quality=60)
+   return imgSuffix + imgName
 
 def slugify(s):
     s = s.lower()
@@ -56,6 +65,27 @@ def slugify(s):
     s = s.strip()
     s = s.replace(' ', '-')
     return s
+    
+def filename(name):
+   file = Path(postPath+name)
+   if file.is_file():
+      option = ""
+      while(option not in ['o','g','c']):
+         option = input("{} already exists. [o]verwrite,[g]enerate as parralel article, or [c]ancel? ".format(name))
+      if option == 'o':
+         return name
+      elif option == 'g':
+         file_chunks = name.split('.')
+         if len(file_chunks) == 2:
+            return filename("{}.{}.{}".format(file_chunks[0],"alternate",file_chunks[1]))
+         elif len(file_chunks) > 2:
+            extension = file_chunks.pop(-1)
+            return filename("{}.{}.{}".format(".".join(file_chunks),"alternate",extension))
+      else:
+         print("Exiting without saving.")
+         exit()
+   else:
+      return name
     
 def genReview(data,userName, releaseYear=""):
    searchData=json.loads(requests.get(url+multiSearch,data=data).text)['results']
@@ -71,106 +101,37 @@ def genReview(data,userName, releaseYear=""):
          if i['release_date'].find(releaseYear) != -1:
             auth={'api_key':apiKey}
             movieInfo = json.loads(requests.get(url+i['media_type'] + '/' + str(i['id']), data=auth).text)
+            movieInfo['type']=i['media_type']
+            movieInfo['release_year'] = movieInfo['release_date'].split('-')[0]
             credits = credits=json.loads(requests.get(url+i['media_type'] + '/' + str(i['id']) + '/credits',data=auth).text)
+            movieInfo['director'] = next(item for item in credits['crew'] if item["job"] == "Director")['name']
+            movieInfo['categories'] = [d['name'] for d in movieInfo['genres']]
+            movieInfo['images'] = json.loads(requests.get("{}{}/{}/images".format(url,i['media_type'],i['id']), data=auth).text)   
+            movieInfo['imdb_url'] = "http://www.imdb.com/title/{}".format(movieInfo['imdb_id'])
+            movieInfo['slug'] = slugify(movieInfo['title'])
+            fileName = filename("{}{}.markdown".format(time.strftime("%Y-%m-%d-"),movieInfo['slug']))
+            imageIndex = random.randint(0,len(movieInfo['images']['backdrops'])-1)
+            movieInfo['cover_image'] = saveImage('https://image.tmdb.org/t/p/original{}'.format(movieInfo['images']['backdrops'][imageIndex]['file_path']),"{}-{}-cover.jpg".format(movieInfo['slug'],imageIndex))
             break
-   
-   imdbURL = 'http://www.imdb.com/title/' + movieInfo['imdb_id']
-   slug=slugify(movieInfo['title'])
-   imgName = slug + '-cover.jpg'
-   saveImage('https://image.tmdb.org/t/p/original'+movieInfo['backdrop_path'],imgName)
       
+   templateLoader = FileSystemLoader("{}/scripts/templates".format(pathPrefix))
+   env = Environment(loader=templateLoader)
+   template = env.get_template('article.markdown')
+   output = template.render(author_username=userName,subjectItem=movieInfo,review=True)
    
-   output = '---'
-   output = output + '\ntitle: "' + movieInfo['title'] + ' (' + movieInfo['release_date'].split('-')[0] + ')"'
-   output = output + '\nblurb: ""'
-   output = output + '\ncategories: [review,movie,' + ','.join([d['name'] for d in movieInfo['genres']]) + ']'
-   output = output + '\nimage: https://img.critical-truth.com/img' + time.strftime("/%Y/%m/") + imgName
-   #output = output + '\nbanner: https://img.critical-truth.com/img/' + time.strftime("%Y/%m/")
-   output = output + '\nauthor: ' + userName
-   output = output + '\nreviewInfo:'
-   output = output + '\n   final-verdict: ""'
-   output = output + '\n   rating: '
-   output = output + '\nsubjectInfo:'
-   output = output + '\n   type: Movie'
-   output = output + '\n   name: "' + movieInfo['title'] + '"'
-   output = output + '\n   sameAs: "' + imdbURL + '"'
-   output = output + '\n   image: "https://image.tmdb.org/t/p/original' + movieInfo['poster_path'] + '"'
-   output = output + '\n   director: "' + next(item for item in credits['crew'] if item["job"] == "Director")['name'] + '"'
-   output = output + '\n   dateCreated: "' + movieInfo['release_date'] + '"'
-   output = output + '\npublished: False'
-   output = output + '\n---\n\n\n'
-   
-   
-   fileName = time.strftime("%Y-%m-%d-") + slug + ".markdown"
-   
-   makeFile(fileName,output)
-   
-def genGameReview(title,userName,releaseYear=""):
-   slug=slugify(title)
-   
-   output = '---'
-   output = output + '\ntitle: "' + title + ')"'
-   output = output + '\nblurb: ""'
-   output = output + '\ncategories: [review,videogame]'
-   output = output + '\nimage: https://img.critical-truth.com/img' + time.strftime("/%Y/%m/")
-   #output = output + '\nbanner: https://img.critical-truth.com/img/' + time.strftime("%Y/%m/")
-   output = output + '\nauthor: ' + userName
-   output = output + '\nreviewInfo:'
-   output = output + '\n   final-verdict: ""'
-   output = output + '\n   rating: '
-   output = output + '\nsubjectInfo:'
-   output = output + '\n   type: VideoGame'
-   output = output + '\n   name: ""'
-   output = output + '\n   operatingSystem: ""'
-   output = output + '\n   applicationCategory: "Game"'
-   output = output + '\n   dateCreated: ""'
-   output = output + '\npublished: False'
-   output = output + '\n---\n\n\n'
-   
-   
-   fileName = time.strftime("%Y-%m-%d-") + slug + ".markdown"
-   
-   makeFile(fileName,output)
-   
-def genBookReview(title,userName,releaseYear=""):
-   slug=slugify(title)
-   
-   output = '---'
-   output = output + '\ntitle: "' + title + ')"'
-   output = output + '\nblurb: ""'
-   output = output + '\ncategories: [review,book]'
-   output = output + '\nimage: https://img.critical-truth.com/img' + time.strftime("/%Y/%m/")
-   output = output + '\nauthor: ' + userName
-   output = output + '\nreviewInfo:'
-   output = output + '\n   final-verdict: ""'
-   output = output + '\n   rating: '
-   output = output + '\nsubjectInfo:'
-   output = output + '\n   type: Book'
-   output = output + '\n   name: ""'
-   output = output + '\n   sameAs: ""'
-   output = output + '\n   image: ""'
-   output = output + '\n   author: ""'
-   output = output + '\n   author: ""'
-   output = output + '\n   dateCreated: ""'
-   output = output + '\npublished: False'
-   output = output + '\n---\n\n\n'
-   
-   
-   fileName = time.strftime("%Y-%m-%d-") + slug + ".markdown"
    
    makeFile(fileName,output)
    
    
 def genEditorial(articleTitle, userName):
-   output = '---'
-   output = output + '\ntitle: "' + articleTitle + '"'
-   output = output + '\nblurb: ""'
-   output = output + '\ncategories: [editorial]'
-   output = output + '\nimage: https://img.critical-truth.com/img/' + time.strftime("%Y/%m/")
-   output = output + '\nauthor: ' + userName
-   output = output + '\npublished: False'
-   output = output + '\n---\n\n\n'
-   fileName = time.strftime("%Y-%m-%d-") + slugify(articleTitle) + ".markdown"
+      
+   templateLoader = FileSystemLoader("{}/scripts/templates".format(pathPrefix))
+   env = Environment(loader=templateLoader)
+   template = env.get_template('article.markdown')
+   output = template.render(title=articleTitle,author_username=userName)
+   
+
+   fileName = filename("{}{}.markdown".format(time.strftime("%Y-%m-%d-"),slugify(articleTitle)))
    makeFile(fileName,output)
    
 def makeFile(fileName,output):
@@ -203,7 +164,7 @@ def main(argv):
       elif opt in ("-m","--media"):
          media = arg.lower()
       else:
-         print('Boo Usage: python3 new_post.py -t "Movie Title" -u "Author Username" [-y "Release year"]')
+         print('Boo Usage: new -t "Movie Title" -u "Author Username" [-y "Release year"]')
          sys.exit(2)
          
 #Assign a username if one wasn't set.
@@ -221,12 +182,6 @@ def main(argv):
          data={'api_key':apiKey,'query':title,'language':language}
          genReview(data,userName,releaseYear)
          exit()
-      elif media=='game':
-         genGameReview(title,userName,releaseYear)
-         exit()
-      elif media=='book':
-         genBookReview(title,userName,releaseYear)
-         exit()
       else:
          exit()
 
@@ -234,7 +189,7 @@ def main(argv):
 #Let the user know they fucked up if they fucked up.
    except Exception as err:
       print(str(err))
-      print('Usage: python3 new_post.py -t "Movie Title" -u "Author Username" [-y "Release year"]')
+      print('Usage: new -t "Movie Title" -u "Author Username" [-y "Release year"]')
       sys.exit(2)
       
    

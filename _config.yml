@@ -12,6 +12,10 @@ twitter_username: Critical_truth_
 github_username:  bentsea
 facebook_username: acriticaltruth
 
+#prevent jekyll from generating junk sass cache directories and files.
+sass:
+ cache: false
+
 #primary_color: e95420
 #secondary_color1: d34615
 #secondary_color2: ac3911
@@ -30,7 +34,8 @@ markdown: kramdown
 permalink: pretty
 highlighter: rouge
 encoding: utf-8
-permalink: /articles/:year/:title/
+permalink: /articles/:year/:month/:day/:title/
+
 
 defaults:
   - scope:

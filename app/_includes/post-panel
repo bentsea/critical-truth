@@ -13,6 +13,9 @@
                 <a href="{{ include.post.url }}">
                     <h4>{{ include.post.title }}</h4>
                 </a>
+                <a href="{{ site.data.authors[include.post.author].web }}">
+                    <h5>{{ include.post.categories | first | capitalize }} by {{ site.data.authors[include.post.author].name }}</h5>
+                </a>
                 <p class="post-info"><span class="glyphicon glyphicon-time"></span> {{ include.post.date | date: "%b %-d, %Y" }} | <a href="{{ site.url }}{{ include.post.url }}#comments">Comments<!-- <span class="badge"><fb:comments-count href="{{ site.url }}{{ include.post.url }}"></fb:comments-count></span>--></a><!--{% if post.rating %} | <i>{{ include.post.rating}}/100</i>{% endif %}--><br />
                 <!--{{post.content|strip_html|truncate:110}}-->{% if post.blurb %}{{ include.post.blurb }}{% else %}{{post.content|strip_html|truncate:110}}{% endif %}</p>
                 
